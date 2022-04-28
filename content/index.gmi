@@ -1,0 +1,23 @@
+``` Ascii art banner
+888    888          d8b 888               
+888    888          Y8P 888               
+888    888              888               
+8888888888  8888b.  888 888  888 888  888 
+888    888     "88b 888 888 .88P 888  888 
+888    888 .d888888 888 888888K  888  888 
+888    888 888  888 888 888 "88b Y88b 888 
+888    888 "Y888888 888 888  888  "Y88888 
+                                          
+              𝘈𝘯 𝘰𝘱𝘦𝘯-𝘴𝘰𝘶𝘳𝘤𝘦 𝘰𝘱𝘦𝘳𝘢𝘵𝘪𝘯𝘨 𝘴𝘺𝘴𝘵𝘦𝘮 
+                𝘵𝘩𝘢𝘵 𝘴𝘱𝘦𝘤𝘪𝘧𝘪𝘤𝘢𝘭𝘭𝘺 𝘵𝘢𝘳𝘨𝘦𝘵𝘴 𝘱𝘦𝘳𝘴𝘰𝘯𝘢𝘭 𝘤𝘰𝘮𝘱𝘶𝘵𝘪𝘯𝘨.
+```
+
+This is a low-bandwidth gemini site.
+Futher information should be obtained via our official website.
+
+=> https://haiku-os.org haiku-os.org
+
+# Reference Material
+
+=> package.gmi Software package repositories
+=> develop Internal Haiku documentation

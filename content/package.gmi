@@ -1,0 +1,64 @@
+# Haiku Software Repositories
+
+The Haiku project offers the following official package repositories:
+
+* Haiku - Core operatinog system software and updates.
+* Haikuports - Ports of various software contributed by the community.
+
+## Official Package Repositories (HTTPS)
+
+Haiku software packages available over HTTPS. These are the official package repositories of Haiku.
+
+### R1 / Beta 3
+
+``` Haiku Repository
+pkgman add-repo https://eu.hpkg.haiku-os.org/haiku/r1beta3/$(getarch)/current
+```
+
+``` Haikuports Repository
+pkgman add-repo https://eu.hpkg.haiku-os.org/haikuports/r1beta3/$(getarch)/current
+```
+
+### Nightly
+
+``` Haiku Repository
+pkgman add-repo https://eu.hpkg.haiku-os.org/haiku/master/$(getarch)/current
+```
+
+``` Haikuports Repository
+pkgman add-repo https://eu.hpkg.haiku-os.org/haikuports/$(getarch)/current
+```
+
+## Package Repositories (IPFS)
+
+Haiku unoffically publishes the package repositories via IPFS. Be sure to replace
+<gateway> with the IPFS gateway of your choosing.
+
+> These may not be reliable, or may take multiple queries to "locate" on the IPFS network
+
+=> https://ipfs.io IPFS Information
+=> https://ipfs.github.io/public-gateway-checker/ IPFS Public Gateways
+
+### R1 / Beta 3
+
+``` Haiku Repository
+pkgman add-repo \
+  https://<gateway>/ipns/hpkg.haiku-os.org/haiku/r1beta3/$(getarch)/current
+```
+
+``` Haikuports Repository
+pkgman add-repo \
+  https://<gateway>/ipns/hpkg.haiku-os.org/haikuports/r1beta3/$(getarch)/current
+```
+
+### Nightly
+
+``` Haiku Repository
+pkgman add-repo \
+  https://<gateway>/ipns/hpkg.haiku-os.org/haiku/master/$(getarch)/current
+```
+
+``` Haikuports Repository
+pkgman add-repo \
+  https://<gateway>/ipns/hpkg.haiku-os.org/haikuports/master/$(getarch)/current
+```

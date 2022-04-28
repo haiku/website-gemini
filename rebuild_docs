@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# Reformats our documentation into geminidoc
+
+HAIKU_SOURCES=$HOME/Code/haiku
+
+cd content
+for i in develop user api; do
+	WORKPATH=$HAIKU_SOURCES/docs/$i
+	echo "Scanning $WORKPATH..."
+	if [ -f "$WORKPATH/Doxyfile" ]; then
+		echo "Detected Doxygen at $WORKPATH"
+		# XXX: Working, looks horrible
+		continue
+		npm install moxygen
+		cd $WORKPATH
+		( cat Doxyfile ; \
+			echo "GENERATE_HTML=NO" ; \
+			echo "GENERATE_XML=YES" ; \
+			echo "OUTPUT_DIRECTORY=output" ) | doxygen -
+		cd - && rm -rf $i && mkdir -p $i && cd $i
+		$HOME/node_modules/.bin/moxygen -g $WORKPATH/output/xml/
+		find . -name "*.md*" -exec md2gmn -f {} > {}.gmi
+	fi
+done
