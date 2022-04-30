@@ -15,15 +15,15 @@ This release is available on the x86 32-bit platform, as well as the x86_64 plat
 > Note that BeOS R5 compatibility is only provided on the 32-bit images.
 
 ``` Requirements Table
-+-----------------------------+--------------------------------------+
-| Minimum (32-bit)            | Recommended (64-bit)                 |
-+-----------------------------+--------------------------------------+
-| Processor: Intel Pentium II | Processor: Intel Core i3             |
-|            AMD Athlon       |            AMD Phenom II             |
-| Memory:    384 MiB          | Memory:    2 GiB                     |
-| Monitor:   800x600          | Monitor:   1366x768                  |
-| Storage:   3 GiB            | Storage:   16 GiB                    |
-+-----------------------------+--------------------------------------+
++---------------------------------+--------------------------------------+
+| Minimum (32-bit)                | Recommended (64-bit)                 |
++---------------------------------+--------------------------------------+
+| Processor: Intel Pentium II     | Processor: Intel Core i3             |
+|            AMD Athlon           |            AMD Phenom II             |
+| Memory:    384 MiB              | Memory:    2 GiB                     |
+| Monitor:   800x600              | Monitor:   1366x768                  |
+| Storage:   3 GiB                | Storage:   16 GiB                    |
++---------------------------------+--------------------------------------+
 ```
 
 > SSE2 support is required to use the WebPositive web browser. On machines where this is not available, it is recommended to install the NetSurf browser instead.
