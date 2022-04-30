@@ -23,8 +23,10 @@ for i in develop user api; do
 		find . -name "*.md*" -exec md2gmn -f {} > {}.gmi
 	elif [ -f "$WORKPATH/conf.py" ]; then
 		echo "Detected Sphinx at $WORKPATH"
+		# XXX: Not working yet
+		continue
 		pip install --upgrade nb2plots
 		cd $WORKPATH
 		echo "extensions = ['nb2plots']" >> conf.py
-		
+	fi
 done
