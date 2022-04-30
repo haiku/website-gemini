@@ -21,5 +21,10 @@ for i in develop user api; do
 		cd - && rm -rf $i && mkdir -p $i && cd $i
 		$HOME/node_modules/.bin/moxygen -g $WORKPATH/output/xml/
 		find . -name "*.md*" -exec md2gmn -f {} > {}.gmi
-	fi
+	elif [ -f "$WORKPATH/conf.py" ]; then
+		echo "Detected Sphinx at $WORKPATH"
+		pip install --upgrade nb2plots
+		cd $WORKPATH
+		echo "extensions = ['nb2plots']" >> conf.py
+		
 done

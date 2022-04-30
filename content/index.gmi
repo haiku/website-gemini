@@ -17,6 +17,10 @@ Futher information should be obtained via our official website.
 
 => https://haiku-os.org haiku-os.org
 
+# Downloads
+
+=> get-haiku Get Haiku!
+
 # Reference Material
 
 => package.gmi Software package repositories
