@@ -9,6 +9,7 @@ RUN apk --no-cache add libc-dev && \
 
 # Final container
 FROM docker.io/alpine:3.15
+RUN apk --update add openssl
 COPY --from=builder /usr/local/cargo/bin/agate /usr/bin/agate
 ADD content/. /gmi/
 WORKDIR /app

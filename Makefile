@@ -4,6 +4,7 @@ default:
 	docker build -t docker.io/haiku/website-gemini:${VERSION} .
 push:
 	docker push docker.io/haiku/website-gemini:${VERSION}
+	@echo "docker.io/haiku/website-gemini:${VERSION} has been pushed!"
 test:
 	docker kill website-gemini-test || true
 	docker rm website-gemini-test || true
