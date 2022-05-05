@@ -2,7 +2,7 @@
 
 The Haiku project offers the following official package repositories:
 
-* Haiku - Core operatinog system software and updates.
+* Haiku - Core operating system software and updates.
 * Haikuports - Ports of various software contributed by the community.
 
 ## Official Package Repositories (HTTPS)
