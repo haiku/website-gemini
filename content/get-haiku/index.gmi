@@ -1,38 +1,31 @@
 # Get Haiku!
 
-> The current official release of Haiku is R1 / Beta 3
+> The current official release of Haiku is R1 / Beta 4
 
 Additional information including release notes can be found on our website.
 
 => https://www.haiku-os.org/get-haiku Get Haiku!
 
-# Haiku R1 / Beta 3
+# Haiku R1 / Beta 4
 
-* Version: R1/beta3
-* Release Date: July 25th, 2021
+* Version: R1/beta4
+* Release Date: TODO
 
-=> r1b3-notes.gmi Release Notes
+=> r1b4-notes.gmi Release Notes
 
 ## US Mirror
 
 Provided by Haiku, Inc.
 
-=> https://s3.us-east-1.wasabisys.com/haiku-release/r1beta3/haiku-r1beta3-x86_gcc2h-anyboot.iso iso, 32-bit, x86
-=> https://s3.us-east-1.wasabisys.com/haiku-release/r1beta3/haiku-r1beta3-x86_64-anyboot.iso iso, 64-bit, x86_64
-
-## Stockholm, Sweden Mirror
-
-Provided by tnonline.net
-
-=> https://mirrors.tnonline.net/haiku/haiku-release/r1beta3/haiku-r1beta3-x86_gcc2h-anyboot.iso iso, 32-bit, x86
-=> https://mirrors.tnonline.net/haiku/haiku-release/r1beta3/haiku-r1beta3-x86_64-anyboot.iso iso, 64-bit, x86_64
+=> https://s3.us-east-1.wasabisys.com/haiku-release/r1beta4/haiku-r1beta4-x86_gcc2h-anyboot.iso iso, 32-bit, x86
+=> https://s3.us-east-1.wasabisys.com/haiku-release/r1beta4/haiku-r1beta4-x86_64-anyboot.iso iso, 64-bit, x86_64
 
 ## Australia Mirror
 
 Provided by Australia's Academic and Research Network, aarnet.edu.au
 
-=> https://mirror.aarnet.edu.au/pub/haiku/r1beta3/haiku-r1beta3-x86_gcc2h-anyboot.iso iso, 32-bit, x86
-=> https://mirror.aarnet.edu.au/pub/haiku/r1beta3/haiku-r1beta3-x86_64-anyboot.iso iso, 64-bit, x86_64
+=> https://mirror.aarnet.edu.au/pub/haiku/r1beta4/haiku-r1beta4-x86_gcc2h-anyboot.iso iso, 32-bit, x86
+=> https://mirror.aarnet.edu.au/pub/haiku/r1beta4/haiku-r1beta4-x86_64-anyboot.iso iso, 64-bit, x86_64
 
 # Nightly Images
 
