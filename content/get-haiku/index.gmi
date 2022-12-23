@@ -8,8 +8,8 @@ Additional information including release notes can be found on our website.
 
 # Haiku R1 / Beta 4
 
-* Version: R1/beta4
-* Release Date: TODO
+* Version: R1 / beta4
+* Release Date: 12 / 23 / 2022
 
 => r1b4-notes.gmi Release Notes
 
