@@ -118,15 +118,15 @@ Hundreds of bugs and other minor issues were resolved since the previous release
 
 Haiku is always looking to see how we can improve our adherence to POSIX and make it easier for developers to port their software. There are too many changes in this area to individually list, but here are some highlights:
 
-=> Addition and implementation of locale_t and related methods.
-=> Support for C11 threads.
-=> Increased maximum argument length to match FreeBSD (roughly doubled).
-=> More portions of the C library taken from glibc replaced with musl equivalents
-=> ELF “undefined weak symbols” now supported.
-=> dl_iterate_phdr implemented.
-=> Fixed behavior of O_NOCTTY, which GPG relies on.
-=> Boot failure fixes
-=> Boot failures have wide and diverse causes, from USB driver bugs to race conditions in initialization and back again. Many problems preventing successful boots completely or intermittently both on real hardware and in virtual machines were tracked down and resolved, making it possible to at least start Haiku on a much wider variety of hardware than before.
+* Addition and implementation of locale_t and related methods.
+* Support for C11 threads.
+* Increased maximum argument length to match FreeBSD (roughly doubled).
+* More portions of the C library taken from glibc replaced with musl equivalents
+* ELF “undefined weak symbols” now supported.
+* dl_iterate_phdr implemented.
+* Fixed behavior of O_NOCTTY, which GPG relies on.
+* Boot failure fixes
+* Boot failures have wide and diverse causes, from USB driver bugs to race conditions in initialization and back again. Many problems preventing successful boots completely or intermittently both on real hardware and in virtual machines were tracked down and resolved, making it possible to at least start Haiku on a much wider variety of hardware than before.
 
 ## NVMe driver improvements
 
