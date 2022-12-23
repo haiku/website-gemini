@@ -20,13 +20,6 @@ Provided by Haiku, Inc.
 => https://s3.us-east-1.wasabisys.com/haiku-release/r1beta4/haiku-r1beta4-x86_gcc2h-anyboot.iso iso, 32-bit, x86
 => https://s3.us-east-1.wasabisys.com/haiku-release/r1beta4/haiku-r1beta4-x86_64-anyboot.iso iso, 64-bit, x86_64
 
-## Stockholm, Sweden Mirror
-
-Provided by tnonline.net
-
-=> https://mirrors.tnonline.net/haiku/haiku-release/r1beta4/haiku-r1beta4-x86_gcc2h-anyboot.iso iso, 32-bit, x86
-=> https://mirrors.tnonline.net/haiku/haiku-release/r1beta4/haiku-r1beta4-x86_64-anyboot.iso iso, 64-bit, x86_64
-
 ## Australia Mirror
 
 Provided by Australia's Academic and Research Network, aarnet.edu.au
