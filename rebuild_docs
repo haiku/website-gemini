@@ -12,15 +12,18 @@ for i in develop user api; do
 		echo "Detected Doxygen at $WORKPATH"
 		# XXX: Working, looks horrible
 		continue
-		npm install moxygen
+		# Install moxygen (doxygen to markdown)
+		npm install -g --prefix $HOME/.node moxygen
 		cd $WORKPATH
 		( cat Doxyfile ; \
 			echo "GENERATE_HTML=NO" ; \
 			echo "GENERATE_XML=YES" ; \
 			echo "OUTPUT_DIRECTORY=output" ) | doxygen -
 		cd - && rm -rf $i && mkdir -p $i && cd $i
-		$HOME/node_modules/.bin/moxygen -g $WORKPATH/output/xml/
-		find . -name "*.md*" -exec md2gmn -f {} > {}.gmi
+		echo "Doxygen to markdown..."
+		$HOME/.node/bin/moxygen -g $WORKPATH/output/xml/
+		echo "Markdown to gemini..."
+		for i in *.md*; do echo "Processing $i..."; md2gmn -f "$i" > "$i.gmi"; rm -f "$i"; done
 	elif [ -f "$WORKPATH/conf.py" ]; then
 		echo "Detected Sphinx at $WORKPATH"
 		# XXX: Not working yet
