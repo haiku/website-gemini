@@ -1,0 +1,58 @@
+# Device drivers
+* 
+=> disk/ioctls.gmi Disk driver ioctls
+* 
+=> disk/ioctls.gmi#b-get-device-size B_GET_DEVICE_SIZE
+* 
+=> disk/ioctls.gmi#b-get-geometry B_GET_GEOMETRY
+* 
+=> disk/ioctls.gmi#b-get-icon-name B_GET_ICON_NAME
+* 
+=> disk/ioctls.gmi#b-get-vector-icon B_GET_VECTOR_ICON
+* 
+=> disk/ioctls.gmi#b-eject-device B_EJECT_DEVICE
+* 
+=> disk/ioctls.gmi#b-load-media B_LOAD_MEDIA
+* 
+=> disk/ioctls.gmi#b-flush-drive-cache B_FLUSH_DRIVE_CACHE
+* 
+=> disk/ioctls.gmi#b-trim-device B_TRIM_DEVICE
+* 
+=> intel_extreme/generations.gmi Intel video hardware generations
+* 
+=> intel_extreme/generations.gmi#generation-1 Generation 1
+* 
+=> intel_extreme/generations.gmi#generation-2-2002 Generation 2 / 2002
+* 
+=> intel_extreme/generations.gmi#generation-3-2004 Generation 3 / 2004
+* 
+=> intel_extreme/generations.gmi#generation-4-2006 Generation 4 / 2006
+* 
+=> intel_extreme/generations.gmi#generation-5-2010 Generation 5 / 2010
+* 
+=> intel_extreme/generations.gmi#generation-6-2011 Generation 6 / 2011
+* 
+=> intel_extreme/generations.gmi#generation-7-2012 Generation 7 / 2012
+* 
+=> intel_extreme/generations.gmi#generation-8-2013 Generation 8 / 2013
+* 
+=> intel_extreme/generations.gmi#generation-9-2015 Generation 9 / 2015
+* 
+=> intel_extreme/generations.gmi#generation-10 Generation 10
+* 
+=> intel_extreme/generations.gmi#generation-11 Generation 11
+* 
+=> intel_extreme/generations.gmi#generation-12 Generation 12
+# Bus drivers
+* 
+=> ../busses/agp_gart/ReadMe.gmi AGP (and PCI-express) Graphics Address Re-Mapping Table
+* 
+=> ../busses/bluetooth/overview.gmi Bluetooth overview
+* 
+=> ../busses/sdhci/sdhci_mmc_driver.gmi SDHCI MMC Driver
+* 
+=> ../busses/sdhci/sdhci_mmc_driver.gmi#loading-and-testing-the-driver Loading and testing the driver
+* 
+=> ../busses/sdhci/sdhci_mmc_driver.gmi#insight-into-the-code-and-future-tasks Insight into the code and future tasks
+* 
+=> ../busses/usb/USB_stack_design.gmi The USB stack

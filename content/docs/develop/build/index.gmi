@@ -1,0 +1,39 @@
+# The build system
+* 
+=> jam.gmi The build tool: Jam
+* 
+=> jam.gmi#requirements-for-a-build-tool Requirements for a build tool
+* 
+=> jam.gmi#short-overview-of-how-jam-operates Short overview of how Jam operates
+* 
+=> jam.gmi#jam-rules-used-for-building-haiku Jam rules used for building Haiku
+* 
+=> sourcecode.gmi Haiku Git Repositories
+* 
+=> sourcecode.gmi#getting-the-sourcecode Getting the sourcecode
+* 
+=> sourcecode.gmi#sending-change-reviews Sending change reviews
+* 
+=> sourcecode.gmi#managing-gcc-and-binutils-updates-using-vendor-branches Managing GCC and binutils updates using vendor branches
+* 
+=> sourcecode.gmi#how-to-import-upstream-binutils-changes How to import upstream binutils changes
+* 
+=> sourcecode.gmi#how-to-import-upstream-gcc-changes How to import upstream gcc changes
+* 
+=> sourcecode.gmi#comparing-our-code-with-upstream Comparing our code with upstream
+* 
+=> compilers.gmi Haiku compilers
+* 
+=> compilers.gmi#summary-of-changes-made-to-gcc-for-haiku-support Summary of changes made to gcc for Haiku support
+* 
+=> repositories/README.gmi HaikuPorts build-packages repository
+* 
+=> repositories/README.gmi#prerequisites Prerequisites
+* 
+=> repositories/README.gmi#updating Updating
+* 
+=> repositories/README.gmi#container-process Container Process
+* 
+=> repositories/README.gmi#prepare-the-build-packages-repository Prepare the build-packages repository
+* 
+=> repositories/README.gmi#pull-the-repostory-file-and-commit-it Pull the repostory file and commit it

@@ -1,0 +1,52 @@
+# The PowerPC port
+PowerPC was the first non-x86architecture for which a port of Haiku was attempted. The initial target was the (then recently released) Mac Mini, but of course the BeBox was in everyone’s mind as a possible target for this port.
+
+This port went as far as starting the kernel, but then difficulties in implementing the Mac Mini PCI bus driver stopped it.
+
+Later on, some work as done on adding support for the Sam460ex development board, after a donation of one to one of the Haiku developers.
+
+Recently, the lack of easily available and affordable PowerPC hardware has reduced interest in this port.
+
+## Platform specific details
+* 
+=> bebox.gmi Notes on a possible BeBox Haiku port
+* 
+=> bebox.gmi#bootloader Bootloader
+* 
+=> bebox.gmi#references references
+* 
+=> bebox.gmi#qemu-target QEMU target
+* 
+=> mac.gmi The Apple Macintosh port
+* 
+=> sam460ex.gmi The Sam460ex Haiku port
+* 
+=> sam460ex.gmi#u-boot-commands U-Boot commands
+* 
+=> sam460ex.gmi#no-fdt-no-initrd no-fdt no-initrd
+* 
+=> sam460ex.gmi#with-fdt-and-tgz-as-initrd with FDT and tgz as initrd
+* 
+=> sam460ex.gmi#for-environment for environment
+* 
+=> sam460ex.gmi#todos TODOs
+* 
+=> sam460ex.gmi#other-ports Other ports
+* 
+=> sam460ex.gmi#powerpc-information PowerPC information
+* 
+=> sam460ex.gmi#classic Classic
+* 
+=> sam460ex.gmi#book-e Book-E
+* 
+=> sam460ex.gmi#epapr ePAPR
+* 
+=> sam460ex.gmi#amcc-4x0 amcc 4x0
+* 
+=> sam460ex.gmi#freescale-440 Freescale 440
+* 
+=> sam460ex.gmi#fdt FDT
+* 
+=> sam460ex.gmi#sam440-dts Sam440 dts
+* 
+=> sam460ex.gmi#openfirmware-framebuffer OpenFirmware framebuffer

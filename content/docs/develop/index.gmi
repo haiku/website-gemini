@@ -1,0 +1,221 @@
+# Welcome to Haiku internals’s documentation!
+## Target audience
+This documentation is aimed at people who want to contribute to Haiku by modifying the operating system itself. It covers various topics, both technical (how things work) and organizational (patch submission process, for example).
+
+This document might also be useful to application developers trying to understand the behavior of the operating system in some specific cases, however, the 
+=> https://api.haiku-os.org API documentation
+ should answer most of the questions in this area already.
+
+This documentation assumes basic knowledge of C++ and the Be API, if you need more information about that, please see the 
+=> https://github.com/theclue/programming-with-haiku/releases/tag/v1.1 Learning to program with Haiku
+ book.
+
+## Status of this document
+The work on this book has just started, many sections are incomplete or missing. Here is a list of other resources that could be useful:
+
+* The 
+=> https://www.haiku-os.org Haiku website
+ has several years of blog posts and articles documenting many aspects of the system,
+
+* The 
+=> https://www.haiku-os.org/development/coding-guidelines/ Coding guidelines
+ describes how code should be formatted,
+
+* The 
+=> https://www.haiku-os.org/docs/userguide/en/contents.html User guide
+ documents Haiku from the users’ point of view and can be useful to understand how things are supposed to work,
+
+* The 
+=> https://www.haiku-os.org/docs/HIG/index.xml Haiku Interface Guidelines
+ document graphical user interface conventions,
+
+* The 
+=> https://www.haiku-os.org/development/icon-guidelines Haiku Icon Guidelines
+ gives some rules for making icons fitting with the style of the existing ones.
+
+## Table of contents
+* 
+=> search.gmi Search Page
+
+
+## Contents:
+* 
+=> build/index.gmi The build system
+* 
+=> build/jam.gmi The build tool: Jam
+* 
+=> build/sourcecode.gmi Haiku Git Repositories
+* 
+=> build/compilers.gmi Haiku compilers
+* 
+=> build/repositories/README.gmi HaikuPorts build-packages repository
+* 
+=> release/index.gmi Release engineering
+* 
+=> release/milestones.gmi Critical Milestones
+* 
+=> release/index.gmi#important-first-steps Important first steps
+* 
+=> release/index.gmi#general-rules General Rules
+* 
+=> release/index.gmi#forming-a-timeline Forming a timeline
+* 
+=> libroot/index.gmi The standard C library
+* 
+=> libroot/index.gmi#library-organization Library organization
+* 
+=> libroot/index.gmi#posix-bsd-and-gnu-extensions POSIX, BSD and GNU extensions
+* 
+=> libroot/index.gmi#beos-and-haiku-specific-functions BeOS and Haiku specific functions
+* 
+=> kits/debugger/index.gmi The Debugger kit
+* 
+=> kits/debugger/index.gmi#classes Classes
+* 
+=> kits/debugger/index.gmi#diagrams Diagrams
+* 
+=> midi/index.gmi The MIDI Kit
+* 
+=> midi/design.gmi Midi Kit design
+* 
+=> midi/midi1.gmi How libmidi1 works
+* 
+=> midi/midi1.gmi#the-softsynth The softsynth
+* 
+=> midi/oldprotocol.gmi The BeOS R5 Midi Kit protocol
+* 
+=> midi/stuff.gmi Misc notes
+* 
+=> midi/testing.gmi Testing the Midi Kit
+* 
+=> midi/todo.gmi Midi Kit TO DO List
+* 
+=> net/index.gmi The Network Stack
+* 
+=> net/NetworkStackOverview.gmi Haiku Network Stack Architecture
+* 
+=> net/HowTo-Synchronize_with_NetBSD.gmi How to Merge Patches from NetBSD Trunk
+* 
+=> packages/README.gmi Package Management
+* 
+=> packages/BuildingPackages.gmi Building Packages
+* 
+=> packages/DirectoryStructure.gmi Boot Volume Directory Structure
+* 
+=> packages/FileFormat.gmi Haiku Package File Format
+* 
+=> packages/HybridBuilds.gmi Hybrid Builds
+* 
+=> packages/Infrastructure.gmi Package Management Infrastructure
+* 
+=> packages/Migration.gmi Migration to Package Management
+* 
+=> packages/PackagingPolicy.gmi Packaging Policy
+* 
+=> packages/Bootstrapping.gmi Bootstrapping Haiku
+* 
+=> packages/TODO.gmi packagefs
+* 
+=> packages/TODO.gmi#package-daemon Package Daemon
+* 
+=> packages/TODO.gmi#package-building Package building
+* 
+=> packages/TODO.gmi#package-kit-manager Package kit/manager
+* 
+=> packages/TODO.gmi#boot-loader Boot loader
+* 
+=> packages/TODO.gmi#package-package-repository-format Package/package repository format
+* 
+=> packages/TODO.gmi#miscellaneous Miscellaneous
+* 
+=> packages/OldIdeas.gmi Package Management Ideas
+* 
+=> servers/app_server/toc.gmi Application Server
+* 
+=> servers/app_server/toc.gmi#purpose Purpose
+* 
+=> servers/app_server/toc.gmi#tasks-performed-by-app-server Tasks performed by app_server
+* 
+=> servers/app_server/toc.gmi#app-server-components App server components
+* 
+=> servers/app_server/toc.gmi#class-descriptions Class Descriptions
+* 
+=> servers/registrar/Protocols.gmi Registrar Protocols
+* 
+=> servers/registrar/Protocols.gmi#standard-replies Standard Replies
+* 
+=> servers/registrar/Protocols.gmi#general-requests General Requests
+* 
+=> servers/registrar/Protocols.gmi#roster-requests Roster Requests
+* 
+=> servers/registrar/Protocols.gmi#mime-database-requests MIME Database Requests
+* 
+=> servers/registrar/Protocols.gmi#message-runner-requests Message Runner Requests
+* 
+=> servers/registrar/Protocols.gmi#clipboard-handler-requests Clipboard Handler Requests
+* 
+=> servers/registrar/Protocols.gmi#disk-device-requests Disk Device Requests
+* 
+=> kernel/index.gmi Kernel
+* 
+=> kernel/device_manager_introduction.gmi Device Driver Architecture
+* 
+=> kernel/obsolete_pnp_manager.gmi Plug and Play Manager
+* 
+=> kernel/vm/swap_file_support.gmi Swap file
+* 
+=> kernel/arch/index.gmi CPU architectures
+* 
+=> kernel/boot/boot_process_specs.gmi Haiku boot process specification
+* 
+=> kernel/boot/Debugging_Bootloaders_GEF.gmi Bootloader debugging with GEF
+* 
+=> kernel/pci_serial_debug.gmi Using PCI serial ports for debugging
+* 
+=> file_systems/index.gmi Filesystem drivers
+* 
+=> file_systems/overview.gmi File systems overview
+* 
+=> file_systems/overview.gmi#development-tools Development tools
+* 
+=> file_systems/node_monitoring.gmi Node Monitoring
+* 
+=> file_systems/userlandfs.gmi UserlandFS: filesystems in userspace
+* 
+=> file_systems/ufs2.gmi The UFS2 filesystem
+* 
+=> file_systems/xfs.gmi The XFS File System
+* 
+=> file_systems/befs/resources.gmi The Be File System
+* 
+=> partitioning_systems/sun.gmi Partitioning system for Sun Sparc machines
+* 
+=> drivers/index.gmi Device drivers
+* 
+=> drivers/disk/ioctls.gmi Disk driver ioctls
+* 
+=> drivers/intel_extreme/generations.gmi Intel video hardware generations
+* 
+=> drivers/index.gmi#bus-drivers Bus drivers
+* 
+=> busses/agp_gart/ReadMe.gmi AGP (and PCI-express) Graphics Address Re-Mapping Table
+* 
+=> busses/bluetooth/overview.gmi Bluetooth overview
+* 
+=> busses/sdhci/sdhci_mmc_driver.gmi SDHCI MMC Driver
+* 
+=> busses/usb/USB_stack_design.gmi The USB stack
+* 
+=> apps/haikudepot/server.gmi HaikuDepot and Server Interactions
+* 
+=> apps/haikudepot/server.gmi#introduction Introduction
+* 
+=> apps/haikudepot/server.gmi#process-processnode-and-coordinator Process, ProcessNode and Coordinator
+* 
+=> apps/haikudepot/server.gmi#bulk-load-processes Bulk Load Processes
+* 
+=> apps/haikudepot/server.gmi#process-processnode-coordinator Process / ProcessNode / Coordinator
+* 
+=> apps/haikudepot/server.gmi#failure Failure
+* 
+=> apps/haikudepot/server.gmi#concurrency Concurrency

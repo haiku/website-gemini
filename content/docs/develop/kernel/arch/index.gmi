@@ -1,0 +1,43 @@
+# CPU architectures
+* 
+=> long_double.gmi Notes on long double support
+* 
+=> long_double.gmi#bit-ieee 128-bit IEEE
+* 
+=> long_double.gmi#bit-ieee-1 64-bit IEEE
+* 
+=> long_double.gmi#bit 80-bit
+* 
+=> long_double.gmi#double-double double double
+* 
+=> arm/overview.gmi The ARM port
+* 
+=> arm/overview.gmi#limitations Limitations
+* 
+=> arm/overview.gmi#information-about-specific-hardware-targets Information about specific hardware targets
+* 
+=> arm/overview.gmi#todo-list TODO list
+* 
+=> arm/overview.gmi#other-resources Other resources
+* 
+=> m68k/overview.gmi The m68k port
+* 
+=> m68k/overview.gmi#todo-list Todo list
+* 
+=> m68k/overview.gmi#target-platforms-information Target platforms information
+* 
+=> ppc/overview.gmi The PowerPC port
+* 
+=> ppc/overview.gmi#platform-specific-details Platform specific details
+* 
+=> sparc/overview.gmi The SPARC port
+* 
+=> sparc/overview.gmi#sparc-abi SPARC ABI
+* 
+=> sparc/overview.gmi#misaligned-memory-access Misaligned memory access
+* 
+=> sparc/overview.gmi#the-ultrasparc-mmus The Ultrasparc MMUs
+* 
+=> sparc/overview.gmi#software-floating-point-support Software floating-point support
+* 
+=> sparc/overview.gmi#openboot-bootloader Openboot bootloader

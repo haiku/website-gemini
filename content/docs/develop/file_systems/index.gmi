@@ -1,0 +1,77 @@
+# Filesystem drivers
+Filesystem drivers are in src/add-ons/kernel/file_system
+
+A filesystem usually relies on an underlying block device, but that’s not required. For example, NFS is a network filesystem, so it doesn’t need one.
+
+* 
+=> overview.gmi File systems overview
+* 
+=> overview.gmi#development-tools Development tools
+* 
+=> overview.gmi#fs-shell fs_shell
+* 
+=> overview.gmi#userlandfs userlandfs
+* 
+=> overview.gmi#torture-and-performance-tests Torture and performance tests
+* 
+=> node_monitoring.gmi Node Monitoring
+* 
+=> node_monitoring.gmi#requirements-exported-functionality-in-beos Requirements - Exported Functionality in BeOS
+* 
+=> node_monitoring.gmi#meeting-the-requirements-in-an-optimal-way-implementation-in-openbeos Meeting the Requirements in an Optimal Way - Implementation in OpenBeOS
+* 
+=> node_monitoring.gmi#differences-between-both-implementations Differences Between Both Implementations
+* 
+=> node_monitoring.gmi#and-beyond And Beyond?
+* 
+=> userlandfs.gmi UserlandFS: filesystems in userspace
+* 
+=> userlandfs.gmi#the-fuse-api The FUSE API
+* 
+=> userlandfs.gmi#extensions-to-the-fuse-api Extensions to the FUSE API
+* 
+=> userlandfs.gmi#debugging-userlandfs Debugging userlandfs
+* 
+=> ufs2.gmi The UFS2 filesystem
+* 
+=> ufs2.gmi#commands Commands
+* 
+=> xfs.gmi The XFS File System
+* 
+=> xfs.gmi#testing-xfs-file-system Testing XFS File System
+* 
+=> xfs.gmi#creating-file-system-images Creating File System Images
+* 
+=> xfs.gmi#test-using-xfs-shell Test using xfs_shell
+* 
+=> xfs.gmi#test-directly-inside-haiku Test directly inside Haiku
+* 
+=> xfs.gmi#test-using-userlandfs Test using userlandfs
+* 
+=> xfs.gmi#haiku-xfs-api Haiku XFS API
+* 
+=> xfs.gmi#inodes Inodes
+* 
+=> xfs.gmi#directories Directories
+* 
+=> xfs.gmi#files Files
+* 
+=> xfs.gmi#current-status-of-xfs Current Status of XFS
+* 
+=> xfs.gmi#id1 Directories
+* 
+=> xfs.gmi#id2 Files
+* 
+=> xfs.gmi#attributes Attributes
+* 
+=> xfs.gmi#symlinks Symlinks
+* 
+=> xfs.gmi#xfs-v5-exclusive-features XFS V5 exclusive features
+* 
+=> xfs.gmi#write-support Write Support
+* 
+=> xfs.gmi#references References
+* 
+=> befs/resources.gmi The Be File System
+* 
+=> ../partitioning_systems/sun.gmi Partitioning system for Sun Sparc machines

@@ -23,3 +23,4 @@ Futher information should be obtained via our official website.
 # Reference Material
 
 => package.gmi 📦 Software package repositories
+=> docs/develop 📘 Haiku internals (automatically generated)

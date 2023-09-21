@@ -1,0 +1,71 @@
+# Kernel
+* 
+=> device_manager_introduction.gmi Device Driver Architecture
+* 
+=> device_manager_introduction.gmi#the-basics 1. The Basics
+* 
+=> device_manager_introduction.gmi#exploring-the-device-tree 2. Exploring the Device Tree
+* 
+=> device_manager_introduction.gmi#writing-a-driver 3. Writing a Driver
+* 
+=> device_manager_introduction.gmi#publishing-a-device 4. Publishing a Device
+* 
+=> device_manager_introduction.gmi#writing-a-bus-driver 5. Writing a Bus Driver
+* 
+=> device_manager_introduction.gmi#the-generic-bus The generic bus
+* 
+=> device_manager_introduction.gmi#open-issues 6. Open Issues
+* 
+=> obsolete_pnp_manager.gmi Plug and Play Manager
+* 
+=> obsolete_pnp_manager.gmi#pnp-manager PNP Manager
+* 
+=> obsolete_pnp_manager.gmi#pnp-driver PNP Driver
+* 
+=> obsolete_pnp_manager.gmi#pnp-bus PNP Bus
+* 
+=> vm/swap_file_support.gmi Swap file
+* 
+=> vm/swap_file_support.gmi#how-to-use-a-swap-file How to use a swap file?
+* 
+=> vm/swap_file_support.gmi#how-swap-system-works How swap system works?
+* 
+=> arch/index.gmi CPU architectures
+* 
+=> arch/long_double.gmi Notes on long double support
+* 
+=> arch/arm/overview.gmi The ARM port
+* 
+=> arch/m68k/overview.gmi The m68k port
+* 
+=> arch/ppc/overview.gmi The PowerPC port
+* 
+=> arch/sparc/overview.gmi The SPARC port
+* 
+=> boot/boot_process_specs.gmi Haiku boot process specification
+* 
+=> boot/boot_process_specs.gmi#overview Overview
+* 
+=> boot/boot_process_specs.gmi#booting-from-bios Booting from BIOS
+* 
+=> boot/boot_process_specs.gmi#open-firmware Open Firmware
+* 
+=> boot/boot_process_specs.gmi#u-boot U-Boot
+* 
+=> boot/boot_process_specs.gmi#efi EFI
+* 
+=> boot/Debugging_Bootloaders_GEF.gmi Bootloader debugging with GEF
+* 
+=> boot/Debugging_Bootloaders_GEF.gmi#building-haiku Building Haiku
+* 
+=> boot/Debugging_Bootloaders_GEF.gmi#launching-haiku-in-qemu Launching Haiku in QEMU
+* 
+=> boot/Debugging_Bootloaders_GEF.gmi#attaching-gef Attaching GEF
+* 
+=> pci_serial_debug.gmi Using PCI serial ports for debugging
+* 
+=> pci_serial_debug.gmi#devices-known-to-work Devices known to work
+* 
+=> pci_serial_debug.gmi#devices-to-be-tested Devices to be tested
+* 
+=> pci_serial_debug.gmi#configuring Configuring

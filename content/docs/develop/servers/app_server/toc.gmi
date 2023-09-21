@@ -1,0 +1,905 @@
+# Application Server
+## Purpose
+The app_server provides services to the Haiku by managing processes, filtering and dispatching input from the Input Server to the appropriate applications, and managing all graphics-related tasks.
+
+## Tasks performed by app_server
+The tasks performed by the app_server are grouped in relation to its purpose.
+
+* Receives and redirects (dispatches) messages from the input server
+
+* Responds to messages from apps
+
+* Receives and consolidates requests from BView, BWindow, BBitmap, and others to draw stuff (draw bitmap, etc)
+
+* Utilizes ports to communicate with child processes
+
+* Handles drag & drop messaging
+
+* Manages the system clipboard
+
+* Loads and Kills processes
+
+* Detects absence of Input Server and restarts when not running
+
+* Aids in system shutdown
+
+* Dynamically loads accelerant portion of graphics driver
+
+* Creates a connection with BBitmaps requiring a child view
+
+* Draws the blue desktop screen
+
+* Provides workspace support
+
+* Provides functionality to the BeAPI for drawing primitives, such as rectangles, ellipses, and beziers
+
+* Provides a means for BViews to draw on BBitmaps
+
+* Manages window behavior with respect to redraw (move to front, minimize, etc)
+
+* Returns a frame buffer to direct-access classes
+
+* Caches fonts for screen and printer use
+
+* Draws text and provides other font API support for the BeAPI classes
+
+## App server components
+* 
+=> graphics.gmi Graphics
+* 
+=> graphics.gmi#design-overview Design overview
+* 
+=> graphics.gmi#desktop-initialization Desktop Initialization
+* 
+=> graphics.gmi#load-accelerant Load Accelerant
+* 
+=> graphics.gmi#set-up-workspaces Set up workspaces
+* 
+=> graphics.gmi#display Display
+* 
+=> graphics.gmi#window-management Window management
+* 
+=> graphics.gmi#serverapps ServerApps
+* 
+=> graphics.gmi#serverwindows ServerWindows
+* 
+=> graphics.gmi#layers Layers
+* 
+=> graphics.gmi#windowborders WindowBorders
+* 
+=> graphics.gmi#decorators Decorators
+* 
+=> graphics.gmi#how-it-all-works How It All Works
+* 
+=> graphics.gmi#screen-updates Screen Updates
+* 
+=> graphics.gmi#managing-invalidation Managing invalidation
+* 
+=> graphics.gmi#getting-things-drawn-on-screen Getting things drawn on screen
+* 
+=> graphics.gmi#offscreen-views Offscreen views
+* 
+=> graphics.gmi#overlays Overlays
+* 
+=> graphics.gmi#cursor-management Cursor Management
+* 
+=> graphics.gmi#display-drivers Display Drivers
+* 
+=> process_management.gmi Process Management
+* 
+=> process_management.gmi#bapplication-execution BApplication execution
+* 
+=> process_management.gmi#non-bapplication-execution non-BApplication execution
+* 
+=> process_management.gmi#killing-exiting-applications Killing/Exiting Applications
+* 
+=> process_management.gmi#system-shutdown System Shutdown
+* 
+=> input.gmi Input Processing
+* 
+=> input.gmi#input-server-messages Input Server messages
+* 
+=> input.gmi#mouse Mouse
+* 
+=> input.gmi#b-mouse-down B_MOUSE_DOWN
+* 
+=> input.gmi#b-mouse-up B_MOUSE_UP
+* 
+=> input.gmi#b-mouse-moved B_MOUSE_MOVED
+* 
+=> input.gmi#b-mouse-wheel-changed B_MOUSE_WHEEL_CHANGED
+* 
+=> input.gmi#keyboard Keyboard
+* 
+=> input.gmi#b-key-down B_KEY_DOWN
+* 
+=> input.gmi#b-key-up B_KEY_UP
+* 
+=> input.gmi#b-unmapped-key-down B_UNMAPPED_KEY_DOWN
+* 
+=> input.gmi#b-unmapped-key-up B_UNMAPPED_KEY_UP
+* 
+=> input.gmi#b-modifiers-changed B_MODIFIERS_CHANGED
+* 
+=> messaging.gmi Messaging
+* 
+=> messaging.gmi#inter-application-messaging Inter-Application Messaging
+* 
+=> messaging.gmi#drag-and-drop Drag-and-drop
+* 
+=> messaging.gmi#methods Methods
+* 
+=> MultiMonitor.htm Multiple Monitor Support Spec
+
+
+## Class Descriptions
+Application Management
+
+* 
+=> AppServer.gmi AppServer class
+* 
+=> AppServer.gmi#member-functions Member Functions
+* 
+=> AppServer.gmi#global-functions Global Functions
+* 
+=> AppServer.gmi#appserver-void AppServer(void)
+* 
+=> AppServer.gmi#id1 ~AppServer(void)
+* 
+=> AppServer.gmi#void-mainloop-void void MainLoop(void)
+* 
+=> AppServer.gmi#void-dispatchmessage-int32-code-int8-buffer void DispatchMessage(int32 code, int8 *buffer)
+* 
+=> AppServer.gmi#create-app CREATE_APP
+* 
+=> AppServer.gmi#delete-app DELETE_APP
+* 
+=> AppServer.gmi#get-screen-mode GET_SCREEN_MODE
+* 
+=> AppServer.gmi#b-quit-requested B_QUIT_REQUESTED
+* 
+=> AppServer.gmi#set-decorator SET_DECORATOR
+* 
+=> AppServer.gmi#void-run-void void Run(void)
+* 
+=> AppServer.gmi#bool-loaddecorator-const-char-path bool LoadDecorator(const char *path)
+* 
+=> AppServer.gmi#static-int32-picasso-void-data static int32 Picasso(void *data)
+* 
+=> AppServer.gmi#static-int32-poller-void-data static int32 Poller(void *data)
+* 
+=> AppServer.gmi#decorator-instantiate-decorator-layer-owner-uint32-wflags-uint32-wlook Decorator * instantiate_decorator(Layer *owner, uint32 wflags, uint32 wlook)
+* 
+=> AppServer.gmi#void-broadcast-int32-code void Broadcast(int32 code)
+* 
+=> AppServer.gmi#void-handlekeymessage-int32-code-int8-buffer void HandleKeyMessage(int32 code, int8 *buffer)
+* 
+=> AppServer.gmi#b-key-down B_KEY_DOWN
+* 
+=> AppServer.gmi#b-key-up B_KEY_UP
+* 
+=> AppServer.gmi#b-unmapped-key-down B_UNMAPPED_KEY_DOWN
+* 
+=> AppServer.gmi#b-unmapped-key-up B_UNMAPPED_KEY_UP
+* 
+=> AppServer.gmi#b-modifiers-changed B_MODIFIERS_CHANGED
+* 
+=> ServerApp.gmi ServerApp class
+* 
+=> ServerApp.gmi#member-functions Member Functions
+* 
+=> ServerApp.gmi#serverapp-port-id-sendport-port-id-rcvport-const-char-sig-thread-id-thread-bapp ServerApp(port_id sendport, port_id rcvport, const char *sig, thread_id thread_bapp)
+* 
+=> ServerApp.gmi#serverapp-void ~ServerApp(void)
+* 
+=> ServerApp.gmi#bool-run-void bool Run(void)
+* 
+=> ServerApp.gmi#static-int32-monitorapp-void-data static int32 MonitorApp(void *data)
+* 
+=> ServerApp.gmi#bool-isactive-void bool IsActive(void)
+* 
+=> ServerApp.gmi#void-pingtarget-void void PingTarget(void)
+* 
+=> ServerApp.gmi#void-dispatchmessage-int32-code-int8-buffer void DispatchMessage(int32 code, int8 *buffer)
+* 
+=> ServerApp.gmi#create-window CREATE_WINDOW
+* 
+=> ServerApp.gmi#delete-app DELETE_APP
+* 
+=> ServerApp.gmi#set-cursor-data SET_CURSOR_DATA
+* 
+=> ServerApp.gmi#set-cursor-bcursor SET_CURSOR_BCURSOR
+* 
+=> ServerApp.gmi#b-quit-requested B_QUIT_REQUESTED
+* 
+=> ServerApp.gmi#update-decorator UPDATE_DECORATOR
+* 
+=> ServerApp.gmi#void-windowbroadcast-int32-code void WindowBroadcast(int32 code)
+* 
+=> ServerApp.gmi#void-lock-void-void-unlock-void-bool-islocked-void void Lock(void), void Unlock(void), bool IsLocked(void)
+* 
+=> SharedObject.gmi SharedObject class
+* 
+=> SharedObject.gmi#member-functions Member Functions
+* 
+=> TokenHandler.gmi TokenHandler class
+* 
+=> TokenHandler.gmi#member-functions Member Functions
+* 
+=> TokenHandler.gmi#tokenhandler-void TokenHandler(void)
+* 
+=> TokenHandler.gmi#id1 ~TokenHandler(void)
+* 
+=> TokenHandler.gmi#int32-gettoken-void int32 GetToken(void)
+* 
+=> TokenHandler.gmi#void-reset-void void Reset(void)
+* 
+=> TokenHandler.gmi#void-excludevalue-int32-value void ExcludeValue(int32 value)
+* 
+=> TokenHandler.gmi#void-resetexcludes-void void ResetExcludes(void)
+* 
+=> TokenHandler.gmi#bool-isexclude-int32-value bool IsExclude(int32 value)
+* 
+=> DebugTools.gmi Debug Utility functions
+Graphics Management
+
+* 
+=> BitmapManager.gmi BitmapManager class
+* 
+=> BitmapManager.gmi#member-functions Member Functions
+* 
+=> BitmapManager.gmi#bitmapmanager-void BitmapManager(void)
+* 
+=> BitmapManager.gmi#id1 ~BitmapManager(void)
+* 
+=> BitmapManager.gmi#serverbitmap-createbitmap-brect-bounds-color-space-space-int32-flags-int32-bytes-per-row-1-screen-id-screen-b-main-screen-id ServerBitmap *CreateBitmap(BRect bounds, color_space space, int32 flags, int32 bytes_per_row=-1, screen_id screen=B_MAIN_SCREEN_ID)
+* 
+=> BitmapManager.gmi#void-deletebitmap-serverbitmap-bitmap void DeleteBitmap(ServerBitmap *bitmap)
+* 
+=> ColorUtils.gmi ColorUtils
+* 
+=> ColorUtils.gmi#global-functions Global Functions
+* 
+=> ColorUtils.gmi#void-setrgbcolor32-rgb-color-col-uint8-r-uint8-g-uint8-b-uint8-a-255 void SetRGBColor32(rgb_color *col, uint8 r, uint8 g, uint8 b, uint8 a=255)
+* 
+=> ColorUtils.gmi#void-setrgbacolor32-rgb-color-col-uint16-color16 void SetRGBAColor32(rgb_color *col, uint16 color16)
+* 
+=> ColorUtils.gmi#void-setrgbcolor16-uint16-col-uint8-r-uint8-g-uint8-b void SetRGBColor16(uint16 *col, uint8 r, uint8 g, uint8 b)
+* 
+=> ColorUtils.gmi#void-setrgbacolor15-uint16-col-uint8-r-uint8-g-uint8-b-bool-opaque-true void SetRGBAColor15(uint16 *col, uint8 r, uint8 g, uint8 b, bool opaque=true)
+* 
+=> ColorUtils.gmi#uint8-findclosestcolor-rgb-color-palette-rgb-color-col uint8 FindClosestColor(rgb_color *palette,rgb_color col)
+* 
+=> ColorUtils.gmi#uint16-findclosestcolor16-rgb-color-col uint16 FindClosestColor16(rgb_color col)
+* 
+=> ColorUtils.gmi#uint16-findclosestcolor15-rgb-color-col uint16 FindClosestColor15(rgb_color col)
+* 
+=> ColorUtils.gmi#rgb-color-makeblendcolor-rgb-color-col-rgb-color-col2-float-position rgb_color MakeBlendColor(rgb_color col, rgb_color col2, float position)
+* 
+=> CursorManager.gmi CursorManager class
+* 
+=> CursorManager.gmi#enumerated-types Enumerated Types
+* 
+=> CursorManager.gmi#cursor-which cursor_which
+* 
+=> CursorManager.gmi#member-functions Member Functions
+* 
+=> CursorManager.gmi#cursormanager-void CursorManager(void)
+* 
+=> CursorManager.gmi#id1 ~CursorManager(void)
+* 
+=> CursorManager.gmi#int32-addcursor-servercursor-sc int32 AddCursor(ServerCursor *sc)
+* 
+=> CursorManager.gmi#void-deletecursor-int32-ctoken void DeleteCursor(int32 ctoken)
+* 
+=> CursorManager.gmi#void-removeappcursors-serverapp-app void RemoveAppCursors(ServerApp *app)
+* 
+=> CursorManager.gmi#void-showcursor-void-void-hidecursor-void-void-obscurecursor-void void ShowCursor(void), void HideCursor(void), void ObscureCursor(void)
+* 
+=> CursorManager.gmi#void-setcursor-int32-token-void-setcursor-cursor-which-cursor void SetCursor(int32 token), void SetCursor(cursor_which cursor)
+* 
+=> CursorManager.gmi#servercursor-getcursor-cursor-which-which ServerCursor *GetCursor(cursor_which which)
+* 
+=> CursorManager.gmi#void-changecursor-cursor-which-which-int32-token void ChangeCursor(cursor_which which, int32 token)
+* 
+=> CursorManager.gmi#cursor-which-getcursorwhich-void cursor_which GetCursorWhich(void)
+* 
+=> Decorator.gmi Decorator class
+* 
+=> Decorator.gmi#member-functions Member Functions
+* 
+=> Decorator.gmi#decorator-brect-int32-wlook-int32-wfeel-int32-wflags Decorator(BRect int32 wlook, int32 wfeel, int32 wflags)
+* 
+=> Decorator.gmi#decorator-void ~Decorator(void)
+* 
+=> Decorator.gmi#void-setcolors-color-set-colors void SetColors(color_set colors)
+* 
+=> Decorator.gmi#void-setdriver-displaydriver-driver void SetDriver(DisplayDriver *driver)
+* 
+=> Decorator.gmi#void-setclose-bool-is-down void SetClose(bool is_down)
+* 
+=> Decorator.gmi#void-setminimize-bool-is-down void SetMinimize(bool is_down)
+* 
+=> Decorator.gmi#void-setzoom-bool-is-down void SetZoom(bool is_down)
+* 
+=> Decorator.gmi#void-setflags-int32-wflags void SetFlags(int32 wflags)
+* 
+=> Decorator.gmi#void-setfeel-int32-wfeel void SetFeel(int32 wfeel)
+* 
+=> Decorator.gmi#void-setlook-int32-wlook void SetLook(int32 wlook)
+* 
+=> Decorator.gmi#bool-getclose-void bool GetClose(void)
+* 
+=> Decorator.gmi#bool-getminimize-void bool GetMinimize(void)
+* 
+=> Decorator.gmi#bool-getzoom-void bool GetZoom(void)
+* 
+=> Decorator.gmi#int32-getlook-void int32 GetLook(void)
+* 
+=> Decorator.gmi#int32-getfeel-void int32 GetFeel(void)
+* 
+=> Decorator.gmi#int32-getflags-void int32 GetFlags(void)
+* 
+=> Decorator.gmi#void-settitle-const-char-string void SetTitle(const char *string)
+* 
+=> Decorator.gmi#void-setfont-sfont-sf void SetFont(SFont *sf)
+* 
+=> Decorator.gmi#int32-cliptitle-float-width int32 _ClipTitle(float width)
+* 
+=> Decorator.gmi#void-setfocus-bool-is-active void SetFocus(bool is_active)
+* 
+=> Decorator.gmi#bool-getfocus-void bool GetFocus(void)
+* 
+=> Decorator.gmi#int32-titlewidth-void int32 _TitleWidth(void)
+* 
+=> Decorator.gmi#virtual-functions Virtual Functions
+* 
+=> Decorator.gmi#void-moveby-float-x-float-y void MoveBy(float x, float y)
+* 
+=> Decorator.gmi#void-moveby-bpoint-pt void MoveBy(BPoint pt)
+* 
+=> Decorator.gmi#void-resizeby-float-x-float-y void ResizeBy(float x, float y)
+* 
+=> Decorator.gmi#void-resizeby-bpoint-pt void ResizeBy(BPoint pt)
+* 
+=> Decorator.gmi#void-draw-brect-r void Draw(BRect r)
+* 
+=> Decorator.gmi#void-draw-void void Draw(void)
+* 
+=> Decorator.gmi#void-drawclose-void void DrawClose(void)
+* 
+=> Decorator.gmi#protected-void-drawclose-brect-r protected: void _DrawClose(BRect r)
+* 
+=> Decorator.gmi#void-drawminimize-void void DrawMinimize(void)
+* 
+=> Decorator.gmi#protected-void-drawminimize-brect-r protected: void _DrawMinimize(BRect r)
+* 
+=> Decorator.gmi#void-drawzoom-void void DrawZoom(void)
+* 
+=> Decorator.gmi#protected-void-drawzoom-brect-r protected: void _DrawZoom(BRect r)
+* 
+=> Decorator.gmi#void-drawframe-void void DrawFrame(void)
+* 
+=> Decorator.gmi#protected-void-drawframe-brect-r protected: void _DrawFrame(BRect r)
+* 
+=> Decorator.gmi#void-drawtab-void void DrawTab(void)
+* 
+=> Decorator.gmi#protected-void-drawtab-brect-r protected: void _DrawTab(BRect r)
+* 
+=> Decorator.gmi#void-drawtitle-void void DrawTitle(void)
+* 
+=> Decorator.gmi#protected-void-drawtitle-brect-r protected: void _DrawTitle(BRect r)
+* 
+=> Decorator.gmi#void-setfocus-void void _SetFocus(void)
+* 
+=> Decorator.gmi#sregion-getfootprint-void SRegion GetFootprint(void)
+* 
+=> Decorator.gmi#click-type-clicked-bpoint-pt-int32-buttons-int32-modifiers click_type Clicked(BPoint pt, int32 buttons, int32 modifiers)
+* 
+=> Decorator.gmi#brect-slidetab-float-dx-dy-0 BRect SlideTab(float dx, dy=0)
+* 
+=> Decorator.gmi#exported-c-functions Exported C Functions
+* 
+=> Decorator.gmi#extern-c-decorator-create-decorator-brect-frame-int32-wlook-int32-wfeel-int32-wflags extern “C” Decorator *create_decorator(BRect frame, int32 wlook, int32 wfeel, int32 wflags)
+* 
+=> Decorator.gmi#extern-c-float-get-decorator-version-void extern “C” float get_decorator_version(void)
+* 
+=> Decorator.gmi#enumerated-types Enumerated Types
+* 
+=> Decorator.gmi#click-type click_type
+* 
+=> Desktop.gmi Desktop module
+* 
+=> Desktop.gmi#global-functions Global Functions
+* 
+=> Desktop.gmi#void-initdesktop-void void InitDesktop(void)
+* 
+=> Desktop.gmi#void-shutdowndesktop-void void ShutdownDesktop(void)
+* 
+=> Desktop.gmi#void-addworkspace-int32-index-1 void AddWorkspace(int32 index=-1)
+* 
+=> Desktop.gmi#void-deleteworkspace-int32-index void DeleteWorkspace(int32 index)
+* 
+=> Desktop.gmi#int32-countworkspaces-void int32 CountWorkspaces(void)
+* 
+=> Desktop.gmi#void-setworkspacecount-int32-count void SetWorkspaceCount(int32 count)
+* 
+=> Desktop.gmi#int32-currentworkspace-screen-id-screen-b-main-screen-id int32 CurrentWorkspace(screen_id screen=B_MAIN_SCREEN_ID)
+* 
+=> Desktop.gmi#void-setworkspace-int32-workspace-screen-id-screen-b-main-screen-id void SetWorkspace(int32 workspace, screen_id screen=B_MAIN_SCREEN_ID)
+* 
+=> Desktop.gmi#void-setscreen-screen-id-id void SetScreen(screen_id id)
+* 
+=> Desktop.gmi#int32-countscreens-void int32 CountScreens(void)
+* 
+=> Desktop.gmi#screen-id-activescreen-void screen_id ActiveScreen(void)
+* 
+=> Desktop.gmi#displaydriver-getgfxdriver-screen-id-screen-b-main-screen-id DisplayDriver *GetGfxDriver(screen_id screen=B_MAIN_SCREEN_ID)
+* 
+=> Desktop.gmi#status-t-setspace-int32-index-int32-res-bool-stick-true-screen-id-screen-b-main-screen-id status_t SetSpace(int32 index, int32 res, bool stick=true, screen_id screen=B_MAIN_SCREEN_ID)
+* 
+=> Desktop.gmi#void-addwindowtodesktop-serverwindow-win-int32-workspace-b-current-workspace-screen-id-screen-b-main-screen-id void AddWindowToDesktop(ServerWindow *win, int32 workspace=B_CURRENT_WORKSPACE, screen_id screen=B_MAIN_SCREEN_ID)
+* 
+=> Desktop.gmi#void-removewindowfromdesktop-serverwindow-win void RemoveWindowFromDesktop(ServerWindow *win)
+* 
+=> Desktop.gmi#serverwindow-getactivewindow-void ServerWindow *GetActiveWindow(void)
+* 
+=> Desktop.gmi#void-setactivewindow-serverwindow-win void SetActiveWindow(ServerWindow *win)
+* 
+=> Desktop.gmi#layer-getrootlayer-int32-workspace-b-current-workspace-screen-id-screen-b-main-screen-id Layer *GetRootLayer(int32 workspace=B_CURRENT_WORKSPACE, screen_id screen=B_MAIN_SCREEN_ID)
+* 
+=> Desktop.gmi#void-set-drag-message-int32-size-int8-flattened void set_drag_message(int32 size, int8 *flattened)
+* 
+=> Desktop.gmi#int8-get-drag-message-int32-size int8* get_drag_message(int32 *size)
+* 
+=> Desktop.gmi#void-empty-drag-message-void void empty_drag_ message(void)
+* 
+=> Desktop.gmi#namespaces Namespaces
+* 
+=> Desktop.gmi#desktop-private desktop_private
+* 
+=> DesktopClasses.gmi Screen class
+* 
+=> DesktopClasses.gmi#member-functions Member Functions
+* 
+=> DesktopClasses.gmi#screen-displaydriver-gfxmodule-uint8-workspaces Screen(DisplayDriver *gfxmodule, uint8 workspaces)
+* 
+=> DesktopClasses.gmi#screen-void ~Screen(void)
+* 
+=> DesktopClasses.gmi#void-addworkspace-int32-index-1 void AddWorkspace(int32 index=-1)
+* 
+=> DesktopClasses.gmi#void-deleteworkspace-int32-index void DeleteWorkspace(int32 index)
+* 
+=> DesktopClasses.gmi#int32-countworkspaces-void int32 CountWorkspaces(void)
+* 
+=> DesktopClasses.gmi#void-setworkspacecount-int32-count void SetWorkspaceCount(int32 count)
+* 
+=> DesktopClasses.gmi#int32-currentworkspace-void int32 CurrentWorkspace(void)
+* 
+=> DesktopClasses.gmi#void-setworkspace-int32-workspace void SetWorkspace(int32 workspace)
+* 
+=> DesktopClasses.gmi#void-activate-bool-active-true void Activate(bool active=true)
+* 
+=> DesktopClasses.gmi#displaydriver-getdriver-void DisplayDriver *GetDriver(void)
+* 
+=> DesktopClasses.gmi#status-t-setspace-int32-index-int32-res-bool-stick-true status_t SetSpace(int32 index, int32 res, bool stick=true)
+* 
+=> DesktopClasses.gmi#void-addwindow-serverwindow-win-int32-workspace-b-current-workspace void AddWindow(ServerWindow *win, int32 workspace=B_CURRENT_WORKSPACE)
+* 
+=> DesktopClasses.gmi#void-removewindow-serverwindow-win void RemoveWindow(ServerWindow *win)
+* 
+=> DesktopClasses.gmi#serverwindow-activewindow-void ServerWindow *ActiveWindow(void)
+* 
+=> DesktopClasses.gmi#void-setactivewindow-serverwindow-win void SetActiveWindow(ServerWindow *win)
+* 
+=> DesktopClasses.gmi#layer-getrootlayer-int32-workspace-b-current-workspace Layer *GetRootLayer(int32 workspace=B_CURRENT_WORKSPACE)
+* 
+=> DesktopClasses.gmi#bool-isinitialized-void bool IsInitialized(void)
+* 
+=> DesktopClasses.gmi#workspace-getactiveworkspace-void Workspace *GetActiveWorkspace(void)
+* 
+=> DesktopClasses.gmi#workspace-class-members Workspace class members
+* 
+=> DesktopClasses.gmi#workspace-void Workspace(void)
+* 
+=> DesktopClasses.gmi#id1 ~Workspace(void)
+* 
+=> DesktopClasses.gmi#void-setbgcolor-const-rgbcolor-c void SetBGColor(const RGBColor &c)
+* 
+=> DesktopClasses.gmi#rgbcolor-bgcolor-void RGBColor BGColor(void)
+* 
+=> DesktopClasses.gmi#rootlayer-getroot-void RootLayer *GetRoot(void)
+* 
+=> DesktopClasses.gmi#void-setdata-graphics-card-info-gcinfo-frame-buffer-info-fbinfo void SetData(graphics_card_info *gcinfo, frame_buffer_info *fbinfo)
+* 
+=> DesktopClasses.gmi#void-getdata-graphics-card-info-gcinfo-frame-buffer-info-fbinfo void GetData(graphics_card_info *gcinfo, frame_buffer_info *fbinfo)
+* 
+=> DesktopClasses.gmi#rootlayer-class-members RootLayer class members
+* 
+=> DesktopClasses.gmi#rootlayer-void ~RootLayer(void)
+* 
+=> DesktopClasses.gmi#void-requestdraw-const-brect-r void RequestDraw(const BRect &r)
+* 
+=> DesktopClasses.gmi#void-moveby-bpoint-pt-void-moveby-float-x-float-y void MoveBy(BPoint pt), void MoveBy(float x, float y)
+* 
+=> DesktopClasses.gmi#void-setdriver-displaydriver-d void SetDriver(DisplayDriver *d)
+* 
+=> DesktopClasses.gmi#void-rebuildregions-bool-recursive-false void RebuildRegions(bool recursive=false)
+* 
+=> DisplayDriver.gmi DisplayDriver class
+* 
+=> DisplayDriver.gmi#member-functions Member Functions
+* 
+=> DisplayDriver.gmi#displaydriver-void DisplayDriver(void)
+* 
+=> DisplayDriver.gmi#id1 ~DisplayDriver(void)
+* 
+=> DisplayDriver.gmi#bool-initialize-void bool Initialize(void)
+* 
+=> DisplayDriver.gmi#void-shutdown-void void Shutdown(void)
+* 
+=> DisplayDriver.gmi#void-copybits-brect-src-brect-dest void CopyBits(BRect src, BRect dest)
+* 
+=> DisplayDriver.gmi#void-invertrect-brect-r void InvertRect(BRect r)
+* 
+=> DisplayDriver.gmi#void-drawbitmap-serverbitmap-bmp-brect-src-brect-dest-render-mode-mode void DrawBitmap(ServerBitmap *bmp, BRect src, BRect dest, render_mode mode)
+* 
+=> DisplayDriver.gmi#void-drawpicture-spicture-pic-bpoint-pt void DrawPicture(SPicture *pic, BPoint pt)
+* 
+=> DisplayDriver.gmi#void-drawchar-char-c-bpoint-pt void DrawChar(char c, BPoint pt)
+* 
+=> DisplayDriver.gmi#void-drawstring-const-char-string-int32-length-bpoint-pt-escapement-delta-delta-null void DrawString(const char *string, int32 length, BPoint pt, escapement_delta *delta=NULL)
+* 
+=> DisplayDriver.gmi#void-strokearc-brect-r-float-angle-float-span-layerdata-d-int8-pattern void StrokeArc(BRect r, float angle, float span, layerdata *d, int8 *pattern)
+* 
+=> DisplayDriver.gmi#void-fillarc-brect-r-float-angle-float-span-layerdata-d-int8-pattern void FillArc(BRect r, float angle, float span, layerdata *d, int8 *pattern)
+* 
+=> DisplayDriver.gmi#void-strokebezier-bpoint-pts-layerdata-d-int8-pat void StrokeBezier(BPoint *pts, layerdata *d, int8 *pat)
+* 
+=> DisplayDriver.gmi#void-fillbezier-bpoint-pts-layerdata-d-int8-pat void FillBezier(BPoint *pts, layerdata *d, int8 *pat)
+* 
+=> DisplayDriver.gmi#void-strokeellipse-brect-r-layerdata-d-int8-pattern void StrokeEllipse(BRect r, layerdata *d, int8 *pattern)
+* 
+=> DisplayDriver.gmi#void-fillellipse-brect-r-layerdata-d-int8-pattern void FillEllipse(BRect r, layerdata *d, int8 *pattern)
+* 
+=> DisplayDriver.gmi#void-strokeline-bpoint-start-bpoint-end-layerdata-d-int8-pattern void StrokeLine(BPoint start, BPoint end, layerdata *d, int8 *pattern)
+* 
+=> DisplayDriver.gmi#void-strokelinearray-bpoint-pts-int32-numlines-rgb-color-colors-layerdata-d void StrokeLineArray(BPoint *pts, int32 numlines, rgb_color *colors, layerdata *d)
+* 
+=> DisplayDriver.gmi#void-strokepolygon-bpoint-ptlist-int32-numpts-brect-rect-layerdata-d-int8-pattern-bool-is-closed-true void StrokePolygon(BPoint *ptlist, int32 numpts, BRect rect, layerdata *d, int8 *pattern, bool is_closed=true)
+* 
+=> DisplayDriver.gmi#void-fillpolygon-bpoint-ptlist-int32-numpts-brect-rect-layerdata-d-int8-pattern void FillPolygon(BPoint *ptlist, int32 numpts, BRect rect, layerdata *d, int8 *pattern)
+* 
+=> DisplayDriver.gmi#void-strokerect-brect-r-layerdata-d-int8-pattern void StrokeRect(BRect r, layerdata *d, int8 *pattern)
+* 
+=> DisplayDriver.gmi#void-fillrect-brect-r-layerdata-d-int8-pattern void FillRect(BRect r, layerdata *d, int8 *pattern)
+* 
+=> DisplayDriver.gmi#void-strokeroundrect-brect-r-float-xrad-float-yrad-layerdata-d-int8-pattern void StrokeRoundRect(BRect r, float xrad, float yrad, layerdata *d, int8 *pattern)
+* 
+=> DisplayDriver.gmi#void-fillroundrect-brect-r-float-xrad-float-yrad-layerdata-d-int8-pattern void FillRoundRect(BRect r, float xrad, float yrad, layerdata *d, int8 *pattern)
+* 
+=> DisplayDriver.gmi#void-strokeshape-sshape-sh-layerdata-d-int8-pattern void StrokeShape(SShape *sh, layerdata *d, int8 *pattern)
+* 
+=> DisplayDriver.gmi#void-fillshape-sshape-sh-layerdata-d-int8-pattern void FillShape(SShape *sh, layerdata *d, int8 *pattern)
+* 
+=> DisplayDriver.gmi#void-stroketriangle-bpoints-pts-brect-r-layerdata-d-int8-pattern void StrokeTriangle(BPoints *pts, BRect r, layerdata *d, int8 *pattern)
+* 
+=> DisplayDriver.gmi#void-filltriangle-bpoints-pts-brect-r-layerdata-d-int8-pattern void FillTriangle(BPoints *pts, BRect r, layerdata *d, int8 *pattern)
+* 
+=> DisplayDriver.gmi#void-showcursor-void void ShowCursor(void)
+* 
+=> DisplayDriver.gmi#void-hidecursor-void void HideCursor(void)
+* 
+=> DisplayDriver.gmi#void-obscurecursor-void void ObscureCursor(void)
+* 
+=> DisplayDriver.gmi#bool-iscursorhidden-void bool IsCursorHidden(void)
+* 
+=> DisplayDriver.gmi#void-setcursor-servercursor-csr void SetCursor(ServerCursor *csr)
+* 
+=> DisplayDriver.gmi#float-stringwidth-const-char-string-int32-length-layerdata-d float StringWidth(const char *string, int32 length, LayerData *d)
+* 
+=> DisplayDriver.gmi#float-stringheight-const-char-string-int32-length-layerdata-d float StringHeight(const char *string, int32 length, LayerData *d)
+* 
+=> DisplayDriver.gmi#protected-functions Protected Functions
+* 
+=> DisplayDriver.gmi#uint8-getdepth-void uint8 GetDepth(void)
+* 
+=> DisplayDriver.gmi#uint16-getheight-void uint16 GetHeight(void)
+* 
+=> DisplayDriver.gmi#uint16-getwidth-void uint16 GetWidth(void)
+* 
+=> DisplayDriver.gmi#screen-mode-getmode-void screen_mode GetMode(void)
+* 
+=> DisplayDriver.gmi#void-setmode-screen-mode-mode void SetMode(screen_mode mode)
+* 
+=> DisplayDriver.gmi#bool-dumptofile-const-char-path bool DumpToFile(const char *path)
+* 
+=> DisplayDriver.gmi#void-lock-void void Lock(void)
+* 
+=> DisplayDriver.gmi#void-unlock-void void Unlock(void)
+* 
+=> DisplayDriver.gmi#void-setdepthinternal-uint8-d void SetDepthInternal(uint8 d)
+* 
+=> DisplayDriver.gmi#void-setheightinternal-uint16-h void SetHeightInternal(uint16 h)
+* 
+=> DisplayDriver.gmi#void-setwidthinternal-uint16-w void SetWidthInternal(uint16 w)
+* 
+=> DisplayDriver.gmi#void-setmodeinternal-int32-m void SetModeInternal(int32 m)
+* 
+=> DisplayDriver.gmi#void-setcursorhidden-bool-state void SetCursorHidden(bool state)
+* 
+=> DisplayDriver.gmi#void-setcursorobscured-bool-state void SetCursorObscured(bool state)
+* 
+=> DisplayDriver.gmi#bool-iscursorobscured-void bool IsCursorObscured(void)
+* 
+=> Layer.gmi Layer class
+* 
+=> Layer.gmi#member-functions Member Functions
+* 
+=> Layer.gmi#layer-brect-frame-const-char-name-int32-resize-int32-flags-serverwindow-win Layer(BRect frame, const char *name, int32 resize, int32 flags, ServerWindow *win)
+* 
+=> Layer.gmi#layer-void ~Layer(void)
+* 
+=> Layer.gmi#void-addchild-layer-child-layer-before-null-bool-rebuild-true void AddChild(Layer *child, Layer *before=NULL, bool rebuild=true)
+* 
+=> Layer.gmi#removechild-layer-child-bool-rebuild-true RemoveChild(Layer *child, bool rebuild=true)
+* 
+=> Layer.gmi#void-removeself-bool-rebuild-true void RemoveSelf(bool rebuild=true)
+* 
+=> Layer.gmi#void-invalidate-brect-r void Invalidate(BRect r)
+* 
+=> Layer.gmi#void-invalidate-bregion-region void Invalidate(BRegion *region)
+* 
+=> Layer.gmi#brect-frame-void-brect-bounds-void BRect Frame(void), BRect Bounds(void)
+* 
+=> Layer.gmi#void-moveby-bpoint-pt-void-moveby-float-x-float-y void MoveBy(BPoint pt), void MoveBy(float x, float y)
+* 
+=> Layer.gmi#void-resizeby-bpoint-pt-void-resizeby-float-x-float-y void ResizeBy(BPoint pt), void ResizeBy(float x, float y)
+* 
+=> Layer.gmi#int32-countchildren-void int32 CountChildren(void)
+* 
+=> Layer.gmi#bool-isdirty-void bool IsDirty(void)
+* 
+=> Layer.gmi#brect-converttotop-const-brect-r-bregion-converttotop-const-bregion-r BRect ConvertToTop(const BRect &r), BRegion ConvertToTop(const BRegion &r)
+* 
+=> Layer.gmi#brect-convertfromtop-const-brect-r-bregion-convertfromtop-const-bregion-r BRect ConvertFromTop(const BRect &r), BRegion ConvertFromTop(const BRegion &r)
+* 
+=> Layer.gmi#brect-convertfromparent-const-brect-r-bregion-convertfromparent-const-bregion-r BRect ConvertFromParent(const BRect &r), BRegion ConvertFromParent(const BRegion &r)
+* 
+=> Layer.gmi#void-rebuildregions-bool-recursive-false void RebuildRegions(bool recursive=false)
+* 
+=> Layer.gmi#void-maketopchild-void void MakeTopChild(void)
+* 
+=> Layer.gmi#void-makebottomchild-void void MakeBottomChild(void)
+* 
+=> Layer.gmi#void-requestdraw-const-brect-r void RequestDraw(const BRect &r)
+* 
+=> Layer.gmi#layer-findlayer-int32-token Layer *FindLayer(int32 token)
+* 
+=> Layer.gmi#layer-getchildat-bpoint-pt-bool-recursive-false Layer *GetChildAt(BPoint pt, bool recursive=false)
+* 
+=> Layer.gmi#portlink-getlink-void PortLink *GetLink(void)
+* 
+=> PatternHandler.gmi PatternHandler class
+* 
+=> PatternHandler.gmi#enumerated-types Enumerated Types
+* 
+=> PatternHandler.gmi#pattern-enum pattern_enum
+* 
+=> PatternHandler.gmi#member-functions Member Functions
+* 
+=> PatternHandler.gmi#patternhandler PatternHandler()
+* 
+=> PatternHandler.gmi#id1 ~PatternHandler()
+* 
+=> PatternHandler.gmi#void-settarget-int8-pattern void SetTarget(int8 *pattern)
+* 
+=> PatternHandler.gmi#void-setcolors-rgbcolor-c1-rgbcolor-c2 void SetColors(RGBColor c1, RGBColor c2)
+* 
+=> PatternHandler.gmi#rgbcolor-getcolor-bpoint-pt-rgbcolor-getcolor-float-x-float-y RGBColor GetColor(BPoint pt) RGBColor GetColor (float x, float y)
+* 
+=> PatternHandler.gmi#bool-getvalue-bpoint-pt-bool-getvalue-float-x-float-y bool GetValue(BPoint pt) bool GetValue (float x, float y)
+* 
+=> RGBColor.gmi RGBColor class
+* 
+=> RGBColor.gmi#member-functions Member Functions
+* 
+=> RGBColor.gmi#rgbcolor-uint8-r-uint8-g-uint8-b-uint8-a-255 RGBColor(uint8 r, uint8 g, uint8 b, uint8 a=255)
+* 
+=> RGBColor.gmi#rgbcolor-rgb-color-col RGBColor(rgb_color col)
+* 
+=> RGBColor.gmi#rgbcolor-uint16-color16 RGBColor(uint16 color16)
+* 
+=> RGBColor.gmi#rgbcolor-uint8-color8 RGBColor(uint8 color8)
+* 
+=> RGBColor.gmi#rgbcolor-const-rgbcolor-color RGBColor(const RGBColor &color)
+* 
+=> RGBColor.gmi#rgbcolor-void RGBColor(void)
+* 
+=> RGBColor.gmi#void-printtostream-void void PrintToStream(void)
+* 
+=> RGBColor.gmi#uint8-getcolor8-void uint8 GetColor8(void)
+* 
+=> RGBColor.gmi#uint16-getcolor16-void uint16 GetColor16(void)
+* 
+=> RGBColor.gmi#rgb-color-getcolor32-void rgb_color GetColor32(void)
+* 
+=> RGBColor.gmi#void-setcolor-const-rgbcolor-color void SetColor(const RGBColor &color)
+* 
+=> RGBColor.gmi#void-setcolor-uint8-r-uint8-g-uint8-b-uint8-a-255 void SetColor(uint8 r, uint8 g, uint8 b, uint8 a=255)
+* 
+=> RGBColor.gmi#void-setcolor-rgb-color-col void SetColor(rgb_color col)
+* 
+=> RGBColor.gmi#void-setcolor-uint16-color16 void SetColor(uint16 color16)
+* 
+=> RGBColor.gmi#void-setcolor-uint8-color8 void SetColor(uint8 color8)
+* 
+=> RGBColor.gmi#rgbcolor-operator-const-rgbcolor-from RGBColor & operator=(const RGBColor &from)
+* 
+=> RGBColor.gmi#bool-operator-const-rgbcolor-from bool operator==(const RGBColor &from)
+* 
+=> RGBColor.gmi#id1 bool operator!=(const RGBColor &from)
+* 
+=> RGBColor.gmi#rgbcolor-makeblendcolor-rgbcolor-c-float-position RGBColor MakeBlendColor(RGBColor c, float position)
+* 
+=> ServerBitmap.gmi ServerBitmap class
+* 
+=> ServerBitmap.gmi#member-functions Member Functions
+* 
+=> ServerBitmap.gmi#serverbitmap-brect-r-color-space-cspace-int32-flags-int32-bytesperrow-1-screen-id-screen-b-main-screen-id ServerBitmap(BRect r, color_space cspace, int32 flags, int32 bytesperrow=-1, screen_id screen=B_MAIN_SCREEN_ID)
+* 
+=> ServerBitmap.gmi#serverbitmap-void ~ServerBitmap(void)
+* 
+=> ServerBitmap.gmi#uint8-bits-void uint8 *Bits(void)
+* 
+=> ServerBitmap.gmi#area-id-area-void area_id Area(void)
+* 
+=> ServerBitmap.gmi#uint32-bitslength-void uint32 BitsLength(void)
+* 
+=> ServerBitmap.gmi#brect-bounds-void BRect Bounds(void)
+* 
+=> ServerBitmap.gmi#int32-bytesperrow-void int32 BytesPerRow(void)
+* 
+=> ServerBitmap.gmi#void-handlespace-color-space-cs-int32-bytesperline-1 void _HandleSpace(color_space cs, int32 bytesperline=-1)
+* 
+=> SystemPalette.gmi SystemPalette class
+* 
+=> SystemPalette.gmi#member-functions Member Functions
+* 
+=> SystemPalette.gmi#systempalette-void SystemPalette(void)
+* 
+=> SystemPalette.gmi#id1 ~SystemPalette(void)
+* 
+=> SystemPalette.gmi#void-setpalette-uint8-index-rgbcolor-col-void-setpalette-uint8-index-rgb-color-col void SetPalette(uint8 index, RGBColor col), void SetPalette(uint8 index, rgb_color col)
+* 
+=> SystemPalette.gmi#rgbcolor-getpalette-uint8-index RGBColor GetPalette(uint8 index)
+* 
+=> SystemPalette.gmi#void-setguicolor-color-which-which-rgbcolor-col void SetGUIColor(color_which which, RGBColor col)
+* 
+=> SystemPalette.gmi#rgbcolor-getguicolor-color-which-which RGBColor GetGUIColor(color_which which)
+* 
+=> SystemPalette.gmi#color-set-getguicolors-void color_set GetGUIColors(void)
+* 
+=> SystemPalette.gmi#void-setguicolors-color-set-cset void SetGUIColors(color_set cset)
+* 
+=> SystemPalette.gmi#protected-void-generatesystempalette-rgb-color-palette protected: void _GenerateSystemPalette(rgb_color *palette)
+* 
+=> SystemPalette.gmi#grays Grays:
+* 
+=> SystemPalette.gmi#blues Blues:
+* 
+=> SystemPalette.gmi#reds Reds:
+* 
+=> SystemPalette.gmi#greens Greens:
+* 
+=> SystemPalette.gmi#protected-void-setdefaultguicolors-void protected: void _SetDefaultGUIColors(void)
+* 
+=> SystemPalette.gmi#structures Structures
+* 
+=> WinBorder.gmi WinBorder class : public Layer
+* 
+=> WinBorder.gmi#member-functions Member Functions
+* 
+=> WinBorder.gmi#winborder-brect-r-const-char-name-int32-resize-int32-flags-serverwindow-win WinBorder(BRect r, const char *name, int32 resize, int32 flags, ServerWindow *win)
+* 
+=> WinBorder.gmi#winborder-void ~WinBorder(void)
+* 
+=> WinBorder.gmi#void-requestdraw-void void RequestDraw(void)
+* 
+=> WinBorder.gmi#void-moveby-bpoint-pt-void-moveby-float-x-float-y void MoveBy(BPoint pt), void MoveBy(float x, float y)
+* 
+=> WinBorder.gmi#void-resizeby-bpoint-pt-void-resizeby-float-x-float-y void ResizeBy(BPoint pt), void ResizeBy(float x, float y)
+* 
+=> WinBorder.gmi#void-mousedown-int8-buffer void MouseDown(int8 *buffer)
+* 
+=> WinBorder.gmi#void-mouseup-int8-buffer void MouseUp(int8 *buffer)
+* 
+=> WinBorder.gmi#void-mousemoved-int8-buffer void MouseMoved(int8 *buffer)
+* 
+=> WinBorder.gmi#void-updatedecorator-void void UpdateDecorator(void)
+* 
+=> WinBorder.gmi#void-updatecolors-void void UpdateColors(void)
+* 
+=> WinBorder.gmi#void-updatefont-void void UpdateFont(void)
+* 
+=> WinBorder.gmi#void-updatescreen-void void UpdateScreen(void)
+* 
+=> WinBorder.gmi#void-rebuildregions-bool-recursive-true void RebuildRegions(bool recursive=true)
+* 
+=> WinBorder.gmi#void-activate-bool-state void Activate(bool state)
+* 
+=> WinBorder.gmi#global-functions Global Functions
+* 
+=> WinBorder.gmi#bool-is-moving-window-void-void-set-is-moving-window-bool-state bool is_moving_window(void), void set_is_moving_window(bool state)
+* 
+=> WinBorder.gmi#bool-is-resizing-window-void-void-set-is-resizing-window-bool-state bool is_resizing_window(void), void set_is_resizing_window(bool state)
+* 
+=> WinBorder.gmi#void-set-active-winborder-winborder-win-winborder-get-active-winborder-void void set_active_winborder(WinBorder *win), WinBorder * get_active_winborder(void)
+* 
+=> WinBorder.gmi#namespaces Namespaces
+Font Infrastructure
+
+* 
+=> FontServer.gmi FontServer class
+* 
+=> FontServer.gmi#member-functions Member Functions
+* 
+=> FontServer.gmi#fontserver-void FontServer(void)
+* 
+=> FontServer.gmi#id1 ~FontServer(void)
+* 
+=> FontServer.gmi#void-lock-void-void-unlock-void void Lock(void), void Unlock(void)
+* 
+=> FontServer.gmi#void-savelist-void void SaveList(void)
+* 
+=> FontServer.gmi#status-t-scandirectory-const-char-path status_t ScanDirectory(const char *path)
+* 
+=> FontServer.gmi#fontstyle-getfont-font-family-family-font-style-face FontStyle *GetFont(font_family family, font_style face)
+* 
+=> FontServer.gmi#fontinstance-getinstance-font-family-family-font-style-face-int16-size-int16-rotation-int16-shear FontInstance *GetInstance(font_family family, font_style face, int16 size, int16 rotation, int16 shear)
+* 
+=> FontServer.gmi#int32-countfamilies-void int32 CountFamilies(void)
+* 
+=> FontServer.gmi#status-t-isinitialized-void status_t IsInitialized(void)
+* 
+=> FontServer.gmi#int32-countstyles-font-family-family int32 CountStyles(font_family family)
+* 
+=> FontServer.gmi#fontstyle-getstyle-font-family-family-font-style-style FontStyle *GetStyle(font_family family, font_style style)
+* 
+=> FontServer.gmi#void-removefamily-const-char-family void RemoveFamily(const char *family)
+* 
+=> FontServer.gmi#fontfamily-findfamily-const-char-name FontFamily *_FindFamily(const char *name)
+* 
+=> FontServer.gmi#serverfont-getsystemplain-void-serverfont-getsystembold-void-serverfont-getsystemfixed-void ServerFont *GetSystemPlain(void), ServerFont *GetSystemBold(void), ServerFont *GetSystemFixed(void)
+* 
+=> FontServer.gmi#bool-setsystemplain-const-char-family-const-char-style-float-size bool SetSystemPlain(const char *family, const char *style, float size)
+* 
+=> FontServer.gmi#bool-setsystembold-const-char-family-const-char-style-float-size bool SetSystemBold(const char *family, const char *style, float size)
+* 
+=> FontServer.gmi#bool-setsystemfixed-const-char-family-const-char-style-float-size bool SetSystemFixed(const char *family, const char *style, float size)
+* 
+=> FontServer.gmi#void-removeunusedfamilies-void void RemoveUnusedFamilies(void)
+* 
+=> FontServer.gmi#bool-fontsneedupdated-void bool FontsNeedUpdated(void)
+* 
+=> FontFamily.gmi FontFamily class
+* 
+=> FontFamily.gmi#member-functions Member Functions
+* 
+=> FontFamily.gmi#fontfamily-const-char-name FontFamily(const char *name)
+* 
+=> FontFamily.gmi#fontfamily-void ~FontFamily(void)
+* 
+=> FontFamily.gmi#const-char-getname-void const char *GetName(void)
+* 
+=> FontFamily.gmi#void-addstyle-const-char-path-ft-face-face void AddStyle(const char *path, FT_Face face)
+* 
+=> FontFamily.gmi#void-removestyle-const-char-style void RemoveStyle(const char *style)
+* 
+=> FontFamily.gmi#fontstyle-getstyle-const-char-style FontStyle *GetStyle(const char *style)
+* 
+=> FontFamily.gmi#const-char-getstyle-int32-index const char *GetStyle(int32 index)
+* 
+=> FontFamily.gmi#int32-countstyles-void int32 CountStyles(void)
+* 
+=> FontFamily.gmi#bool-hasstyle-const-char-stylename bool HasStyle(const char *stylename)

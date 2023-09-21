@@ -1,0 +1,251 @@
+# Package Management
+This is a short index of the available package management related documentation.
+
+* 
+=> Infrastructure.gmi Package Management Infrastructure
+ provides an overview of what components belong to Haiku’s package management infrastructure and how they work and interact.
+
+* 
+=> BuildingPackages.gmi Building Packages
+ gives information on various aspects of the package building process.
+
+* 
+=> DirectoryStructure.gmi Boot Volume Directory Structure
+ outlines the directory structure of a package management powered Haiku boot volume.
+
+* 
+=> FileFormat.gmi Haiku Package File Format
+ specifies in detail the file format of Haiku package files (HPKG) and Haiku package repository files (HPKR).
+
+* 
+=> PackagingPolicy.gmi Packaging Policy
+ defines the policy for creating Haiku packages.
+
+* 
+=> HybridBuilds.gmi Hybrid Builds
+ provides some information regarding hybrid builds.
+
+* 
+=> Migration.gmi Migration to Package Management
+ lists the changes that users should expect when migrating to a package management Haiku.
+
+* 
+=> Bootstrapping.gmi Bootstrapping Haiku
+ explains the process of bootstrapping Haiku and third-party packages.
+
+* 
+=> TODO.gmi TODO
+ is a list of package management related work still to be done.
+
+* 
+=> https://www.haiku-os.org/tags/package-management/ Blog posts
+ on package management (the Batisseur ones are only indirectly package management related).
+
+* 
+=> OldIdeas.gmi Package Management Ideas
+ is a collection of thoughts and discussions regarding package management. It has been partially obsoleted by the progress on the package management implementation.
+
+* 
+=> http://www.youtube.com/watch?v=rNZQQM5zU-Q&list=PL3FFCD4C6D384A302 http://www.youtube.com/watch?v=rNZQQM5zU-Q&list=PL3FFCD4C6D384A302
+ is a video playlist of Ingo and Oliver explaining and demonstrating the package management branch at BeGeistert 2011.
+
+Below are links to source code related to Haiku’s package management.
+
+* Package management has been merged into “master”, so see the 
+=> http://cgit.haiku-os.org/haiku/ Haiku
+ and 
+=> http://cgit.haiku-os.org/buildtools/ Buildtools
+ repositories for that
+
+* 
+=> https://github.com/haikuports/haikuports HaikuPorts
+ contains the build recipes of various ports.
+
+* 
+=> https://github.com/haikuports/haikuports.cross haikuports.cross
+ contains the minimal set of build recipes to bootstrap a new Haiku architecture.
+
+* 
+=> https://github.com/haikuports/haikuporter haikuporter
+ is the tool to create binary packages from build recipes.
+
+* 
+=> BuildingPackages.gmi Building Packages
+* 
+=> BuildingPackages.gmi#building-a-package-with-the-package-command Building a Package with the “package” Command
+* 
+=> BuildingPackages.gmi#the-packageinfo The .PackageInfo
+* 
+=> BuildingPackages.gmi#version-strings Version Strings
+* 
+=> BuildingPackages.gmi#package-file-names Package File Names
+* 
+=> BuildingPackages.gmi#example-package-file Example package file
+* 
+=> BuildingPackages.gmi#building-a-package-with-haikuporter Building a Package with “haikuporter”
+* 
+=> DirectoryStructure.gmi Boot Volume Directory Structure
+* 
+=> FileFormat.gmi Haiku Package File Format
+* 
+=> FileFormat.gmi#the-data-container-format The Data Container Format
+* 
+=> FileFormat.gmi#header Header
+* 
+=> FileFormat.gmi#heap Heap
+* 
+=> FileFormat.gmi#toc TOC
+* 
+=> FileFormat.gmi#attribute-data-types Attribute Data Types
+* 
+=> FileFormat.gmi#strings Strings
+* 
+=> FileFormat.gmi#main-toc Main TOC
+* 
+=> FileFormat.gmi#attribute-values Attribute Values
+* 
+=> FileFormat.gmi#package-attributes Package Attributes
+* 
+=> FileFormat.gmi#the-archive-format The Archive Format
+* 
+=> FileFormat.gmi#attribute-ids Attribute IDs
+* 
+=> FileFormat.gmi#toc-attributes TOC Attributes
+* 
+=> FileFormat.gmi#the-package-format The Package Format
+* 
+=> FileFormat.gmi#the-package-format-attribute-ids Attribute IDs
+* 
+=> FileFormat.gmi#haiku-package-repository-format Haiku Package Repository Format
+* 
+=> FileFormat.gmi#id2 The Data Container Format
+* 
+=> FileFormat.gmi#id3 Header
+* 
+=> FileFormat.gmi#id4 Attribute IDs
+* 
+=> HybridBuilds.gmi Hybrid Builds
+* 
+=> HybridBuilds.gmi#general-requirements General Requirements
+* 
+=> HybridBuilds.gmi#secondary-architecture-package-requirements Secondary Architecture Package Requirements
+* 
+=> Infrastructure.gmi Package Management Infrastructure
+* 
+=> Infrastructure.gmi#software-installation-locations Software Installation Locations
+* 
+=> Infrastructure.gmi#software-installation Software Installation
+* 
+=> Infrastructure.gmi#manual-installation Manual Installation
+* 
+=> Infrastructure.gmi#installation-via-package-manager Installation via Package Manager
+* 
+=> Infrastructure.gmi#application-bundles Application Bundles
+* 
+=> Infrastructure.gmi#installation-location-order-and-consistency Installation Location Order and Consistency
+* 
+=> Infrastructure.gmi#software-repositories Software Repositories
+* 
+=> Infrastructure.gmi#standard-repositories Standard Repositories
+* 
+=> Infrastructure.gmi#the-package-kit The Package Kit
+* 
+=> Infrastructure.gmi#localization Localization
+* 
+=> Migration.gmi Migration to Package Management
+* 
+=> Migration.gmi#changes-for-users Changes for Users
+* 
+=> Migration.gmi#changes-for-application-developers Changes for Application Developers
+* 
+=> Migration.gmi#changes-for-haiku-developers Changes for Haiku Developers
+* 
+=> Migration.gmi#changes-for-porters Changes for Porters
+* 
+=> PackagingPolicy.gmi Packaging Policy
+* 
+=> PackagingPolicy.gmi#multiple-packages-per-software Multiple Packages per Software
+* 
+=> PackagingPolicy.gmi#provides-declaration Provides Declaration
+* 
+=> PackagingPolicy.gmi#documentation Documentation
+* 
+=> PackagingPolicy.gmi#data-files Data Files
+* 
+=> PackagingPolicy.gmi#writable-and-settings-files-and-directories Writable and Settings Files and Directories
+* 
+=> PackagingPolicy.gmi#post-installation-scripts Post-Installation Scripts
+* 
+=> PackagingPolicy.gmi#pre-uninstallation-scripts Pre-Uninstallation Scripts
+* 
+=> Bootstrapping.gmi Bootstrapping Haiku
+* 
+=> Bootstrapping.gmi#prerequisites Prerequisites
+* 
+=> Bootstrapping.gmi#configuring-and-building Configuring and Building
+* 
+=> Bootstrapping.gmi#how-it-works How it works
+* 
+=> Bootstrapping.gmi#format-of-hpkg-source-repository Format of hpkg Source Repository
+* 
+=> Bootstrapping.gmi#haiku-architecture-ports Haiku Architecture Ports
+* 
+=> TODO.gmi packagefs
+* 
+=> TODO.gmi#package-daemon Package Daemon
+* 
+=> TODO.gmi#package-building Package building
+* 
+=> TODO.gmi#package-kit-manager Package kit/manager
+* 
+=> TODO.gmi#boot-loader Boot loader
+* 
+=> TODO.gmi#package-package-repository-format Package/package repository format
+* 
+=> TODO.gmi#miscellaneous Miscellaneous
+* 
+=> OldIdeas.gmi Package Management Ideas
+* 
+=> OldIdeas.gmi#requirements Requirements
+* 
+=> OldIdeas.gmi#haikubits HaikuBits
+* 
+=> OldIdeas.gmi#bundles Bundles
+* 
+=> OldIdeas.gmi#management Management
+* 
+=> OldIdeas.gmi#dependencies Dependencies
+* 
+=> OldIdeas.gmi#updates Updates
+* 
+=> OldIdeas.gmi#implementation Implementation
+* 
+=> OldIdeas.gmi#id1 Bundles
+* 
+=> OldIdeas.gmi#install-or-not Install or not?
+* 
+=> OldIdeas.gmi#merged Merged
+* 
+=> OldIdeas.gmi#self-contained Self-contained
+* 
+=> OldIdeas.gmi#settings Settings
+* 
+=> OldIdeas.gmi#multiple-application-version Multiple Application Version
+* 
+=> OldIdeas.gmi#dependency-hell Dependency Hell
+* 
+=> OldIdeas.gmi#avoiding Avoiding
+* 
+=> OldIdeas.gmi#tacking Tacking
+* 
+=> OldIdeas.gmi#libalpm libalpm
+* 
+=> OldIdeas.gmi#pros Pros
+* 
+=> OldIdeas.gmi#cons Cons
+* 
+=> OldIdeas.gmi#brainstorming-results-from-begeistert Brainstorming Results from BeGeistert
+* 
+=> OldIdeas.gmi#package-format Package Format
+* 
+=> OldIdeas.gmi#references References

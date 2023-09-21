@@ -9,27 +9,30 @@ for i in develop user api; do
 	WORKPATH=$HAIKU_SOURCES/docs/$i
 	echo "Scanning $WORKPATH..."
 	if [ -f "$WORKPATH/Doxyfile" ]; then
+		# XXX: Working.. but looks horrible
 		echo "Detected Doxygen at $WORKPATH"
-		# XXX: Working, looks horrible
-		continue
-		# Install moxygen (doxygen to markdown)
-		npm install -g --prefix $HOME/.node moxygen
-		cd $WORKPATH
-		( cat Doxyfile ; \
-			echo "GENERATE_HTML=NO" ; \
-			echo "GENERATE_XML=YES" ; \
-			echo "OUTPUT_DIRECTORY=output" ) | doxygen -
-		cd - && rm -rf $i && mkdir -p $i && cd $i
-		echo "Doxygen to markdown..."
-		$HOME/.node/bin/moxygen -g $WORKPATH/output/xml/
-		echo "Markdown to gemini..."
-		for i in *.md*; do echo "Processing $i..."; md2gmn -f "$i" > "$i.gmi"; rm -f "$i"; done
+		## Install moxygen (doxygen to markdown)
+		#npm install -g --prefix $HOME/.node moxygen
+		#cd $WORKPATH
+		#( cat Doxyfile ; \
+		#	echo "GENERATE_HTML=NO" ; \
+		#	echo "GENERATE_XML=YES" ; \
+		#	echo "OUTPUT_DIRECTORY=output" ) | doxygen -
+		#cd - && rm -rf $i && mkdir -p $i && cd $i
+		#echo "Doxygen to markdown..."
+		#$HOME/.node/bin/moxygen -g $WORKPATH/output/xml/
+		#echo "Markdown to gemini..."
+		#for i in *.md*; do echo "Processing $i..."; md2gmn -f "$i" > "$i.gmi"; rm -f "$i"; done
 	elif [ -f "$WORKPATH/conf.py" ]; then
+		# XXX: Working, looks okish with errors
 		echo "Detected Sphinx at $WORKPATH"
-		# XXX: Not working yet
-		continue
-		pip install --upgrade nb2plots
+		pip install --upgrade --break-system-packages sphinx_gemini_builder
+		echo "Cleaning up old docs..."
+		rm -rf docs/$i
 		cd $WORKPATH
-		echo "extensions = ['nb2plots']" >> conf.py
+		make gemini
+		cd -
+		mkdir -p docs/$i
+		mv $WORKPATH/generated/gemini/* docs/$i
 	fi
 done

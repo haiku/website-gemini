@@ -1,0 +1,83 @@
+# The MIDI Kit
+* 
+=> design.gmi Midi Kit design
+* 
+=> design.gmi#ooh-pictures Ooh, pictures
+* 
+=> design.gmi#housekeeping Housekeeping
+* 
+=> design.gmi#initialization Initialization
+* 
+=> design.gmi#error-handling Error handling
+* 
+=> design.gmi#creating-and-deleting-endpoints Creating and deleting endpoints
+* 
+=> design.gmi#changing-endpoint-attributes Changing endpoint attributes
+* 
+=> design.gmi#connections Connections
+* 
+=> design.gmi#watching Watching
+* 
+=> design.gmi#thread-safety Thread safety
+* 
+=> design.gmi#misc-remarks Misc remarks
+* 
+=> design.gmi#the-messages The messages
+* 
+=> design.gmi#midi-events MIDI events
+* 
+=> midi1.gmi How libmidi1 works
+* 
+=> midi1.gmi#the-softsynth The softsynth
+* 
+=> oldprotocol.gmi The BeOS R5 Midi Kit protocol
+* 
+=> oldprotocol.gmi#who-does-what Who does what?
+* 
+=> oldprotocol.gmi#bmidiroster-midiroster BMidiRoster::MidiRoster()
+* 
+=> oldprotocol.gmi#bmidilocalproducer-constructor BMidiLocalProducer constructor
+* 
+=> oldprotocol.gmi#bmidilocalconsumer-constructor BMidiLocalConsumer constructor
+* 
+=> oldprotocol.gmi#bmidiendpoint-release BMidiEndpoint::Release()
+* 
+=> oldprotocol.gmi#bmidiendpoint-setname BMidiEndpoint::SetName()
+* 
+=> oldprotocol.gmi#bmidiendpoint-getproperties BMidiEndpoint::GetProperties()
+* 
+=> oldprotocol.gmi#bmidiendpoint-setproperties BMidiEndpoint::SetProperties()
+* 
+=> oldprotocol.gmi#bmidilocalconsumer-setlatency BMidiLocalConsumer::SetLatency()
+* 
+=> oldprotocol.gmi#bmidiproducer-connect BMidiProducer::Connect()
+* 
+=> oldprotocol.gmi#bmidiproducer-disconnect BMidiProducer::Disconnect()
+* 
+=> oldprotocol.gmi#watchin Watchin’
+* 
+=> oldprotocol.gmi#other-observations Other observations
+* 
+=> stuff.gmi Misc notes
+* 
+=> testing.gmi Testing the Midi Kit
+* 
+=> testing.gmi#registering-the-application Registering the application
+* 
+=> testing.gmi#creating-endpoints Creating endpoints
+* 
+=> testing.gmi#deleting-endpoints Deleting endpoints
+* 
+=> testing.gmi#changing-attributes Changing attributes
+* 
+=> testing.gmi#consulting-the-roster Consulting the roster
+* 
+=> testing.gmi#making-breaking-connections Making/breaking connections
+* 
+=> testing.gmi#watching Watching
+* 
+=> testing.gmi#event-tests Event tests
+* 
+=> testing.gmi#other-tests Other tests
+* 
+=> todo.gmi Midi Kit TO DO List
