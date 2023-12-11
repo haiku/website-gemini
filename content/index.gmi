@@ -1,3 +1,5 @@
+
+
 ``` Ascii art banner
 ███    ███          ███ ███
 ███    ███              ███
@@ -11,8 +13,8 @@
              𝘵𝘩𝘢𝘵 𝘴𝘱𝘦𝘤𝘪𝘧𝘪𝘤𝘢𝘭𝘭𝘺 𝘵𝘢𝘳𝘨𝘦𝘵𝘴 𝘱𝘦𝘳𝘴𝘰𝘯𝘢𝘭 𝘤𝘰𝘮𝘱𝘶𝘵𝘪𝘯𝘨.
 ```
 
-This is a low-bandwidth gemini site.
-Futher information should be obtained via our official website.
+Welcome to our Lo-fi, low-bandwidth Gemini site.
+Additional information on Haiku can be obtained from our official HTTP website.
 
 => https://haiku-os.org haiku-os.org
 
