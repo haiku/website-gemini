@@ -1,0 +1,38 @@
+# [GSoC 2018 - TrackGit] Progress Report 3
+
+This is the third progress report for TrackGit project. I did the following in last week.
+
+## Clone Window.
+
+I implemented Clone window. It looks something like following:
+
+Clone-Window[1]
+
+=> /files/blog/hrily/Clone-Window.jpg 1: Clone-Window
+
+## Clone Command
+
+I implemented Clone command. Unfortunately, I'm blocked with some ssl object error.
+
+## Init
+
+Implemented Init of empty repository. Following are steps to Init a git repo through TrackGit:
+
+Init[1]
+
+=> /files/blog/hrily/Init.jpg 1: Init
+
+Init-Success[1]
+
+=> /files/blog/hrily/Init-Success.jpg 1: Init-Success
+
+## Init Test
+
+I added tests for Init. This is done with the help of CppUnit testing framework.
+
+## Doxygen Documentation
+
+Added Doxygen API documentation to the files created till now. This is live at https://hrily.github.io/TrackGit[1].
+
+=> https://hrily.github.io/TrackGit 1: https://hrily.github.io/TrackGit
+

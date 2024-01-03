@@ -3,6 +3,7 @@
 # Reformats our documentation into geminidoc
 
 HAIKU_SOURCES=$HOME/Code/haiku
+HAIKU_WEBSITE=$HOME/Code/website
 
 cd content
 for i in develop user api; do
@@ -35,4 +36,33 @@ for i in develop user api; do
 		mkdir -p docs/$i
 		mv $WORKPATH/generated/gemini/* docs/$i
 	fi
+done
+
+# And now the blog articles
+rm -rf docs/blog
+mkdir -p docs/blog
+
+for i in $(find $HAIKU_WEBSITE/content/blog -name "*.md" -not -name "_index.md"); do
+	AUTHOR=$(basename $(dirname $i))
+	BASE=$(basename -s.md $i)
+	echo "building docs/blog/$AUTHOR/$BASE.gmi..."
+	mkdir -p "docs/blog/$AUTHOR"
+	md2gmi -i $i > docs/blog/$AUTHOR/$BASE.gmi
+done
+
+echo "# Blog Articles" > docs/blog/index.gmi
+
+echo "Automatically collected from the Haiku hypertext website." >> docs/blog/index.gmi
+
+for a in $(find docs/blog/ -maxdepth 1); do
+	if [[ $a == "docs/blog/" ]]; then
+		continue;
+	fi
+	AUTHOR=$(basename $a)
+	echo "## $AUTHOR" >> docs/blog/index.gmi
+	for i in $(find $a -name "*.gmi"); do
+		echo "indexing $i..."
+		GMIDOC=$(basename $i)
+		echo "=> $AUTHOR/$GMIDOC" >> docs/blog/index.gmi
+	done
 done

@@ -1,0 +1,26 @@
+# [GSoC 2018 - TrackGit] Progress Report 2
+
+This is the second progress report for TrackGit project. I did the following in last week.
+
+## TrackGit repo
+
+I created the repository for TrackGit. You can follow it at https://github.com/Hrily/TrackGit[1].
+
+=> https://github.com/Hrily/TrackGit 1: https://github.com/Hrily/TrackGit
+
+I also created Wiki[1] to maintain the Weekly Progress report.
+
+=> https://github.com/Hrily/TrackGit/wiki 1: Wiki
+
+## Icon for TrackGit
+
+I added icon to project using a rdef file.
+
+## LibGit2
+
+TrackGit uses libgit2 as interface for git. I tried compiling TrackGit using libgit2 but getting some header errors. I'm getting help from mentors regarding this.
+
+## BLayoutBuilder
+
+TrackGit has few windows. So, I need to learn how to use BLayoutBuilder, which I started to learn recently.
+

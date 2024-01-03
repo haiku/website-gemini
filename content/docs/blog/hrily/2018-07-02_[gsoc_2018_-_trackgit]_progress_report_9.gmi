@@ -1,0 +1,35 @@
+# [GSoC 2018 - TrackGit] Progress Report 9
+
+This is the ninth progress report for TrackGit project. I did the following in last week.
+
+## Implemented Pull command
+
+I implemented the equivalent of `git pull`. The implementation was a little trickier as there was no direct API for pull in libgit2.
+
+The git pull command is combination of a fetch and then a merge.
+
+In merge there are three cases:
+
+1. Repository up to date 2. Fast forward 3. Merge commit
+
+The merge commit can lead to conflicts. In such case user is shown with the list of conflicting files. I'm going to implement the flow of resolving such conflicts in coming days.
+
+I had to implement all these cases. Link[1] to commit of pull command implementation.
+
+=> https://github.com/Hrily/TrackGit/commit/a2c2d4c71c6e4755625e912350e7a33a728ec935 1: Link
+
+The following screenshot shows working of pull command:
+
+Pull Window[1]
+
+=> /files/blog/hrily/Pull.jpg 1: Pull Window
+
+## Implemented Conflicts Window
+
+As mentioned above, I implemented a Conflicts Window which shows user with list of conflicting files. Link[1] to commit. The following screenshot shows Conflicts window:
+
+=> https://github.com/Hrily/TrackGit/commit/e8fd5cf607299382349bbebb6ff5aee186523390 1: Link
+
+Conflicts Window[1] 
+=> /files/blog/hrily/Conflicts.jpg 1: Conflicts Window
+

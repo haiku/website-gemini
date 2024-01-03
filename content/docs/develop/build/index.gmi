@@ -14,6 +14,8 @@
 * 
 => sourcecode.gmi#sending-change-reviews Sending change reviews
 * 
+=> sourcecode.gmi#source-tree-organization Source tree organization
+* 
 => sourcecode.gmi#managing-gcc-and-binutils-updates-using-vendor-branches Managing GCC and binutils updates using vendor branches
 * 
 => sourcecode.gmi#how-to-import-upstream-binutils-changes How to import upstream binutils changes
@@ -25,6 +27,10 @@
 => compilers.gmi Haiku compilers
 * 
 => compilers.gmi#summary-of-changes-made-to-gcc-for-haiku-support Summary of changes made to gcc for Haiku support
+* 
+=> ide.gmi Using an IDE
+* 
+=> ide.gmi#live-code-analysis Live Code Analysis
 * 
 => repositories/README.gmi HaikuPorts build-packages repository
 * 

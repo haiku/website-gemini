@@ -1,0 +1,5 @@
+#  
+
+I was recently interviewed by Michael Bartholomew for his new podcast, Device Drivers, on <a href="http://www.omnes.tv" title="omnes.tv">omnes.tv</a>. I talked about Haiku, BeOS, some of my efforts in relation to WebKit and the Haiku browser, and other topics. I think anyone who is interested in Haiku and BeOS will find it interesting:
+
+http://www.omnes.tv/devicedrivers/episode1/ 

@@ -1,0 +1,20 @@
+# [GSoC 2018 - TrackGit] Progress Report 8
+
+This is the eighth progress report for TrackGit project. I did the following in last week.
+
+## Implemented Commit command
+
+I implemented the equivalent of `git commit` in TrackGit. The implementation was a little bit trickier because libgit2 used a different logic when the commit is first or non-first. The link[1] to commit.
+
+=> https://github.com/Hrily/TrackGit/commit/f8f133a21c340f18e5596e2d84b73ccd1fec53fa 1: link
+
+Below is a screenshot of Commit window.
+
+Commit Window[1]
+
+=> /files/blog/hrily/Commit.jpg 1: Commit Window
+
+## Added test for commit command
+
+I also added the test case for commit command. This simply makes a commit and checks if the commit is made via status command.
+

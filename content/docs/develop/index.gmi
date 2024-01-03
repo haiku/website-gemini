@@ -48,6 +48,8 @@ The work on this book has just started, many sections are incomplete or missing.
 * 
 => build/compilers.gmi Haiku compilers
 * 
+=> build/ide.gmi Using an IDE
+* 
 => build/repositories/README.gmi HaikuPorts build-packages repository
 * 
 => release/index.gmi Release engineering

@@ -26,3 +26,7 @@ Additional information on Haiku can be obtained from our official HTTP website.
 
 => package.gmi 📦 Software package repositories
 => docs/develop 📘 Haiku internals (automatically generated)
+
+# Articles
+
+=> docs/blog 📰 Blog Articles (automatically generated)

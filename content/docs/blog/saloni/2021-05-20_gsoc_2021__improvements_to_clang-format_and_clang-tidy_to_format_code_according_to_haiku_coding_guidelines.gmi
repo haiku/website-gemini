@@ -1,0 +1,73 @@
+# GSOC 2021 : Improvements to clang-format and clang-tidy to format code according to haiku coding guidelines
+
+# Introduction:
+
+I am Saloni B.Tech.(3rd year), Computer Science and Engineering(CSE) student of Guru Nanak Dev Engineering College, India. I have been selected for Google Summer of Code 2021 to work with Haiku on the project **Improvements to clang-format and clang-tidy to format code according to haiku coding guidelines**. My mentors are Preetpal Kaur and Adrien Destugues.
+
+# About my project:
+
+Haiku has its own coding standards which describe how the code should be formatted. Haiku-format[1] is a tool that reformats code according to Haiku coding style but it is not giving desired results. So, we need to format the code such that when this code is run on Haiku[2] the coding style of code gets updated according to haiku guidelines, but it has to be compiled on the developer machine and then run manually.
+
+=> https://github.com/owenca/haiku-format 1: Haiku-format
+=> https://review.haiku-os.org/plugins/gitiles/haiku/+/refs/heads/master 2: Haiku
+
+The tool ' haiku-format ' is work in progress which can be used to check the format according to guidelines which will be integrated with concourse to automate the process of checking coding style.
+
+# Existing problem in Code review:
+
+  Haiku code review is done manually due to which there was some delay between the patch submission and the initial feedback. A lot of time is spent just on checking the code format due to which most review comments are only about code formatting and it becomes difficult for reviewers to focus on functionality of the patch.
+
+# Work done so far
+
+1.  Solved an issue to remove extra spacing for std::nothrow[1].
+
+=> https://github.com/owenca/haiku-format/issues/17 1: std::nothrow
+
+2.  Gerrit merged changes[1] according to haiku guidelines.
+
+=> https://review.haiku-os.org/q/owner:saloniggoyal%2540gmail.com+is:merged 1: Gerrit merged changes
+
+3.  Updates coding guidelines[1]
+
+=> https://github.com/haiku/website/pull/489 1: Updates coding guidelines
+
+# Ongoing review/Discussion
+
+1.  Updates code according to haiku guidelines[1]
+
+=> https://review.haiku-os.org/c/haiku/+/3827 1: Updates code according to haiku guidelines
+
+2.  Improving haiku format[1]
+
+=> https://review.haiku-os.org/c/haiku/+/3826 1: Improving haiku format
+
+3.  Empty functions to inline[1]
+
+=> https://github.com/owenca/haiku-format/issues/23 1: Empty functions to inline
+
+4.  ' : ' should come on its own line and initializers in following lines[1]
+
+=> https://github.com/owenca/haiku-format/issues/18 1: ' : ' should come on its own line and initializers in following lines
+
+5.  Discussion about clang-tidy[1]
+
+=> https://review.haiku-os.org/c/haiku/+/3826/1/src/preferences/input/InputMouse.cpp#145 1: Discussion about clang-tidy
+
+-  According to Haiku’s requirement for if-else statement clang-tidy google-readability-braces-around-statements.ShortStatementLines with value '2' can be used i.e. adding braces to if statement will only trigger when there will be 2 or more lines. So, the idea is to extract the code from clang-tidy and integrate it in the clang-format for better results.
+# Conclusion:
+
+First of all I say a big thank you to the haiku community for selecting me this year. I will try to give my best to make this project more successful. :)
+
+# Important Links:
+
+-  Development logs[1]
+=> https://hackace2.wordpress.com/ 1: Development logs
+
+-  GSoC Link[1]
+=> https://summerofcode.withgoogle.com/organizations/5689314786148352/ 1: GSoC Link
+
+-  Proposal[1]
+
+=> https://docs.google.com/document/d/19jQsWTde5_ca514YbIOxFb882BRB_B4dbkRZ5polIIU/edit?usp=sharing 1: Proposal
+
+Thankyou to all :) 

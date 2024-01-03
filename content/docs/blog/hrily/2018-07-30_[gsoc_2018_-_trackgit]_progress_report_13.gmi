@@ -1,0 +1,25 @@
+# [GSoC 2018 - TrackGit] Progress Report 13
+
+This is the thirteenth progress report for TrackGit project. I did the following in last week:
+
+Since, the planned work from the proposal is done, Stephan and I agreed on doing some UI improvements to the existing views. Stephan suggested me some improvements, which I did in last week. These are:
+
+## Added progress bar to Clone Window
+
+I added a progress bar to the clone window. This will give better information about the clone progress.
+
+The following screenshot shows the improved Clone window:
+
+Clone Progress[1]
+
+=> /files/blog/hrily/Clone-Progress.jpg 1: Clone Progress
+
+## Added link to open file in Status window
+
+Now the user can open files directly from the Status window. User just needs to double click the file to open it.
+
+The following screenshot shows the working of the same:
+
+Status File Open[1] 
+=> /files/blog/hrily/Status-File-Open.jpg 1: Status File Open
+

@@ -1,0 +1,8 @@
+# Icculus Microgrant 2020
+
+Haiku, Inc. is proud to announce being the target of the Icculus Microgrant program[1] for 2020. We would like to thank Icculus, and all of the wonderful folks who have donated to Haiku, Inc. over the years.
+
+=> https://icculus.org/microgrant/2020/ 1: Icculus Microgrant program
+
+Your continued donations help keep us working on what we love, and help us continuously grow and develop the ideal personal computing operating system.
+

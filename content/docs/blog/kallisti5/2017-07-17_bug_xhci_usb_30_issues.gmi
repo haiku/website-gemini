@@ -1,0 +1,46 @@
+#  
+
+As we work to stabilize Haiku and move closer to the R1 beta releases, USB driver issues are becomming more apparent.
+
+At the moment, bugs with our XHCI _(usb 3.0)_ stack are high on the problem list. New hardware is beginning to ship with XHCI-only controllers, which means we can no-longer fall back to our stable EHCI _(usb 2.0)_ stack.
+
+A large number of bug reports have been opened around these kinds of issues:
+
+* QEMU XHCI Devices not bootable[1] *Most issues seem to be linked to this issue* * XHCI: vm_page_fault on AMD x370[2] * USB3 - device does not enumerate[3] * Support for PCIe USB 3.0 Cards[4] * XHCI: crash in LinkDescriptioinForPipe[5] * XHCI page fault under skylake[6] * usb_disk: command status wrapper is not valid[7] * USB isochronous streams[8]
+
+=> https://dev.haiku-os.org/ticket/13343 1: QEMU XHCI Devices not bootable
+=> https://dev.haiku-os.org/ticket/13372 2: XHCI: vm_page_fault on AMD x370
+=> https://dev.haiku-os.org/ticket/13062 3: USB3 - device does not enumerate
+=> https://dev.haiku-os.org/ticket/13056 4: Support for PCIe USB 3.0 Cards
+=> https://dev.haiku-os.org/ticket/12929 5: XHCI: crash in LinkDescriptioinForPipe
+=> https://dev.haiku-os.org/ticket/12885 6: XHCI page fault under skylake
+=> https://dev.haiku-os.org/ticket/12860 7: usb_disk: command status wrapper is not valid
+=> https://dev.haiku-os.org/ticket/1045 8: USB isochronous streams
+
+These XHCI bugs frequenctly result in the following issues on real hardware:
+
+- Problems booting from USB drives
+- Crashes transferring data over the USB bus
+- Crashes and kernel panics at boot while Haiku examines the XHCI bus.
+
+Work-arounds can be easy (booting from non-USB media), or extremely difficult.
+
+New users checking out Haiku will likely encounter these bugs, and may get a bad first-impression of Haiku.
+
+**Call to help**
+
+If you knowledgeable in low-level USB hardware (or have developed USB drivers for other other operating systems such as FreeBSD or Linux), we really could use a hand in reducing the overall number of XHCI-related bugs.
+
+Solving just few of these issues will help propel Haiku to our first R1 release and beyond.
+
+**Resources**
+
+- Compiling Haiku[1]
+=> https://www.haiku-os.org/guides/building 1: Compiling Haiku
+
+- Intel XHCI specification[1]
+- Haiku: Submitting Patches[2]
+
+=> https://www.intel.com/content/www/us/en/io/universal-serial-bus/extensible-host-controler-interface-usb-xhci.html 1: Intel XHCI specification
+=> https://dev.haiku-os.org/wiki/CodingGuidelines/SubmittingPatches 2: Haiku: Submitting Patches
+
