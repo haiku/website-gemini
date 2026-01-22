@@ -1,4 +1,4 @@
-# A Brief Look Inside HPKG
++++ type = "blog" title = "A Brief Look Inside HPKG" author = "apl" date = "2021-02-28 12:00:00+12:00" tags = ["haiku", "haikudepot", "hpkg", "hpkr", "format"] +++
 
 The Haiku operating system has a packaging system that leverages a clever file format called HPKG.  This article provides a simplistic overview of how the file format is structured.
 

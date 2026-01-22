@@ -1,5 +1,5 @@
 # Testing the Midi Kit
-Most of the OpenBeOS source code has unit tests in the current/src/tests directory. I looked into building CppUnit tests for the midi2 kit, but decided that it doesn’t really make much sense. Unit tests work best if you can test something in isolation, but in the case of the midi2 kit this is very hard to achieve. Because the classes from libmidi2.so always need to talk to the midi_server, the tests depend on too many external factors. The available endpoints, for example, will differ from system to system. The spray and hook functions are difficult to test this way, too.
+Most of the Haiku source code has unit tests in the current/src/tests directory. I looked into building CppUnit tests for the midi2 kit, but decided that it doesn’t really make much sense. Unit tests work best if you can test something in isolation, but in the case of the midi2 kit this is very hard to achieve. Because the classes from libmidi2.so always need to talk to the midi_server, the tests depend on too many external factors. The available endpoints, for example, will differ from system to system. The spray and hook functions are difficult to test this way, too.
 
 So instead of a CppUnit test suite, here is a list of manual tests that I performed when developing the midi2 kit:
 

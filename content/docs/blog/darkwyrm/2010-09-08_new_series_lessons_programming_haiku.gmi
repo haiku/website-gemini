@@ -1,4 +1,4 @@
-# A New Series of Lessons: Programming with Haiku
++++ type = "blog" author = "darkwyrm" title = "A New Series of Lessons: Programming with Haiku" date = "2010-09-08T01:21:26.000Z" tags = ["development", "tutorials", "programming-with-haiku"] +++
 
 Since I started publishing my Learning to Program with Haiku lesson series back in January, I have, on many occasions, seen comments asking for lessons aimed at current codemonkeys who want to break into development for Haiku. Here begins a new series of programming lessons aimed at people who already have a basic grasp on C++: Programming with Haiku.
 

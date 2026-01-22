@@ -1,4 +1,4 @@
-# Recovering from RMLL 2017
++++ type = "blog" title = "Recovering from RMLL 2017" author = "mmu_man" date = "2017-08-15 00:00:00+01:00" tags = ["haiku", "RMLL", "LSM", "conference"] +++
 
 <img src="/files/blog/mmu_man/RMLL2017_DSCN5675.jpg" title="RMLL booths during the week-end…" alt="RMLL booths during the week-end…" width="25%" height="25%" align="right" />It took me some time to write this report, between other stuff and a cold caught in July (WTF?). But still, plenty of stuff happened at this year's edition of RMLL/LSM[1] so I had to let you know.
 

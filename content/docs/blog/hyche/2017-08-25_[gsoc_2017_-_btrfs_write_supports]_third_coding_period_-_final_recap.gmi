@@ -1,4 +1,4 @@
-# [GSoC 2017 - BTRFS write supports] Third coding period - Final recap
++++ type = "blog" title = "[GSoC 2017 - BTRFS write supports] Third coding period - Final recap" author = "HyChe" date = "2017-08-25 21:48:17+07:00" tags = ["haiku", "gsoc2017", "gsoc", "filesystem", "btrfs"] +++
 
 ## Hello everyone,
 

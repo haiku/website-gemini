@@ -1,4 +1,4 @@
-# Introducing the launch_daemon
++++ type = "blog" author = "axeld" title = "Introducing the launch_daemon" date = "2015-07-17T20:54:51.000Z" tags = ["bootscript", "startup", "launch_daemon", "launch daemon", "boot process", "boot"] +++
 
 Since some time, I am working on a replacement of our current shell script based boot process to something more flexible, a similar solution to Apple's launchd, and Linux's systemd.
 

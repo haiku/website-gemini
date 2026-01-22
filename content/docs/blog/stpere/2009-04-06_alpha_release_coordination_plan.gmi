@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "stpere" title = "Alpha release coordination / plan" date = "2009-04-06T19:03:19.000Z" tags = ["release", "alpha", "Marketing"] +++
 
 Greetings,
 

@@ -1,4 +1,4 @@
-# Ohio LinuxFest 2011: Another Fun Adventure
++++ type = "blog" author = "jprostko" title = "Ohio LinuxFest 2011: Another Fun Adventure" date = "2011-09-22T01:52:02.000Z" tags = ["report", "conference", "ohio"] +++
 
 <span class="inline right"><a href="http://www.joeprostko.com/files/screenshots/2011-09-10-mike_and_darkwyrm_800.jpg" rel="lightbox"><img src="http://www.joeprostko.com/files/screenshots/2011-09-10-mike_and_darkwyrm_800.thumbnail.jpg" alt="Mike and Darkwyrm at the table" title="Mike and Darkwyrm at the table" class="image image-thumbnail" width="200" height="150" /></a><span class="caption" style="width: 198px;"><strong>Mike and Darkwyrm at the table</strong></span></span>
 

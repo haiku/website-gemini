@@ -1,4 +1,4 @@
-# UVC Driver: Final Report GSoC 2011
++++ type = "blog" author = "gabrielhartmann" title = "UVC Driver: Final Report GSoC 2011" date = "2011-08-24T21:53:48.000Z" tags = ["UVC", "driver", "gsoc", "gsoc 2011", "gsoc2011"] +++
 
 The Google Summer of Code for 2011 is over now for me.  The final state of the UVC driver project while very far from perfect is at least at a point where incremental improvement can be made.  Literally the day (maybe 2 days, depending which timezone you're in) before the "firm pencils down" date I finally managed to get data all the way from the camera to the screen.  The decoding of that information is totally wrong at this point, but coloured pixels show up on the screen and they appear to react when things move in front of the camera.  Success?!
 

@@ -1,4 +1,4 @@
-# 'Packaging Infrastructure' Contract Report #6
++++ type = "blog" author = "waddlesplash" title = "'Packaging Infrastructure' Contract Report #6" date = "2015-07-25T20:48:49.000Z" tags = ["contract work", "package management", "infrastructure"] +++
 
 A lot has happened since my last report. I decided to spend some time working on stabilizing both Haiku and the packaging system, and so I am closer to having full builds & HPKR generation, but I'm not quite there yet.
 

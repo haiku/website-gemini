@@ -1,4 +1,4 @@
-# UVC Driver -- GSoC Quarter-term Report
++++ type = "blog" author = "gabrielhartmann" title = "UVC Driver -- GSoC Quarter-term Report" date = "2011-06-13T20:45:16.000Z" tags = ["gsoc", "gsoc2011", "UVC", "driver"] +++
 
 On June 7, I turned in my dissertation and my semester ended.  On June 10, I had my first final exam.  Now it's time to produce a progress report for Haiku.  Almost miraculously, I've actually managed to squeeze some Haiku development time in and am making progress of a kind.
 

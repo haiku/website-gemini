@@ -1,4 +1,4 @@
-# Network Services Kit Introduction
++++ type = "blog" author = "antirush" title = "Network Services Kit Introduction" date = "2009-05-17T03:20:09.000Z" tags = ["hcd", "hcd2009"] +++
 
 Hello Haiku World, I'm Tom Fairfield and I've been chosen to work on a project for the Code Drive this summer.  You'll see me around IRC and elsewhere as fairfieldt or AntiRush.  I'm a 4th year computer science major at Xavier University in Cincinnati, Ohio.
 

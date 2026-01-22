@@ -1,4 +1,4 @@
-# Contract weekly report #52 - On to beta1!
++++ type = "blog" author = "PulkoMandy" title = "Contract weekly report #52 - On to beta1!" date = "2014-11-14T08:52:27.000Z" tags = ["contract work", "release"] +++
 
 Hi,
 

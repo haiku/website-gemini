@@ -1,4 +1,4 @@
-# WebKit weekly report #18
++++ type = "blog" author = "PulkoMandy" title = "WebKit weekly report #18" date = "2014-02-07T10:17:27.000Z" tags = ["contract work", "WebKit", "app_server", "clipping", "gcc"] +++
 
 Hi there! As you can read on the frontpage, I'll continue working for Haiku in february.This will be the 5th month of this contract. Thanks to everyone who donated to Haiku, Inc for making this possible!
 

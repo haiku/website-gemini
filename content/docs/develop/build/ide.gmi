@@ -1,0 +1,27 @@
+# Using an IDE
+## Live Code Analysis
+While developing the Haiku codebase, it is possible to generate an inventory of compile commands by passing the **-c** flag to jam. The resulting **compile_commands.json** document will assist tools such as 
+=> http://clangd.llvm.org clangd
+ in live analyzing our source code.
+
+Generating the **compile_commands.json** for clangd:
+```
+$ mkdir generated.clangd && cd generated.clangd
+$ configure --build-cross-tools x86_64 --cross-tools-source ../../buildtools
+$ jam -anc @nightly-anyboot
+$ ln -sr compile_commands.json ../compile_commands.json
+```
+
+When you use an editor which supports 
+=> http://clangd.llvm.org clangd
+ such as 
+=> http://helix-editor.com helix
+ or 
+=> http://vim.org vim
+ (with the clangd plugin), 
+=> http://clangd.llvm.org clangd
+ will have knowledge of the relevant include paths and build flags for every source file within the Haiku codebase.
+
+Tip: When new source code files are added, you will need to run though the process above for a complete database.
+
+

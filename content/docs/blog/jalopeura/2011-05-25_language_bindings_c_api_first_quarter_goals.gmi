@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "jalopeura" title = "Language Bindings for the C++ API: First Quarter Goals" date = "2011-05-25T09:03:37.000Z" tags = ["api", "gsoc2011", "perl", "python"] +++
 
 During the bonding period I looked into Python's extension tools; they seem to be straightforward and at first glance look relatively easy, so Python is definitely an option. I asked on the mailing list what other languages people were using on Haiku, and Neil kindly made a poll based on the results. Depending on the popularity of the language (based on the poll results) and the ease of writing extensions, I will make a final decision on which langauges to target during GSoC.
 

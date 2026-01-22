@@ -1,4 +1,4 @@
-# My Ohio LinuxFest 2009 Journey
++++ type = "blog" author = "jprostko" title = "My Ohio LinuxFest 2009 Journey" date = "2009-10-14T18:50:27.000Z" tags = ["Ohio", "LinuxFest", "OLF", "Columbus", "conference", "ohio"] +++
 
 Well, after a long delay and BeGeistert 021 among us, I suppose it's time to tell my story about the <a href="http://ohiolinux.org">Ohio LinuxFest</a> (OLF).
 

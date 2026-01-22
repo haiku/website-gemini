@@ -190,6 +190,8 @@ Below are links to source code related to Haiku’s package management.
 * 
 => Bootstrapping.gmi#haiku-architecture-ports Haiku Architecture Ports
 * 
+=> Bootstrapping.gmi#rules-for-updating-haikuports-cross Rules for updating haikuports.cross
+* 
 => TODO.gmi packagefs
 * 
 => TODO.gmi#package-daemon Package Daemon

@@ -1,4 +1,4 @@
-# Update on the Web Services Kit and the Haiku Code Drive
++++ type = "blog" author = "antirush" title = "Update on the Web Services Kit and the Haiku Code Drive" date = "2009-05-29T02:40:33.000Z" tags = ["hcd2009"] +++
 
 As you may have read recently, I've had to withdraw from the code drive this summer.  Luckily, another student has stepped up to take over my spot.  I hope his project is a success and that I'll be able to jump back in later in the summer.
 

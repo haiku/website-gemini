@@ -1,4 +1,4 @@
-# Progress report of community bonding period
++++ type = "blog" title = "Progress report of community bonding period" author = "PreetpalKaur" date = "2020-05-27 01:22:11+05:30" tags = ["haiku", "software", "gsoc2020"] +++
 
 This blog will contain all the information about what I have done in the community bonding period. It's a bit late to post a blog because I have my exams from 29 May 2020 - 3 June 2020.
 

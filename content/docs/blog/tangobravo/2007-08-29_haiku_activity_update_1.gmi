@@ -1,4 +1,4 @@
-# Haiku Activity Update #1: 14-20 August 2007
++++ type = "blog" author = "tangobravo" title = "Haiku Activity Update #1: 14-20 August 2007" date = "2007-08-29T19:45:36.000Z" tags = ["activity update", "progress"] +++
 
 A couple of months ago there was a debate on the mailing list about the openness of the Haiku project. I made the point that there was a lot of information in the public domain - SVN commits logs, bug updates, and a multitidue of mailing lists - the problem was that activity on these fronts was not obvious to more casual Haiku-watchers. I should have kept my mouth shut, because I ended up agreeing to write some summaries of this activity! This is the first of what will hopefully be weekly updates. Feel free to leave comments and suggestions below.
 

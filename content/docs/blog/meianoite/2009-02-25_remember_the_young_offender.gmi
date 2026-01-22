@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "meianoite" title = "Remember the \"Young Offender\"" date = "2009-02-25T16:46:20.000Z" tags = ["IMO Joy Division was way better a band", "time management"] +++
 
 "We're busy running out of time", said the lyrics.
 

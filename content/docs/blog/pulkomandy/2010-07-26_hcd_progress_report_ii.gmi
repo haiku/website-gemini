@@ -1,4 +1,4 @@
-# HCD : Progress report II
++++ type = "blog" author = "PulkoMandy" title = "HCD : Progress report II" date = "2010-07-26T14:44:00.000Z" tags = ["hcd", "locale", "localekit", "contract work"] +++
 
 So, I'm still working on the locale kit. Here are some things I did since last time :
 

@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "umccullough" title = "Haiku Admin Meeting Summary - May 28, 2007" date = "2007-05-30T21:15:57.000Z" tags = ["admin meeting"] +++
 
 <p><b>Haiku Admin Meeting 2007-05-28:</b> <ul> <li>Discussion about new "Admin organizer" internal-use website for managing tasks, admin votes, etc.</li> <li>Some discussion took place about possibly organizing a physical "admin gathering" somewhere.</li> <li>Michael Lotz has volunteered, and is currently a primary candidate for "Project management" type tasks.</li> <li>Mention of the need to assign/complete the Haiku, Inc. 2006 financial publication.</li> <li>Discussed Haiku Compatible Badges:</li> It appears many are currently in favor of Stephan's designs.
 

@@ -1,4 +1,4 @@
-# Locale Kit : ICU integration on the way
++++ type = "blog" author = "PulkoMandy" title = "Locale Kit : ICU integration on the way" date = "2009-07-25T14:46:56.000Z" tags = ["gsoc", "localekit", "gsoc2009"] +++
 
 <span class="inline inline-left"><a href="/images/locale_kit_interfacing_icu"><img src="/files/screenshots/ICU_Interfacing.thumbnail.png" alt="Locale Kit Interfacing with ICU" title="Locale Kit Interfacing with ICU"  class="image image-thumbnail " width="200" height="171" /></a><span class="caption" style="width: 198px;"><strong>Locale Kit Interfacing with ICU</strong></span></span>
 

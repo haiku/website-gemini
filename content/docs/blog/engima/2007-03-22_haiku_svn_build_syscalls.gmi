@@ -1,4 +1,4 @@
-# Haiku SVN: Build & Syscalls
++++ type = "blog" author = "engima" title = "Haiku SVN: Build & Syscalls" date = "2007-03-22T10:30:04.000Z" tags = ["VMWare", "CFLAGS", "syscall", "benchmark"] +++
 
 <h3>Quick Updates</h3> <em>20000-20100</em> <ul> <li>Addition of class screensavers</li> <li>Customisable CFLAGS</li> <li>Useful URI to application redirects</li> <li>Syscall benchmarks and results</li> </ul>
 

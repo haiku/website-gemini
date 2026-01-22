@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "umccullough" title = "Haiku Admin Meeting Summary - May 14, 2007" date = "2007-05-16T22:52:52.000Z" tags = ["admin meeting"] +++
 
 The decision to summarize and publish regular Haiku Admin meetings is a step being taken to improve transparency and openness largely as a result of recent and past community feedback on the mailing list. Additionally, there has been an <a href="/about/teams/admin">Admin Team Page</a> provided with some details about the current membership and responsibilities of the Haiku Admin Team.
 

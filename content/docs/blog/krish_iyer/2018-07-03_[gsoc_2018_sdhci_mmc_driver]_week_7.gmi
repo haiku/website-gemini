@@ -1,4 +1,4 @@
-# [GSoC 2018: SDHCI MMC Driver]: Week #7
++++ type = "blog" title = "[GSoC 2018: SDHCI MMC Driver]: Week #7" author = "krish_iyer" date = "2018-07-03 18:27:58+05:30" tags = ["haiku", "software", "GSoC 2018", "SDHCI", "MMC", "Drivers"] +++
 
 Finally, we got the register mapping work and they are responsive, we have tested by enabling software reset bit and it has  all the default values of registers which are set by Qemu except the present state register and capabilities register. These  both should be left unaffected as mentioned in the spec[1].  We are following SD Host specification version 1.00 for now, which also doesn't support UHS but Qemu seems to be supporting it  well.
 

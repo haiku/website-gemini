@@ -1,4 +1,4 @@
-#  
++++ type = "blog" title = "[GSoC 2023] .NET Developer Platform" author = "Trung Nguyen" date = "2023-05-06" tags = ["haiku", "software", "gsoc", "gsoc2023", "dotnet"] +++
 
 # Introduction
 

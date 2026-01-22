@@ -1,4 +1,4 @@
-# Finishing up extended partitions
++++ type = "blog" author = "bebop" title = "Finishing up extended partitions" date = "2009-08-14T13:12:42.000Z" tags = ["DriveSetup", "disk_device", "gsoc 2009"] +++
 
 Aloha Haiku Land!
 

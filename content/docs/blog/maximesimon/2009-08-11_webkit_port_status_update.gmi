@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "maximesimon" title = "WebKit port status update." date = "2009-08-11T10:20:00.000Z" tags = ["WebKit", "gsoc 2009"] +++
 
 <h3>We want news!</h3> … or at least I suppose that some people want to know the progresses made on the WebKit port.
 

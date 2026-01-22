@@ -1,4 +1,4 @@
-# 'Packaging Infrastructure' Contract Weekly Report #7
++++ type = "blog" author = "waddlesplash" title = "'Packaging Infrastructure' Contract Weekly Report #7" date = "2015-08-01T01:00:40.000Z" tags = ["contract work", "infrastructure", "package management"] +++
 
 Hello again!<br> <br> A lot has happened since last week. The DHCP bug that has been plaguing Haiku for over a month is now fixed, some various other issues have been cleared up, and the Kitchen has a lot of edge-cases fixed and properly parses dependencies.
 

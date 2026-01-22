@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "Barrett" title = "What Will Happen...." date = "2011-09-04T02:23:14.000Z" tags = ["contacts kit", "Services Kit", "gsoc2011"] +++
 
 You probably know that i have not passed the GSoC final evaluation. Although i am a bit discouraged (it's natural i think), as said from the begin, it's not my intention to abandon my project. Money wasn't my first motivation to work, and it will not be in any case.
 

@@ -1,4 +1,4 @@
-# [GSoC 2023] First course of action: fix memory leaks
++++ type = "blog" title = "[GSoC 2023] First course of action: fix memory leaks" author = "Zardshard" date = "2023-05-29 09:03:02-04:00" tags = ["haiku", "software", "icon-o-matic", "gsoc", "gsoc2023"] +++
 
 The coding period has started today! In the last blog post related to GSOC[1], I said "Here are the plans that I currently have. As with all plans, they are subject to change." They did indeed change since I found a tool to find memory leaks.
 

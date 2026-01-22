@@ -1,4 +1,4 @@
-# Virtualize a Physical Haiku Partition With Virtualbox
++++ type = "blog" author = "Barrett" title = "Virtualize a Physical Haiku Partition With Virtualbox" date = "2011-11-06T17:54:54.000Z" tags = ["virtual machine", "virtualbox"] +++
 
 In some situations, for example when we are using linux, can be extremely annoying to reboot into Haiku every time we need something (for example when we have a ppp connection).
 

@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "mmadia" title = "A brief summary of HAIKU's package management." date = "2012-08-20T21:26:09.000Z" tags = ["package management"] +++
 
 With the announcement of Ingo and Oliver's contracts for package management, it is worthwhile to revisit how package management will function. When reading, keep in mind that this explanation will be condensed, simplified, and partially incomplete. Nonetheless, it will provide a general overview on how things will work.
 

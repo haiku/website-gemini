@@ -1,4 +1,4 @@
-#  
++++ type = "blog" title = "Where is Haiku R1?" author = "kallisti5" date = "2017-10-09 10:48:48-05:00" tags = ["haiku", "software", "r1"] +++
 
 Haiku released R1 Alpha 4.1 on November 14th, 2012. (5 years ago next month).
 

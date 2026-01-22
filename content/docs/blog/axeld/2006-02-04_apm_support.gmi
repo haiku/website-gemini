@@ -1,4 +1,4 @@
-# APM Support
++++ type = "blog" author = "axeld" title = "APM Support" date = "2006-02-04T13:03:00.000Z" tags = ["apm"] +++
 
 Since a few days, we have a working APM driver in our kernel. APM stands for Advanced Power Management. It's a service as part of the computer's firmware commonly called BIOS in the x86 world. The latest APM standard, version 1.2, is already almost 10 years old. Today's computers do still support it, even though the preferred method to have similar services (among others) is now ACPI, or Advanced Configuration and Power Interface. Thanks to Nathan Whitehorn effort and Intel's example implementation, we even have the beginnings of ACPI support in Haiku as well.
 

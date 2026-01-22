@@ -1,4 +1,4 @@
-# Contract weekly report #54
++++ type = "blog" author = "PulkoMandy" title = "Contract weekly report #54" date = "2014-11-28T08:30:50.000Z" tags = ["contract work", "WebKit", "beta1", "ui"] +++
 
 Hello world!
 

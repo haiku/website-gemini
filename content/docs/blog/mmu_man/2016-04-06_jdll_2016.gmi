@@ -1,4 +1,4 @@
-# JDLL 2016
++++ type = "blog" author = "mmu_man" title = "JDLL 2016" date = "2016-04-06T15:48:13.000Z" tags = ["JDLL", "France"] +++
 
 <img src="/files/DSCN3972.JPG" width="25%" height="25%" align="right" alt="">This week-end I went to the <em>Journées du Logiciel Libre</em> (JDLL) to hold the Haiku booth. The JDLL is a local event over two days, mostly focused at general public, with workshops and even a FLOSS gaming room for kids, but also with some highly technical and ethical talks. It also has a room with 3D printers and other maker tools.
 

@@ -1,4 +1,4 @@
-# Making it Build
++++ type = "blog" author = "aldeck" title = "Making it Build" date = "2012-06-06T00:29:10.000Z" tags = ["webkit webpositive contract", "webpositive", "WebKit", "contract", "contract work"] +++
 
 Hello fellow Haiku'ers, as promised I'm posting a quick update on my WebKit / WebPositive contract work. It's been a little more than a week already, and a small report is due!
 

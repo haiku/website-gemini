@@ -1,4 +1,4 @@
-# GSoC: Improve and Extend Media Player
++++ type = "blog" author = "engleek" title = "GSoC: Improve and Extend Media Player" date = "2010-04-28T19:24:19.000Z" tags = ["media", "player", "dvd", "streaming", "gsoc", "gsoc2010"] +++
 
 As an operating system with a short boot time and a small footprint, Haiku is looking very interesting for the general public.
 

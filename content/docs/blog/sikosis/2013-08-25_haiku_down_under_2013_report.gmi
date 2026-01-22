@@ -1,4 +1,4 @@
-# Haiku Down Under 2013 Report
++++ type = "blog" author = "sikosis" title = "Haiku Down Under 2013 Report" date = "2013-08-25T12:03:20.000Z" tags = ["haiku", "downunder", "conference"] +++
 
 It was a rather ominous start to the day with fog covering most of the city early in the morning, but thankfully it turned out to be a great day both weather wise and for the Sixth Annual <a href="http://haikudownunder.com/">Haiku Down Under</a> Users and Developer's (Virtual) Conference held at The University of Queensland, Brisbane, Australia on 18th August, 2013.
 

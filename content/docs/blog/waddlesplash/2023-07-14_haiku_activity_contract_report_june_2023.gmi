@@ -1,4 +1,4 @@
-#  
++++ type = "blog" title = "Haiku Activity & Contract Report, June 2023" author = "waddlesplash" date = "2023-07-14 19:00:00-04:00" tags = ["contractor", "activity report"] +++
 
 As is the usual way of things, the monthly Activity Report is hereby combined with my Contract Report.
 

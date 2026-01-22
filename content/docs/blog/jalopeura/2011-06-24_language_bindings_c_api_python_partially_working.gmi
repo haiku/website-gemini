@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "jalopeura" title = " Language Bindings for the C++ API: Python partially working" date = "2011-06-24T01:21:24.000Z" tags = ["api", "gsoc2011", "perl", "python"] +++
 
 I've just uploaded some files onto http://dev.osdrawer.net/projects/perl-haiku-kits/files They are minimal implementations (window with a button) for Perl and Python. The Perl one works fine, but I'm still having issues with the Python.
 

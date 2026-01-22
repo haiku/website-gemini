@@ -1,4 +1,4 @@
-# UVC Driver -- GSoC Midterm Report
++++ type = "blog" author = "gabrielhartmann" title = "UVC Driver -- GSoC Midterm Report" date = "2011-07-10T23:31:45.000Z" tags = ["UVC", "driver", "gsoc 2011", "gsoc", "gsoc2011"] +++
 
 Since my last blog entry a lot of progress has been made.  Currently I'm right on the cusp of actually producing images on the screen that have been captured by my camera.  Successful communication is occurring between the driver and the camera in at least two different forms.
 

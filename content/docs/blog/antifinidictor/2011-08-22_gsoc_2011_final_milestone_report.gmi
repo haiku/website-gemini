@@ -1,4 +1,4 @@
-# GSOC 2011: Final Milestone Report
++++ type = "blog" author = "antifinidictor" title = "GSOC 2011: Final Milestone Report" date = "2011-08-22T16:13:26.000Z" tags = ["gsoc2011", "final milestone report", "milestone report", "final report"] +++
 
 Hello all,
 

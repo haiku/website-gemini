@@ -1,4 +1,4 @@
-# Haiku monthly activity report - September 2019
++++ type = "blog" title = "Haiku monthly activity report - September 2019" author = "PulkoMandy" date = "2019-10-03 13:14:07+02:00" tags = ["haiku", "software"] +++
 
 Hi there, it's time for the monthly report!
 

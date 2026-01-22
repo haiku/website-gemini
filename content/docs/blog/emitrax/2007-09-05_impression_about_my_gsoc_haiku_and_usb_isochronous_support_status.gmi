@@ -1,4 +1,4 @@
-# Impression about my GSoC with HAIKU and USB isochronous support status
++++ type = "blog" author = "emitrax" title = "Impression about my GSoC with HAIKU and USB isochronous support status" date = "2007-09-05T13:32:07.000Z" tags = ["usb", "gsoc"] +++
 
 During this summer I had the chance to improve myself, and work on the USB isochronous support of HAIKU. I wrote some code for every layer of the HAIKU USB stack: USBKit library, usb_raw driver, usb bus manager and most of all the uhci driver. I also spent/waisted some weeks with the usb_webcam media addon, but sadly with not success. Anyway here is what I did.
 

@@ -1,4 +1,4 @@
-# [GSoC 2017 - BTRFS Write Supports] Week #3
++++ type = "blog" title = "[GSoC 2017 - BTRFS Write Supports] Week #3" author = "HyChe" date = "2017-05-28 18:24:27+07:00" tags = ["haiku", "gsoc", "gsoc2017", "filesystem", "btrfs", "driver"] +++
 
 <p>Hi everyone,</p>
 

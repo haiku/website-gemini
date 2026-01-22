@@ -1,4 +1,4 @@
-# Google Summer of Code Project: Alternate System Timers
++++ type = "blog" author = "dustin_howett" title = "Google Summer of Code Project: Alternate System Timers" date = "2008-05-11T00:45:58.000Z" tags = ["soc", "gsoc", "haiku", "timer", "hpet"] +++
 
 Hello, Everybody! I'm Dustin, the student in the 2008 Summer of Code who is going to implement support for system timers other than the TSC in Haiku.
 

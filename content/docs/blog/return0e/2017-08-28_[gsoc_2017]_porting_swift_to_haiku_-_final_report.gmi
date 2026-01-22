@@ -1,4 +1,4 @@
-# [GSoC 2017] Porting Swift to Haiku - Final Report
++++ type = "blog" title = "[GSoC 2017] Porting Swift to Haiku - Final Report" author = "return0e" date = "2017-08-28 07:15:32+01:00" tags = ["haiku", "swift", "gsoc17","software"] +++
 
 Hello everyone!
 

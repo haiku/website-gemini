@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "maximesimon" title = "Integrate WebKit in Haiku native browser, My GSoC proposal." date = "2009-04-21T14:13:34.000Z" tags = ["gsoc", "WebKit", "browser", "gsoc2009"] +++
 
 <h3>Personal Profile</h3>
 

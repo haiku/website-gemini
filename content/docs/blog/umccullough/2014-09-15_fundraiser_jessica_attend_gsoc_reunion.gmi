@@ -1,4 +1,4 @@
-# Fundraiser for Jessica to attend GSoC Reunion
++++ type = "blog" author = "umccullough" title = "Fundraiser for Jessica to attend GSoC Reunion" date = "2014-09-15T16:49:15.000Z" tags = ["gsoc", "jessicah"] +++
 
 <b>Update: Jessica raised the funds she needs, thanks to everyone who supported her!</b>
 

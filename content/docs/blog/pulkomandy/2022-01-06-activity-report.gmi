@@ -1,4 +1,4 @@
-# Haiku activity report - December 2021
++++ type = "blog" title = "Haiku activity report - December 2021" author = "PulkoMandy" date = "2022-01-06 08:53:07+02:00" tags = ["haiku", "software", "activity report"] +++
 
 Happy new year!
 

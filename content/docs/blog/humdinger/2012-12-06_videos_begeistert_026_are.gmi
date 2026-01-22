@@ -1,4 +1,4 @@
-# Videos of BeGeistert 026 are up
++++ type = "blog" author = "humdinger" title = "Videos of BeGeistert 026 are up" date = "2012-12-06T18:00:16.000Z" tags = ["begeistert", "Talks", "Videos", "BeGeistert 026"] +++
 
 A bit late, but finally I managed to process my recordings of the talks at BeGeistert 026 "Marathon". The quality isn't terrific, looks like the picture was much better last time at BG 024, when we apparently didn't darken the room so much. Audio might be slightly better, as I have used compression and a bit of filtering following advice from Haikollegue Sean Collins.
 

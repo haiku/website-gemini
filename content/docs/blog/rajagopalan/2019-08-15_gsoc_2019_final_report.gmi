@@ -1,4 +1,4 @@
-# GSOC 2019 Final Report
++++ type = "blog" title = "GSOC 2019 Final Report" author = "rajagopalan" date = "2019-08-15 20:40:33+05:30" tags = ["haiku", "software"] +++
 
 ### Introduction Hey there beautiful person reading this post. We are in the endgame now (Ha get it avengers reference!). Yes, Google summer of code 2019 is coming to an end. Phew couldn't say how 3 months passed by, but this is one of my most memorable experiences I will never forget. So let me wrap GSOC with this final report. Buckle up tight it's going to be a long post...
 

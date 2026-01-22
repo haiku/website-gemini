@@ -1,4 +1,4 @@
-#  
++++ type = "blog" title = "Haiku monthly activity report, May 2019" author = "waddlesplash" date = "2019-06-08 13:00:00-04:00" tags = [] +++
 
 Welcome to the monthly report for May 2019! PulkoMandy is once again busier than usual, so I'm filling in.
 

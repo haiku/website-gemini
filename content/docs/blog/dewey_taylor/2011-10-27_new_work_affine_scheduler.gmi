@@ -1,4 +1,4 @@
-# New Work on Affine Scheduler
++++ type = "blog" author = "dewey_taylor" title = "New Work on Affine Scheduler" date = "2011-10-27T01:01:54.000Z" tags = ["scheduler", "affinity", "hyperthreading"] +++
 
 When I first started working on the scheduler I didn't make a big deal about it, but when I did mention it I was quite surprised at the amount of interest there was in what I was doing. So much so that it was suggested that I start blogging about it, so here I am! I would like to take this time to introduce myself as well as the work that I am doing on the scheduler.
 

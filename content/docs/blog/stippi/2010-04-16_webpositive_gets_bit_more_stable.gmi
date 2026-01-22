@@ -1,4 +1,4 @@
-# WebPositive gets a bit more stable
++++ type = "blog" author = "stippi" title = "WebPositive gets a bit more stable" date = "2010-04-16T14:39:21.000Z" tags = ["native browser", "WebKit", "webpositive", "contract work"] +++
 
 At least it can finally log into Facebook. Not that I am a fan of Facebook, but I realize how important it is for WebPositive to be able to log into that site. Some other seemingly random crashes have a good chance of being fixed, too, since I was able to track down a memory corruption bug that was caused by different parts of the code being compiled with incompatible defines. Unfortunately this took a bit of experiementing until I was finally on the right track. Today I hooked up my quad core machine to temporarily replace my regular Haiku work machine, which is CPU wise a bit underpowered. The insane rebuild times were really getting on my nerves. Even with the quad core it took quite a bit of patience, but to be absolutely sure to compile everything with the right defines, I had to compile... well... everything. Many times.
 

@@ -1,4 +1,4 @@
-# Haiku locale kit: the translator handbook
++++ type = "blog" author = "PulkoMandy" title = "Haiku locale kit: the translator handbook" date = "2009-09-24T21:49:16.000Z" tags = ["localekit"] +++
 
 GSoC is now over. It was quite fun to work with Haiku this summer, I learnt a lot of things, I gained commit access, and soon I'll have a new TShirt to wear :)
 

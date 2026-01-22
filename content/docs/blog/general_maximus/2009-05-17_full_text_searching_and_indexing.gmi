@@ -1,4 +1,4 @@
-# Introduction to the (Unnamed) Full Text Searching and Indexing Tool
++++ type = "blog" author = "general_maximus" title = "Introduction to the (Unnamed) Full Text Searching and Indexing Tool" date = "2009-05-17T13:29:50.000Z" tags = ["hcd", "hcd2009"] +++
 
 Hi, I'm Ankur Sethi. I'm a first year Information Technology student at Indraprastha University, New Delhi. I will be working on a full text indexing and search application for Haiku Code Drive 2009.
 

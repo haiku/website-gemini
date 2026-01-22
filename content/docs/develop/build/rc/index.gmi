@@ -1,0 +1,59 @@
+# The rc resource compiler
+* 
+=> rc.gmi Introduction
+* 
+=> rc.gmi#how-to-install How to install
+* 
+=> rc.gmi#writing-resource-scripts Writing resource scripts
+* 
+=> rc.gmi#big-fat-resources Big fat resources
+* 
+=> rc.gmi#application-resources Application resources
+* 
+=> rc.gmi#compiling Compiling
+* 
+=> rc.gmi#decompiling Decompiling
+* 
+=> rc.gmi#authors Authors
+* 
+=> grammar.gmi rdef grammar
+* 
+=> grammar.gmi#the-lexer The lexer
+* 
+=> grammar.gmi#the-parser The parser
+* 
+=> grammar.gmi#semantics Semantics
+* 
+=> grammar.gmi#resource-names Resource names
+* 
+=> grammar.gmi#data-types-and-type-casts Data types and type casts
+* 
+=> grammar.gmi#arrays Arrays
+* 
+=> grammar.gmi#messages-and-archives Messages and archives
+* 
+=> grammar.gmi#user-defined-types User-defined types
+* 
+=> grammar.gmi#the-grammar-and-bison The grammar and Bison
+* 
+=> grammar.gmi#symbol-table Symbol table
+* 
+=> grammar.gmi#misc-remarks Misc remarks
+* 
+=> librdef.gmi The librdef library
+* 
+=> beres-deres.gmi Differences with beres/deres
+* 
+=> beres-deres.gmi#differences-with-beres Differences with beres
+* 
+=> beres-deres.gmi#differences-with-deres Differences with deres
+* 
+=> history.gmi History
+* 
+=> history.gmi#version-1-1-december-22-2003 Version 1.1 (December 22, 2003)
+* 
+=> history.gmi#version-1-0-february-16-2003 Version 1.0 (February 16, 2003)
+* 
+=> todo.gmi Ye Olde To Do List
+* 
+=> notes.gmi Work notes

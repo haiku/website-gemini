@@ -1,4 +1,4 @@
-# Implementing ZeroConf support for Haiku with mDNSResponder
++++ type = "blog" author = "majie" title = "Implementing ZeroConf support for Haiku with mDNSResponder" date = "2009-04-22T03:43:33.000Z" tags = ["gsoc", "zeroconf", "mDNSResponder", "gsoc2009"] +++
 
 <h3><b>Personal Profile</b></h3>
 

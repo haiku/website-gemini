@@ -1,4 +1,4 @@
-# Back To The Kernel 
++++ type = "blog" author = "axeld" title = "Back To The Kernel " date = "2005-12-19T20:16:00.000Z" tags = ["kernel", "vm", "swap"] +++
 
 It's not that the app_server is ready and polished or anything close - but it's in an acceptable state. For now, my main focus is back in the kernel, although I'll come back to the app_server from time to time in the next days and weeks.
 

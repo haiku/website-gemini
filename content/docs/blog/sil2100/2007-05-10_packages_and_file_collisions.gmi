@@ -1,4 +1,4 @@
-# Packages and file collisions
++++ type = "blog" author = "sil2100" title = "Packages and file collisions" date = "2007-05-10T18:29:30.000Z" tags = ["soc", "usability", "pkg"] +++
 
 Finally back with a proper development environment.
 

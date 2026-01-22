@@ -1,5 +1,7 @@
 # The build system
 * 
+=> configure.gmi The configure script
+* 
 => jam.gmi The build tool: Jam
 * 
 => jam.gmi#requirements-for-a-build-tool Requirements for a build tool
@@ -16,7 +18,9 @@
 * 
 => sourcecode.gmi#source-tree-organization Source tree organization
 * 
-=> sourcecode.gmi#managing-gcc-and-binutils-updates-using-vendor-branches Managing GCC and binutils updates using vendor branches
+=> sourcecode.gmi#managing-3rd-party-code Managing 3rd-party code
+* 
+=> sourcecode.gmi#gcc-and-binutils-updates-using-vendor-branches GCC and binutils updates using vendor branches
 * 
 => sourcecode.gmi#how-to-import-upstream-binutils-changes How to import upstream binutils changes
 * 
@@ -24,9 +28,71 @@
 * 
 => sourcecode.gmi#comparing-our-code-with-upstream Comparing our code with upstream
 * 
+=> sourcecode.gmi#third-party-code-in-haiku-without-vendor-branches Third party code in Haiku without vendor branches
+* 
 => compilers.gmi Haiku compilers
 * 
 => compilers.gmi#summary-of-changes-made-to-gcc-for-haiku-support Summary of changes made to gcc for Haiku support
+* 
+=> rc/index.gmi The rc resource compiler
+* 
+=> rc/rc.gmi Introduction
+* 
+=> rc/rc.gmi#how-to-install How to install
+* 
+=> rc/rc.gmi#writing-resource-scripts Writing resource scripts
+* 
+=> rc/rc.gmi#big-fat-resources Big fat resources
+* 
+=> rc/rc.gmi#application-resources Application resources
+* 
+=> rc/rc.gmi#compiling Compiling
+* 
+=> rc/rc.gmi#decompiling Decompiling
+* 
+=> rc/rc.gmi#authors Authors
+* 
+=> rc/grammar.gmi rdef grammar
+* 
+=> rc/grammar.gmi#the-lexer The lexer
+* 
+=> rc/grammar.gmi#the-parser The parser
+* 
+=> rc/grammar.gmi#semantics Semantics
+* 
+=> rc/grammar.gmi#resource-names Resource names
+* 
+=> rc/grammar.gmi#data-types-and-type-casts Data types and type casts
+* 
+=> rc/grammar.gmi#arrays Arrays
+* 
+=> rc/grammar.gmi#messages-and-archives Messages and archives
+* 
+=> rc/grammar.gmi#user-defined-types User-defined types
+* 
+=> rc/grammar.gmi#the-grammar-and-bison The grammar and Bison
+* 
+=> rc/grammar.gmi#symbol-table Symbol table
+* 
+=> rc/grammar.gmi#misc-remarks Misc remarks
+* 
+=> rc/librdef.gmi The librdef library
+* 
+=> rc/beres-deres.gmi Differences with beres/deres
+* 
+=> rc/beres-deres.gmi#differences-with-beres Differences with beres
+* 
+=> rc/beres-deres.gmi#differences-with-deres Differences with deres
+* 
+=> rc/history.gmi History
+* 
+=> rc/history.gmi#version-1-1-december-22-2003 Version 1.1 (December 22, 2003)
+* 
+=> rc/history.gmi#version-1-0-february-16-2003 Version 1.0 (February 16, 2003)
+* 
+=> rc/todo.gmi Ye Olde To Do List
+* 
+=> rc/notes.gmi Work notes
 * 
 => ide.gmi Using an IDE
 * 

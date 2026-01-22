@@ -1,4 +1,4 @@
-# GSoC: IPv6 implementation progress
++++ type = "blog" author = "kfx" title = "GSoC: IPv6 implementation progress" date = "2010-07-05T10:15:43.000Z" tags = ["gsoc gsoc2010 ipv6"] +++
 
 Up to now an initial version of the following functionality has been made:
 

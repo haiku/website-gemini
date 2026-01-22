@@ -1,4 +1,4 @@
-# QR Encode your KDL Output!
++++ type = "blog" author = "mmlr" title = "QR Encode your KDL Output!" date = "2012-07-01T21:27:08.000Z" tags = ["KDL", "QR codes"] +++
 
 <img src="/files/qrencode.png" align="right" /> <p>Usually when you arrive in KDL (Kernel Debugging Land) it means that something bad happened. KDL provides a lot of tools to investigate what might have taken place. Still, it is quite possible that, even though you have that arsenal of tools available, you may not be able to immediately make sense of what is going on. In that case you ideally either continue debugging yourself or you write up a nice bug report over at <a href="https://dev.haiku-os.org/">the Haiku bug tracker</a> so that someone else can take a closer look.</p>
 

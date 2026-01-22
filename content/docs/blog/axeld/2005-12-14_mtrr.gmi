@@ -1,4 +1,4 @@
-# MTRR
++++ type = "blog" author = "axeld" title = "MTRR" date = "2005-12-14T09:47:00.000Z" tags = ["mtrr", "kernel"] +++
 
 Sure, you too! Since Stephan made a BDirectWindow based version of our app_server that directly uses the hardware frame buffer and acceleration features, we noticed that it felt much faster there than on real hardware. How could that be?
 

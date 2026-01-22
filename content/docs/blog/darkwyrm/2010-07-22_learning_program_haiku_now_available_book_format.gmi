@@ -1,4 +1,4 @@
-# Learning to Program With Haiku Now Available in Book Format
++++ type = "blog" author = "darkwyrm" title = "Learning to Program With Haiku Now Available in Book Format" date = "2010-07-22T17:21:31.000Z" tags = ["development", "tutorials", "books", "learning-to-program-with-haiku"] +++
 
 The book is finally done! Getting through the proof copy took *so* much longer than I ever expected. Luckily, right now I'm out of town with a lot more time on my hands, so I had a lot more time to be able to sit down and get through it. It has been published through Lulu.com so that a great deal more of the profit from the book goes to me instead of the pockets of a book retailer. Here is the link to the book and e-book.
 

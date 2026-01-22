@@ -1,4 +1,4 @@
-# GSoC 2021 Progress Update 3: Coding style checker bot for Gerrit
++++ type = "blog" title = "GSoC 2021 Progress Update 3: Coding style checker bot for Gerrit" author = "ritz" date = "2021-07-21 17:55:41+05:30" tags = ["haiku", "software", "gsoc", "gsoc2021"] +++
 
 Tl;dr I have completed the bot with basic functionality for my local gerrit instance
 

@@ -1,4 +1,4 @@
-# GSoC 2021 Final Report: Modernizing Chat-O-Matic (Caya)
++++ type = "blog" title = "GSoC 2021 Final Report: Modernizing Chat-O-Matic (Caya)" author = "JadedCtrl" date = "2021-08-19 22:02:15-05:00" tags = ["gsoc", "gsoc2021", "software"] +++
 
 GSoC's coming to an end, so it's time for a final update: An overview of what I've been working on this summer.
 

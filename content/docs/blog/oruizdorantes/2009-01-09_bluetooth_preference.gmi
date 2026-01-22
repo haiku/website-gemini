@@ -1,4 +1,4 @@
-# Bluetooth Preference
++++ type = "blog" author = "oruizdorantes" title = "Bluetooth Preference" date = "2009-01-09T23:56:57.000Z" tags = ["bluetooth"] +++
 
 This is the first time I blog on Haiku site. During the development of the Haiku Bluetooth Stack I have been posting on my blog, while the development was centered hardcore parts, and deeply related to the technology and the specification books. I guess writing all that here would have been spamming the community:)
 

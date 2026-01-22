@@ -1,4 +1,4 @@
-# Back from Auckland
++++ type = "blog" author = "yourpalal" title = "Back from Auckland" date = "2012-05-03T16:51:24.000Z" tags = ["Auckland"] +++
 
 <p>With one big <a href="https://cgit.haiku-os.org/haiku/tag/?id=hrev44092">push</a> the work I did on ALM (Auckland Layout Model) while I was at the University of Auckland is now in the main Haiku repo. In short, I&rsquo;ve brought the BALMLayout up to standard with the other layouts in Haiku, and added some new features as well.
 

@@ -1,4 +1,4 @@
-# Hello from the Haiku Promotion 'Team'!
++++ type = "blog" title = "Hello from the Haiku Promotion 'Team'!" author = "jt15s" date = "2020-12-31 21:33:25+11:00" tags = ["haiku", "software", "promotion"] +++ Hi there, I'm jt15s, a new Haiku community member! I've been following the project for a few years now since I stumbled upon an article about Haiku.
 
 If you read the title (which I'm assuming you did), you’re probably going, "wait, we have a promotion team?" Well, yes, now we do. As an informal “team” of two (currently), we are super excited to share our plans to help promote Haiku and make more people aware of it. In fact, this is the *second* iteration of a promotion team for Haiku. Until 2010, there was an active promotions team. Unfortunately, those who were involved on the team are not active in the Haiku community anymore and hence promotion efforts have mostly been dormant - until now.
 

@@ -1,4 +1,4 @@
-# cpuidle: quarter term report
++++ type = "blog" author = "yongcong" title = "cpuidle: quarter term report" date = "2012-06-22T15:42:42.000Z" tags = ["gsoc", "gsoc2012"] +++
 
 I completed my 1/4 goal ahead of proposal schedule. By the original plan, I should investigate whether we need necessary changes to x86 idle routine and x86 architecture specific instruction usage. The results were reported to gsoc maillist on 3rd Jun. Here are the copied results: 1. no need to change x86 idle routine 2. monitor/mwait works perfectly. I have measured the power consumption when using idle implemented with "monitor/mwait", it's the same as the version implemented with "hlt".
 

@@ -1,4 +1,4 @@
-# [GSoC 2018] TrackGit - Git Addon for Tracker
++++ type = "blog" title = "[GSoC 2018] TrackGit - Git Addon for Tracker" author = "hrily" date = "2018-04-25 17:58:59+05:30" tags = ["haiku", "gsoc", "gsoc2018", "tracker"] +++
 
 Hie, I'm Hrishikesh Hiraskar (IRC/Trac/Github: hrily) from India.  I will be working on __TrackGit__, a git addon for Git version control for Tracker under GSoC 2018.
 

@@ -1,4 +1,4 @@
-# How to find memory leaks
++++ type = "blog" title = "How to find memory leaks" author = "Zardshard" date = "2023-05-23 10:44:38-04:00" tags = ["malloc_debug", "libroot_debug.so", "heap", "memory", "debugging"] +++
 
 In 2010-2011, mmlr created a new memory allocator: the guarded heap memory allocator. This allocator helps detect various bugs such as writing past the end of allocated memory, reading uninitialized memory, and freeing freed memory. These uses are detailed in "Using malloc_debug to Find Memory Related Bugs"[1]. Later, in 2015, mmlr had a new project: updating the memory allocator to be able to report memory leaks.
 

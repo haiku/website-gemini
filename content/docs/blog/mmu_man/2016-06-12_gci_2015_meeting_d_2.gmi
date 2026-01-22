@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "mmu_man" title = "GCI 2015 meeting; D -2" date = "2016-06-12T00:18:52.000Z" tags = ["GCI", "Code-In", "hackerspace"] +++
 
 Friday, I sleep surprisingly well for a first night abroad. I chose to wear a red FSFE t-shirt "<a href="https://fsfe.org/order/">There is NO CLOUD, just some other people's computers</a>".
 

@@ -1,4 +1,4 @@
-# Tales From the Land of Auck and Zea
++++ type = "blog" author = "yourpalal" title = "Tales From the Land of Auck and Zea" date = "2012-02-16T21:42:05.000Z" tags = [] +++
 
 As was announced a little while ago, I recently got the opportunity to travel to Auckland, New Zealand to do some Computer Science research at the University of Auckland (UoA) with Christof Lutteroth and Gerald Weber (two professors here). Actually, it's not so much 'recently' as it is 'currently', since I'm still here! Christof has been interested in Haiku for a while, and has already done some research using Haiku. Stack and Tile, for instance, started as a research project here, as did the BALMLayout layout class. Furthermore, I'm not the only Haiku-er here, as Clemens Zeidler is currently working on his PhD in CS under the supervision of Christof and Gerald.
 

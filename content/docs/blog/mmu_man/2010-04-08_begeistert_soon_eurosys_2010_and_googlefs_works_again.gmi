@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "mmu_man" title = "BeGeistert soon, EuroSys 2010, and GoogleFS works again!" date = "2010-04-08T00:19:42.000Z" tags = ["begeistert", "eurosys", "GoogleFS", "google", "filesystem", "bookmark", "query"] +++
 
 <a href="http://begeistert.org/" title="BeGeistert">BeGeistert</a> is nearly on us, with the long awaited return of the ColaCoder™, and of course I must be there.
 

@@ -1,4 +1,4 @@
-# cpuidle: midterm report
++++ type = "blog" author = "yongcong" title = "cpuidle: midterm report" date = "2012-07-11T13:04:01.000Z" tags = ["gsoc", "gsoc2012"] +++
 
 With the good preparation in quarter term/bonding period, I have completed the generic cpuidle kernel module, native intel cpuidle module and cpuidle driver(for states/info reporting). By original plan, these tasks will be all completed by the end of 3/4 term...
 

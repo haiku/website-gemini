@@ -1,4 +1,4 @@
-#  
++++ type = "blog" title = "Haiku monthly activity report, September/October 2018" author = "waddlesplash" date = "2018-10-31 21:04:35-04:00" tags = ["java"] +++
 
 Welcome to the tenth monthly report for 2018! PulkoMandy is busy packing and then travelling to BeGeistert, and most of the work these past two months was done by myself anyway, so, I'm covering for him once again. (Writing about yourself in the third person is fun!)
 

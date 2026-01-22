@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "scgtrp" title = "VBox guest additions: end of bonding period; first quarter goals" date = "2011-05-25T10:25:27.000Z" tags = ["gsoc2011", "milestone report", "virtualbox"] +++
 
 During the community bonding period I played around with the existing guest additions patch, getting it to build and switching my repository over to git to preserve my sanity. I've learned a lot about the way Haiku drivers and modules work, especially in the last few days, and it seems that a few things are simpler than I originally thought they'd be and some things are more difficult.
 

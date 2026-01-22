@@ -1,4 +1,4 @@
-# [GSoC 2018] SDHCI MMC Driver
++++ type = "blog" title = "[GSoC 2018] SDHCI MMC Driver" author = "krish_iyer" date = "2018-04-25 22:08:09+05:30" tags = ["haiku", "software"] +++
 
 <p>Hello everyone! I am B Krishnan Iyer(irc: krish-iyer, telegram: krish_iyer trac: krish_iyer, github: krish-iyer), currently pursuing bachelor's in Electrical and Electronics Engineering at Amrita University. I am one of the three GSoC participants with Haiku. I am greatful to everyone for accepting me as an intern. This summer I will be developing SDHCI MMC driver.</p>
 

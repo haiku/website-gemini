@@ -1,4 +1,4 @@
-# Haiku almost-monthly activity report - October and November 2019
++++ type = "blog" title = "Haiku almost-monthly activity report - October and November 2019" author = "PulkoMandy" date = "2019-12-05 12:14:07+02:00" tags = ["haiku", "software"] +++
 
 The last two months have been quite busy for me and I had no time to write up a report. Remember that everyone is welcome to contribute to the website and if you wand to write the report from time to time, this would be much appreciated, by me because I wouldn't need to do it, and by others because they will enjoy reading things written with a different style and perspective.
 

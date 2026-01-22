@@ -1,4 +1,4 @@
-# Results: S&T Evaluation and Web Survey
++++ type = "blog" author = "czeidler" title = "Results: S&T Evaluation and Web Survey" date = "2013-09-24T00:27:32.000Z" tags = ["S&T", "Stack & Tile", "Auckland", "evaluation", "survey"] +++
 
 Most work on my PhD thesis is done and I like to provide you with the results from our research at Uni Auckland on Stack & Tile. At BeGeistert 023 (October 2010) I conducted a user evaluation of Stack & Tile to answer the question whether stacking and tiling within an overlapping window manager bring any benefits to the user. At the end of last year I used a web survey to investigate if and how Stack & Tile is used by actual users. The results of both studies have been presented recently at the INTERACT'13 conference in Cape Town. INTERACT is an A ranked conference for Human Computer Interaction (HCI) and hopefully I was able to interest some other researchers in Haiku. Thanks again for all participants of the evaluation and the survey!
 

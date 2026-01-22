@@ -1,4 +1,4 @@
-# Report of BeGeistert 031 in Hamburg
++++ type = "blog" title = "Report of BeGeistert 031 in Hamburg" author = "humdinger" date = "2018-11-09 19:26:25+01:00" tags = ["haiku", "begeistert", "event", "meeting"] +++
 
 <div align="center"> <img width="100%" src="/files/blog/humdinger/BeGeistert_031/BG031_title.jpg" title="BeGeistert 031 in Hamburg " alt="BeGeistert 031 in Hamburg" /> </div> <p>Only slighty bigger than 2017's "Kernel Debugging Camp" in Toulouse, this year's regular BeGeistert 031 (on its last day affectionately mottoed "The Dirty One") was held from November 1st to 4th in Hamburg.</p>
 
@@ -122,8 +122,6 @@ Shortly before BeGeistert, I have released the source code of WonderBrush v3[1],
 
 ---
 
-<img width="33%" hspace="20" vspace="0" align="right"src="/files/blog/humdinger/BeGeistert_031/Blue_Leaf_Sticker.jpg" title="XYZ's leafy sticker" alt="XYZ's leafy sticker" />
-
-Before everyone left, they got some nice blue leaf stickers that Roi Red has sent over all the way from Spain. Thanks very much, Roi! Here is Kacper's - slightly blurry - notebook where it fits in nicely.
+<img width="33%" hspace="20" vspace="0" align="right" src="/files/blog/humdinger/BeGeistert_031/Blue_Leaf_Sticker.jpg" title="Roi Red's leafy sticker" alt="Roi Red's leafy sticker" /> Before everyone left, they got some nice blue leaf stickers that Roi Red has sent over all the way from Spain. Thanks very much, Roi! Here is Kacper's - slightly blurry - notebook where it fits in nicely.
 
 All around a very nice BeGeistert, thanks to Christian and Lorenz and their smooth organizing. Let's hope we'll meet again in Hamburg or elsewhere, ideally with some more attendees! 

@@ -1,4 +1,4 @@
-# Debugging RISCV-64 bootloader in QEMU
++++ type = "blog" title = "Debugging RISCV-64 bootloader in QEMU" author = "kallisti5" date = "2021-01-17 09:36:04-06:00" tags = ["haiku", "software", "riscv64", "qemu"] +++
 
 Debugging early bootloader code can be extremely difficult. The lack of printf and other classical black-box debugging tools means you're limited to one of the following methods of debugging lockups:
 

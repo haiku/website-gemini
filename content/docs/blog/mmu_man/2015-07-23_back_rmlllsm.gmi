@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "mmu_man" title = "Back from RMLL/LSM!" date = "2015-07-22T22:29:52.000Z" tags = ["rmll", "lsm", "FLOSS", "event", "booth"] +++
 
 I'm back from the <a href="https://2015.rmll.info/">Libre Software Meeting (RMLL)</a>, took me some time to recover from the highly packed week. Indeed, in addition to the mandatory Haiku booth, I had 4 talks to give (and so slides to finish), and I ended up being chairman for the Embedded track.
 

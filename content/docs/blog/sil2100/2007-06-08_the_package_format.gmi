@@ -1,4 +1,4 @@
-# The Package format
++++ type = "blog" author = "sil2100" title = "The Package format" date = "2007-06-08T17:07:24.000Z" tags = ["gsoc", "pkg", "packages"] +++
 
 Personal rant: my university examination session draws near and with it all credit tests as well. I'm doing my best in time management not to put any of my current tasks and projects into starvation, but exactly as Ryan wrote to me - it's <u>not</u> easy.
 

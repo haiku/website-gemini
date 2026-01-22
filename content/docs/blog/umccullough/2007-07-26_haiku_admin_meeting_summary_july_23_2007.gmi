@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "umccullough" title = "Haiku Admin Meeting Summary - July 23, 2007" date = "2007-07-26T07:42:31.000Z" tags = ["admin meeting"] +++
 
 <p><b>Haiku Admin Meeting 2007-07-23:</b> <ul> <li>A quick GSoC status was discussed.</li> <li>It was agreed that having Axel and Ingo working together in the same location to focus on many of the VM and stability issues was a successful endeavor:</li> It was proposed that this be done more often, with possible sponsorship from Haiku, Inc. to pay for costs whenever possible.
 

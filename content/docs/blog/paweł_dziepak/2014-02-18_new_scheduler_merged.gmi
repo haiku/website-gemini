@@ -1,4 +1,4 @@
-# New scheduler merged
++++ type = "blog" author = "paweł_dziepak" title = "New scheduler merged" date = "2014-02-18T03:47:00.000Z" tags = ["contract work", "kernel", "scheduler"] +++
 
 As you undoubtedly know, my scheduler branch has been merged a month ago. Also, some important changes has been made since, including bug fixes and performance improvements. It is now time to sum up what already has been done, and show some long promised benchmark results. There are still some issues that need to be addressed, but I do not think that any of them is a major one.
 

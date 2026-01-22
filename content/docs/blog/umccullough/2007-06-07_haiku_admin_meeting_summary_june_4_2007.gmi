@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "umccullough" title = "Haiku Admin Meeting Summary - June 4, 2007" date = "2007-06-07T05:30:45.000Z" tags = ["admin meeting"] +++
 
 <p><b>Haiku Admin Meeting 2007-06-04:</b> <ul> <li>There was some discussion about the status of several of the <a href="http://code.google.com/soc/haiku/about.html">GSoC students/mentors</a> now that GSoC has <a href="http://code.google.com/support/bin/answer.py?answer=60325&topic=10729">officially begun</a> (May 28th).
 

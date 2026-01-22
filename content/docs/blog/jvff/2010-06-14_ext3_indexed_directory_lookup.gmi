@@ -1,4 +1,4 @@
-# Ext3 Indexed Directory Lookup
++++ type = "blog" author = "jvff" title = "Ext3 Indexed Directory Lookup" date = "2010-06-14T15:58:53.000Z" tags = ["gsoc", "gsoc2010", "htree", "ext3"] +++
 
 The first milestone of the ext3 implementation was to have read support. Since ext2 read support is already implemented, the only missing feature (as far as I can tell) for ext3 read implementation was support for indexed directories. In ext3, indexed directories use a tree structured called HTree. This tree has a fixed depth and its keys are file name hashes. Each node of the tree is a file system block inside the directory file (ie. linked by the directory i-node).
 

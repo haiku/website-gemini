@@ -1,4 +1,4 @@
-# GSOC 2011: Three-Quarter Term Milestone Report
++++ type = "blog" author = "antifinidictor" title = "GSOC 2011: Three-Quarter Term Milestone Report" date = "2011-08-05T21:17:11.000Z" tags = ["gsoc2011", "milestone report", "three quarter term"] +++
 
 So far SDL 1.3 for Haiku has made significant progress.  Video draws correctly both with and without opengl, audio appears to already work, and various tests provided in the SDL test suite seem to work.  However, there are a few significant bugs I have come across.
 

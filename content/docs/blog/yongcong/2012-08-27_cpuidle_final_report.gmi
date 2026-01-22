@@ -1,4 +1,4 @@
-# cpuidle: final report
++++ type = "blog" author = "yongcong" title = "cpuidle: final report" date = "2012-08-27T12:18:33.000Z" tags = [] +++
 
 the last quarter term is mostly spent on acpi cpuidle driver implementation. I also spent about 2 days to adjust the cpuidle framework so that the cpuidle generic module is loaded by lowlevel cpuidle driver, while the later will be loaded during boot up either by bus enumeration or calling get_module() manually. I also tested the power after acpi cpuidle driver is finished. The result is as good as intel native one. Since all the goals defined in my proposal are achieved, so the project is successfully finished.
 

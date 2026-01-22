@@ -1,4 +1,4 @@
-# Working on WebPositive
++++ type = "blog" author = "PulkoMandy" title = "Working on WebPositive" date = "2013-08-30T00:56:03.000Z" tags = ["webpositive", "Services Kit", "contract work"] +++
 
 As you may know, I'm going to spend some time again as a full-time Haiku developer. This time, I'll be working on improving WebPositive and the WebKit port to bring a better web browsing experience to Haiku users.
 

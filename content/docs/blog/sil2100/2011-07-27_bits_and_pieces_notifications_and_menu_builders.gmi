@@ -1,4 +1,4 @@
-# Bits and Pieces: Notifications and Menu Builders
++++ type = "blog" author = "sil2100" title = "Bits and Pieces: Notifications and Menu Builders" date = "2011-07-27T17:59:11.000Z" tags = ["interface kit", "application kit"] +++
 
 It's been a while since I last wrote something here on Blog-O-Sphere. Probably most of you don't remember me anymore - but I'm still around, still experimenting with things Haiku in my free time.
 

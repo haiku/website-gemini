@@ -1,4 +1,4 @@
-# Streaming Support And MediaKit Development - Report #7
++++ type = "blog" author = "Barrett" title = "Streaming Support And MediaKit Development - Report #7" date = "2016-07-15T10:39:58.000Z" tags = ["streaming contract", "media server", "media_kit"] +++
 
 Let's talk about the most recent improvements in streaming support, this is perhaps a bit more technical than in past but in this case most of the work was related to refine internal mechanisms. I'm going to talk also about recent MediaPlayer changes, as well as other things.
 

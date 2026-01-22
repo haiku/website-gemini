@@ -1,4 +1,4 @@
-# [GSoC 2023] VPN Support Project Update #6
++++ type = "blog" title = "[GSoC 2023] VPN Support Project Update #6" author = "Pairisto" date = "2023-08-17 21:53:21-05:00" tags = ["haiku", "software"] +++
 
 ## Where We Last Left Off So last time I posted I was able to say that I got the client side for OpenVPN on Haiku working but not the server but I am proud to say that now both the server and client work extremely well now on Haiku :) I was able to get the server from not working to working and was able to get the latency for the entire VPN operation down from 1000ms average to anywhere between 2ms to 9ms (that's a caveat as that is without blocking which will be discussed later). I had a check in my tun_read() function wrong where I wanted any side that is non-blocking to send a signal to the other side's condition variable that something is now in their queue but had it backwards with a `not` statement in there. The simplest mistakes slip the mind huh :p Anyway, the server also follows suit with the faster latency so now that the read and write functions are basically complete, lets get on with what I was dealing with for the past 2ish weeks.
 

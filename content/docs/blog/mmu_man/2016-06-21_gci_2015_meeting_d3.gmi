@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "mmu_man" title = "GCI 2015 meeting; D+3" date = "2016-06-21T03:02:02.000Z" tags = ["GCI", "Code-In"] +++
 
 <img width="25%" height="25%" align="right" src="/files/IMG_20160615_135756.jpg" title="Stephanie cutting the map cake" alt="Stephanie cutting the map cake" />The last day was spent at the San Francisco office, which although smaller (they have "only" a few floors in a building), is quite nice, with a rooftop and other funny things.
 

@@ -1,4 +1,4 @@
-# [GSoC 2018 - TrackGit] Progress Report 13
++++ type = "blog" title = "[GSoC 2018 - TrackGit] Progress Report 13" author = "hrily" date = "2018-07-30 18:04:31+05:30" tags = ["haiku", "gsoc", "gsoc2018", "tracker"] +++
 
 This is the thirteenth progress report for TrackGit project. I did the following in last week:
 

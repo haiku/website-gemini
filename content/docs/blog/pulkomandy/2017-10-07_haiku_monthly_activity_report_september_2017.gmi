@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "PulkoMandy" title = "Haiku monthly activity report - 09/2017" date = "2017-10-07T20:26:14.000Z" tags = [] +++
 
 <p>I was kindly reminded over the IRC channel that it's time for the monthly report once again. So, there we go!</p>
 

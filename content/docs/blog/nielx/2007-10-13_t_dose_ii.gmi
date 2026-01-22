@@ -1,4 +1,4 @@
-# T-DOSE (II)
++++ type = "blog" author = "nielx" title = "T-DOSE (II)" date = "2007-10-13T21:58:40.000Z" tags = ["event", "community"] +++
 
 Excuse me for the brevity of the previous post, it was done on my mobile phone (per experiment), and thus I was limited in the amount of characters I could post.
 

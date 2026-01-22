@@ -1,4 +1,4 @@
-# NFSv4 client: quarter term report
++++ type = "blog" author = "paweł_dziepak" title = "NFSv4 client: quarter term report" date = "2012-06-24T18:09:43.000Z" tags = ["gsoc"] +++
 
 <p>I have already implemented all mandatory hooks (and several others), what means that NFSv4 client now allows to browse directories and read files on remote filesystems. Last several days I spent on improving the existing code and supporting some less usual NFSv4 describes, that includes reclaiming share reservations, support for server migration and volatile filehandles. I also needed to deal with NFSv4 that do not provide file's inode number, that was solved only partially since proper workaround will be much easier to implement when file metadata and directory contents are cached.</p>
 

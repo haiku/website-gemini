@@ -1,4 +1,4 @@
-# GSoC Introduction: BFS Partition Resizer
++++ type = "blog" author = "ahenriksson" title = "GSoC Introduction: BFS Partition Resizer" date = "2012-04-30T12:43:00.000Z" tags = ["gsoc", "gsoc2012"] +++
 
 The goal of this project is to create code for resizing a BFS volume in a safe manner, through the existing volume resizing interface. At first utilized with a command line tool, and toward the end of the summer hopefully integrated with DriveSetup if time allows.
 

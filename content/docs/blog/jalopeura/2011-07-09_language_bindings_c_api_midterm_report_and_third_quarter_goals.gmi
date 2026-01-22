@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "jalopeura" title = "Language Bindings for the C++ API: Mid-term Report and Third Quarter Goals" date = "2011-07-09T23:45:02.000Z" tags = ["python", "perl", "gsoc2011", "api"] +++
 
 The following objects have at least partial bindings:
 

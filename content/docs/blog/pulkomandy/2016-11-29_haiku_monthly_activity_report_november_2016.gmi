@@ -1,4 +1,4 @@
-# Haiku monthly activity report - November 2016
++++ type = "blog" author = "PulkoMandy" title = "Haiku monthly activity report - November 2016" date = "2016-11-29T19:37:29.000Z" tags = [] +++
 
 Hi there!
 

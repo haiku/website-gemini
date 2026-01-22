@@ -1,4 +1,4 @@
-# Don't miss this BeGeistert!
++++ type = "blog" author = "stippi" title = "Don't miss this BeGeistert!" date = "2009-10-03T10:48:39.000Z" tags = ["conference", "begeistert", "coding sprint"] +++
 
 <p>This time I am very happy to be part of the organization team for <a href="/conference/2009/begeistert_021">BeGeistert</a>, the bi-annual gathering of BeOS and Haiku fans in Düsseldorf, Germany. That's because I get to see who registers, and I can tell you that I am almost bursting with excitement, since this BeGeistert will be a big one! Beside the regular BeGeistert visitors, this time there are people coming whom I've known for years only via the Internet and who I can now finally meet in person. And there are also a bunch of old-timers coming who didn't participate in the event in years. Even new contributors will show up for the first time, like some of this year's Google Summer of Code and Haiku Code Drive students.</p>
 

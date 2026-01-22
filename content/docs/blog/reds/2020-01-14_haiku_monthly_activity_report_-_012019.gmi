@@ -1,4 +1,4 @@
-#  
++++ type = "blog" title = "Haiku monthly activity report - 12/2019" author = "reds" date = "2020-01-17 13:00:00+00:00" tags = ["haiku", "software"] +++
 
 Hello and welcome to the (almost) monthly activity report for December 2019! December wasn't the busiest for Haiku code-wise, but nonetheless we saw a lot of Google Code-In contributions. This year marks the 10th anniversary of GCI, in which Haiku has participated since the very beginning.
 

@@ -1,4 +1,4 @@
-# [GSoC 2017] Preferences GUI Refactoring - Weekly Report 5
++++ type = "blog" title = "[GSoC 2017] Preferences GUI Refactoring - Weekly Report 5" author = "anirudhm" date = "2017-07-30 19:19:39+05:30" tags = ["haiku", "gsoc", "gsoc2017", "preferences"] +++
 
 Hello World.
 

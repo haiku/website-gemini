@@ -1,4 +1,4 @@
-# [GSOC 2017] TCP optimization Week 4
++++ type = "blog" title = "[GSOC 2017] TCP optimization Week 4" author = "a-star" date = "2017-06-24 01:05:41+05:30" tags = ["haiku", "software", "gsoc", "gsoc17", "tcp"] +++
 
 <p>Hello everyone. It's been substantial time since I started working on the project and here's the progress report.</p>
 

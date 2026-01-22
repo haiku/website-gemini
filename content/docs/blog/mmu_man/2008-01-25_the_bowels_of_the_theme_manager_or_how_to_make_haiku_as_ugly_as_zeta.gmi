@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "mmu_man" title = "The bowels of the Theme Manager, or How to make Haiku as ugly as Zeta" date = "2008-01-26T00:24:15.000Z" tags = ["BMessage", "gui themes", "theme manager", "3rdparty", "plain text"] +++
 
 Some people might wonder what exactly this "themes" stuff in the commits is all about. So let's see how it all started, where we are and what's left to do.
 

@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "mmadia" title = "Flattery will get you everything." date = "2013-05-11T23:59:34.000Z" tags = [] +++
 
 <img src="/files/images/flattr-logo.png" alt="Flattr logo" border="8" align="right" /> Another development in Haiku's donation infrastructure has been implemented! This time it's <a href="http://flattr.com/">Flattr - Social microdonations</a>. Flattr is a way for you to set a monthly donation budget, which then automatically gets divided into equal pieces and donated to people you choose to "Flattr". You can read more about <a href="http://flattr.com/howflattrworks">How Flattr Works</a>.
 

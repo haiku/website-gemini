@@ -1,4 +1,4 @@
-# Haiku Down Under 2008
++++ type = "blog" author = "sikosis" title = "Haiku Down Under 2008" date = "2008-08-12T02:29:53.000Z" tags = ["conference", "australia", "annual", "virtual"] +++
 
 In May this year, I wrote to the Haiku Mailing List, proposing that the Australian Haiku Users and Developers hook up with an existing Open Source event to generate some Haiku interest in our Country. It was decided that the cost of heading to a central event, would be too costly and as we are spread out all over Australia, I then started thinking about plans of doing something online - a Virtual Conference, so to speak.
 

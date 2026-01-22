@@ -1,4 +1,4 @@
-# Haiku's (Kernel) Condition Variables API: Design & Implementation
++++ type = "blog" title = "Haiku's (Kernel) Condition Variables API: Design & Implementation" author = "waddlesplash" date = "2023-04-24 13:00:00-04:00" tags = ["kernel"] +++
 
 A few months after my contract with Haiku, Inc. began, I rewrote the implementation of the Haiku kernel's condition variables (as opposed to our userspace condition variables, which are from POSIX.) As this new implementation has run in Haiku for over a year and shipped in the latest release with no sign of any remaining issues, I figured it is high time for a deep-dive on the API, its implementation history, and the design of the new implementation I wrote.
 

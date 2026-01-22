@@ -1,4 +1,4 @@
-# Haiku Down Under 2009 Report
++++ type = "blog" author = "sikosis" title = "Haiku Down Under 2009 Report" date = "2009-08-26T05:46:17.000Z" tags = ["conference", "report", "australia", "hdu", "2009"] +++
 
 On Sunday 23rd August at 9:00AM, the Australian Haiku Developers and Users (Virtual) Conference - <a href="http://haikudownunder.com" target="_blank">Haiku Down Under</a> kicked off for the 2nd year in a row.
 

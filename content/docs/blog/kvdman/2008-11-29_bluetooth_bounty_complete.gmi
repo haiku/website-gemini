@@ -1,4 +1,4 @@
-# Bluetooth Bounty Complete
++++ type = "blog" author = "kvdman" title = "Bluetooth Bounty Complete" date = "2008-11-29T17:30:35.000Z" tags = ["haiku", "Haikuware", "bluetooth", "stack", "oliver ruiz dorantes", "bounty", "haikuware bounty"] +++
 
 Oliver Ruiz Dorantes:
 

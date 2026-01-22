@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "Barrett" title = "Contacts Kit, Quarter-term" date = "2011-06-14T22:46:45.000Z" tags = ["gsoc", "gsoc2011", "contacts kit", "Services Kit"] +++
 
 These weeks were prolific in terms of design and experiments but due to university commitments i am a bit late with the expected goals.
 

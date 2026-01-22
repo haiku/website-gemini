@@ -1,4 +1,4 @@
-# In the beginning (or DriveSetup creation)
++++ type = "blog" author = "bebop" title = "In the beginning (or DriveSetup creation)" date = "2009-06-16T02:08:36.000Z" tags = ["gsoc", "DriveSetup", "disk_device"] +++
 
 Another week has gone by and I am glad to say that some progress has been made. Just a few minutes ago I was able to create a brand new partition from within DriveSetup. The setup is as follows: Create a new empty Intel partition map (thanks Stippi), in that map create a new partition that spans the whole disk. It works! After that I initialized the partition with BFS and can install Haiku on it.
 

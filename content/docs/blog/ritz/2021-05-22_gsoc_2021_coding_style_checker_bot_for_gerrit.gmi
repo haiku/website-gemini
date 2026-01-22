@@ -1,4 +1,4 @@
-# GSoC 2021: Coding style checker bot for Gerrit
++++ type = "blog" title = "GSoC 2021: Coding style checker bot for Gerrit" author = "ritz" date = "2021-05-22 20:31:22+05:30" tags = ["haiku", "software", "gsoc", "gsoc2021"] +++
 
 # Introduction Hey everyone! I am Hrithik Kumar, a sophomore at National Institute of Technology Agartala, India majoring in Computer Science and Engineering (CSE). I am happy to say that I will be working on creating a **Coding style checker bot for Gerrit** as part of the GSoC 2021 project. My mentors are Alexander von Gluck and Suhel Mehta.   * IRC nick: ritz   * Matrix: ritz (@ritzkr:matrix.org)
 

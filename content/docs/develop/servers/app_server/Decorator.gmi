@@ -104,7 +104,7 @@ Draws the window’s tab, if any. DrawTab() amounts to _DrawTab(tabrect). If win
 These cause the window’s title to be drawn. DrawTitle() amounts to _DrawTitle(titlerect).
 
 ### void _SetFocus(void)
-This hook function is primarily used to change colors used when a window changes focus states and is called immediately after the state is changed. If, for example, a decorator does not use OpenBeOS’ GUI color set, it would change its drawing colors to reflect the change in focus.
+This hook function is primarily used to change colors used when a window changes focus states and is called immediately after the state is changed. If, for example, a decorator does not use Haiku’ GUI color set, it would change its drawing colors to reflect the change in focus.
 
 ### SRegion GetFootprint(void)
 This returns the “footprint” of the decorator, i.e. the area which is occupied by the window which is is the border surrounding the main client rectangle. It is possible to have oddly-shaped window borders, like ellipses and circles, but the resulting performance hit would reduce the said decorator to a novelty and not something useable. All versions are to construct an SRegion which the border occupies. This footprint is permitted to include the client rectangle area, but this area must not be actually drawn upon by the decorator itself. The default version returns the frame which encompasses all other rectangles - the “frame” member which belongs to its window border.

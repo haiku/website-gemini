@@ -1,4 +1,4 @@
-# First steps in DVD land
++++ type = "blog" author = "engleek" title = "First steps in DVD land" date = "2010-06-08T10:39:21.000Z" tags = ["gsoc", "gsoc2010", "dvd", "media player"] +++
 
 The first objective of this project is to give Media Player the ability to play DVD's. Here's a quick introduction of the tools I chose for the job.
 

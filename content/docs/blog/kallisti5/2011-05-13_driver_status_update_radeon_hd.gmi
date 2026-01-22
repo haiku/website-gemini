@@ -1,4 +1,4 @@
-# Driver status update : Radeon HD
++++ type = "blog" author = "kallisti5" title = "Driver status update : Radeon HD" date = "2011-05-13T15:35:04.000Z" tags = ["radeon_hd", "radeon", "ATI"] +++
 
 <strong>EDIT: 05/28/2011:</strong> Add card functionality as of r41792
 

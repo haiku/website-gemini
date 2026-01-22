@@ -1,4 +1,4 @@
-# WebKit weekly report #26 - Video support!
++++ type = "blog" author = "PulkoMandy" title = "WebKit weekly report #26 - Video support!" date = "2014-04-04T07:02:52.000Z" tags = ["Videos", "media_kit", "media kit", "webpositive", "WebKit", "video", "contract work"] +++
 
 Hello everyone!
 

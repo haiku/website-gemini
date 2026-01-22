@@ -1,4 +1,4 @@
-# Haiku Depot and Better Icon Handling
++++ type = "blog" title = "Haiku Depot and Better Icon Handling" author = "apl" date = "2020-11-17 12:00:00+12:00" tags = ["haiku", "haikudepot", "icon", "tar"] +++
 
 HaikuDepot displays icons through a number of areas of its user interface.  Early in the history of the Haiku packaging system, there were very few packages and very few icons.  HaikuDepot started off by downloading each individually from HaikuDepotServer.
 

@@ -1,4 +1,4 @@
-# GSoC 2020 Final Report: XFS File System
++++ type = "blog" title = "GSoC 2020 Final Report: XFS File System" author = "CruxBox" date = "2020-08-30 17:58:00+05:30" tags = ["haiku", "software", "gsoc", "gsoc2020", "file system"] +++
 
 Hello there! This is the final report on my project which aimed at initiating support for XFS Filesystem on Haiku, by first making a read only driver.
 

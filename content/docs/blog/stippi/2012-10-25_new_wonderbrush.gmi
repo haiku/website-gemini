@@ -1,4 +1,4 @@
-# The new WonderBrush
++++ type = "blog" author = "stippi" title = "The new WonderBrush" date = "2012-10-25T10:59:14.000Z" tags = ["wonderbrush", "graphics", "agg", "multithreading", "qt"] +++
 
 Some of you may know that for quite some time, on and off, I am working on a rewrite of WonderBrush, the graphics tool that comes bundled with Haiku releases. Since I have last demonstrated the prototype publically, I have occasionally found the time to work on it some more. I've ported over most brush tool related code from the original WonderBrush. And in the past weeks, I have specifically worked on a new text tool (written from scratch).
 

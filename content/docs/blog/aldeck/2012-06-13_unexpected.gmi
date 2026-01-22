@@ -1,4 +1,4 @@
-# Unexpected
++++ type = "blog" author = "aldeck" title = "Unexpected" date = "2012-06-13T01:32:23.000Z" tags = ["webkit webpositive contract", "WebKit", "webpositive", "contract", "contract work"] +++
 
 After a week of struggling with my friend the compiler, I finally managed to bring the port into a buildable state again. Porting the latest changes to libwebkit, the last of the four WebKit subcomponents (libwtf, libjavascriptcore, libwebcore, libwebkit), took me more time than I anticipated but to my great surprise, after I fixed the first runtime crash, HaikuLauncher and WebPositive would run and be almost usable. Yes, there are visual glitches, and it is quite easy to crash, but you can search google, use maps, facebook, haiku-os.org and post this blog post.
 

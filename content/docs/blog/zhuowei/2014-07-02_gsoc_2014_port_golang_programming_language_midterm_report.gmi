@@ -1,4 +1,4 @@
-# [GSoc 2014] Port of the Golang programming language: midterm report
++++ type = "blog" author = "zhuowei" title = "[GSoc 2014] Port of the Golang programming language: midterm report" date = "2014-07-02T06:49:50.000Z" tags = [] +++
 
 Hello,
 

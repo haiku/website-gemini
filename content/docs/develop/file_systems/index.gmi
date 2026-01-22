@@ -18,7 +18,7 @@ A filesystem usually relies on an underlying block device, but that’s not requ
 * 
 => node_monitoring.gmi#requirements-exported-functionality-in-beos Requirements - Exported Functionality in BeOS
 * 
-=> node_monitoring.gmi#meeting-the-requirements-in-an-optimal-way-implementation-in-openbeos Meeting the Requirements in an Optimal Way - Implementation in OpenBeOS
+=> node_monitoring.gmi#meeting-the-requirements-in-an-optimal-way-implementation-in-haiku Meeting the Requirements in an Optimal Way - Implementation in Haiku
 * 
 => node_monitoring.gmi#differences-between-both-implementations Differences Between Both Implementations
 * 
@@ -71,6 +71,24 @@ A filesystem usually relies on an underlying block device, but that’s not requ
 => xfs.gmi#write-support Write Support
 * 
 => xfs.gmi#references References
+* 
+=> fat.gmi The FAT File System
+* 
+=> fat.gmi#code-organization Code Organization
+* 
+=> fat.gmi#fat-data-types FAT Data Types
+* 
+=> fat.gmi#bsd-compatability BSD Compatability
+* 
+=> fat.gmi#inode-numbers Inode Numbers
+* 
+=> fat.gmi#locking Locking
+* 
+=> fat.gmi#caches Caches
+* 
+=> fat.gmi#limitations Limitations
+* 
+=> fat.gmi#fat-reference-material FAT Reference Material
 * 
 => befs/resources.gmi The Be File System
 * 

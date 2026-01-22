@@ -1,4 +1,4 @@
-# NFSv4 client finally merged
++++ type = "blog" author = "paweł_dziepak" title = "NFSv4 client finally merged" date = "2013-03-15T17:09:10.000Z" tags = ["NFS"] +++
 
 <p>Earlier this week NFSv4 client I have been working on during the last year Google Summer of Code has been merged into the main Haiku repository and is now available in nightly images. The client supports all caching mechanisms available in the version 4 of NFS what means that it can get the most out of network connection and the server. Unfortunately due to limitations of the NFS protocol itself extended attributes are not supported yet.</p>
 

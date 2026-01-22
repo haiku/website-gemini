@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "andrewbachmann" title = "OpenJDK Hotspot libjvm.so built on Haiku" date = "2009-12-20T23:49:51.000Z" tags = ["java", "hotspot", "OpenJDK", "haiku"] +++
 
 As my first blog entry, I present a set of instructions for building the OpenJDK "hotspot" repository on Haiku.  The product of this process will be a partial jre, including the libjvm.so libraries.
 

@@ -1,4 +1,4 @@
-# Haiku at the Chemnitzer Linux Tage
++++ type = "blog" author = "stippi" title = "Haiku at the Chemnitzer Linux Tage" date = "2008-03-03T13:16:19.000Z" tags = ["event", "exhibition", "chemnitz", "demo", "report"] +++
 
 <p align="justify"> The "Chemnitzer Linux Tage" (Chemnitzer Linux Days) was actually celebrating it's tenth anniversary. It started out as a kind of Linux install fest, but has since become a general Open Source event where all kinds of projects have a platform to demonstrate themselves. So despite the name, this event was perfect for Haiku.
 

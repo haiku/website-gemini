@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "stpere" title = "R1/Alpha : Welcoming the Newcomers" date = "2009-04-07T16:00:47.000Z" tags = ["release", "alpha", "Marketing", "PR"] +++
 
 <h3>Context</h3> Imagine the release just got out the door; what needs to be ready at this point to get everything running smoothly ?...
 

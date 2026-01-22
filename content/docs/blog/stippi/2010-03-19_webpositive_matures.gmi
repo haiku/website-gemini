@@ -1,4 +1,4 @@
-# WebPositive matures
++++ type = "blog" author = "stippi" title = "WebPositive matures" date = "2010-03-19T12:31:31.000Z" tags = ["webpositive", "WebKit", "webcore", "browser", "native", "contract work"] +++
 
 Well... that might be a bit bold for me to say. Obviously WebPositive still has a lot of things missing. On the other hand, this version adds some of the most crucial things, like persistent cookie support, bookmarks and a much improved browsing history implementation. The bookmark implementation is fairly nice, I believe, using Tracker to manage the bookmarks and to sort them into categories as one wishes. It is using the same bookmark format that NetPositive used. Importing bookmarks from other formats has not yet been implemented. Maybe it's also a good idea to simply merge them, instead of doing a one time import. That could faciliate the situation where WebPositive and BeZillaBrowser are used side by side for a while. Among the missing features for bookmarks is using the favicon, if one is available. And there is a known bug where bookmarks fail to be created if the page title contains invalid glyphs for the file system. This should be fixed soon.
 

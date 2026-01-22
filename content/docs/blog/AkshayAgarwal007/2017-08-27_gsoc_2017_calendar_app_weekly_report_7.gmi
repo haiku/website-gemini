@@ -1,4 +1,4 @@
-# [GSoC 2017] Calendar Application: Weekly Report 7
++++ type = "blog" title = "[GSoC 2017] Calendar Application: Weekly Report 7" author = "AkshayAgarwal007" date = "2017-08-27 03:45:03+05:30" tags = ["haiku","gsoc2017","gsoc","Google Summer of Code"] +++
 
 <p>Hello Everyone!</p>
 

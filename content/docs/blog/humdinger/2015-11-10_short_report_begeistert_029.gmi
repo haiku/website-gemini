@@ -1,4 +1,4 @@
-# A short report of BeGeistert 029
++++ type = "blog" author = "humdinger" title = "A short report of BeGeistert 029" date = "2015-11-10T18:00:16.000Z" tags = ["begeistert"] +++
 
 <span class="inline right"><img src="/files/screenshots/begeistert-logo.png" alt="BeGeistert Logo" title="BeGeistert Logo" class="image image-_original " width="272" height="60" /></span>BeGeistert 029 was once more a quite small gathering, with 14 Haiku users attending, plus one father, girlfriend, wife and baby.
 
@@ -32,4 +32,6 @@ Also, thanks to Andrew Hudson, who has donated generously once more to the bever
 
 See you all again next year in Düsseldorf!
 
-<div class="alert alert-info">I replaced the video of Axel's talk (<a href="https://youtu.be/Mu6KPyGy5NM">new URL</a>) after mmlr notified me that the last few minutes had audio problems. Thanks Michael!</div> 
+{{< alert-info "" "I replaced the video of Axel's talk (new URL[1] after mmlr notified me that the last few minutes had audio problems. Thanks Michael!">}} 
+=> https://youtu.be/Mu6KPyGy5NM) 1: new URL
+

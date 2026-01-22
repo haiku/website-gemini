@@ -1,4 +1,4 @@
-# lklhaikufs: features galore
++++ type = "blog" author = "lucian" title = "lklhaikufs: features galore" date = "2010-07-16T21:02:30.000Z" tags = ["lkl-haiku-fsd", "gsoc", "gsoc2010"] +++
 
 The LKL-based Haiku driver has progressed well in the last few weeks.
 

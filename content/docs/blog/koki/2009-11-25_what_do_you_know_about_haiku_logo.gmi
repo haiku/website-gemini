@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "koki" title = "What do You Know About the Haiku Logo?" date = "2009-11-25T23:43:07.000Z" tags = ["logo"] +++
 
 <p>I once had a personal blog where I wrote some stuff about Haiku. The blog is now gone, but I kept some of the posts that I thought could still be relevant or informative even afer time. Being that we have had many new comers as a result of the recent alpha release, I thought I would rehash some of these posts for both the newcomers as well as anyboby else who may have missed them in the past. This first one is about Haiku logo; I hope you enjoy it.</p>
 

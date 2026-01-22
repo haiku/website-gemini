@@ -1,4 +1,4 @@
-# Google Summer of Code Conclusion
++++ type = "blog" author = "jvff" title = "Google Summer of Code Conclusion" date = "2010-09-21T01:45:26.000Z" tags = ["gsoc2010", "gsoc", "ext3"] +++
 
 Google Summer of Code 2010 is now over. It was a wonderful experience, and I learned a lot about Haiku's internals, about file system development, and about myself. I successfully completed my proposal to a point an initial version of the Ext3 file system is available to the Haiku kernel for testing. There are some things that remain to be completed, like sparse files, proper revoke support, multi-transaction truncation and some more thorough testing, but overall, it was successful.
 

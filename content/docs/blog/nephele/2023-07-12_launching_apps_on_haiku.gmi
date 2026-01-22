@@ -1,4 +1,4 @@
-# Launching apps on Haiku
++++ type = "blog" title = "Launching apps on Haiku" author = "Nephele" date = "2023-07-12 16:00:13+02:00" tags = ["haiku", "software"] +++
 
 Argument handling on Haiku
 

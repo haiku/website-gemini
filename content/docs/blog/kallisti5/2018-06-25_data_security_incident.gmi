@@ -1,4 +1,4 @@
-# [NOTICE] Data Security Incident
++++ type = "blog" title = "[NOTICE] Data Security Incident" author = "kallisti5" date = "2018-06-25 18:51:48-05:00" tags = ["haiku", "software"] +++
 
 This afternoon, I noticed some strange heavy load on our Postgres database.
 

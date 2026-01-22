@@ -1,4 +1,4 @@
-# Haiku activity report - Summer 2021
++++ type = "blog" title = "Haiku activity report - Summer 2021" author = "PulkoMandy" date = "2021-08-24 08:53:07+02:00" tags = ["haiku", "software", "activity report"] +++
 
 Hi there, let's do another activity report! You may have noticed that there were a lot of news since the previous one, but here's a recap in case you missed it: a new beta release, the celebration of the 20th birthday of the Haiku project, the end of Google Summer of Code (final evaluations are being filled in as I write this), and also news from the promotion team which was re-launched a few months ago and is working on various things (read their own report for more details).
 

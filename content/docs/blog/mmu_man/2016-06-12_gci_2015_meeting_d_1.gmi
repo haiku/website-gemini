@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "mmu_man" title = "GCI 2015 meeting; D -1" date = "2016-06-12T07:47:02.000Z" tags = ["GCI", "Code-In", "hackerspace"] +++
 
 Saturday, also slept very well, I'm thinking about taking the mattress with me but it won't fit into the plane. and yet I woke up early to participate in a French radio show remotely, that is broadcasted live from the <a href="http://vip2016.popsyteam.org/">Very Important Party</a> (a little <a href="https://en.wikipedia.org/wiki/Demoparty">DemoParty</a> I usually attend), for them it's 5pm, but for me it's 8am…
 

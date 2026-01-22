@@ -1,4 +1,4 @@
-#  
++++ type = "blog" title = "[GSoC 2017] Porting Swift to Haiku - Week #9 / #10" author = "return0e" date = "2017-08-18 05:56:22+01:00" tags = ["haiku","swift","gsoc","gsoc17"] +++
 
 Time for another update on the swift port, which covers the last two weeks of my activity, So here it goes!
 

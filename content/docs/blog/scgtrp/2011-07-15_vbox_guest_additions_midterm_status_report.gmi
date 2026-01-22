@@ -1,4 +1,4 @@
-# VBox Guest Additions: midterm status report
++++ type = "blog" author = "scgtrp" title = "VBox Guest Additions: midterm status report" date = "2011-07-15T11:30:19.000Z" tags = ["virtualbox", "gsoc2011"] +++
 
 Shares fully working! Slightly slow, but usable.
 

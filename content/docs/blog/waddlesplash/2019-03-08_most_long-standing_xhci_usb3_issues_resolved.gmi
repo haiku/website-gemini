@@ -1,4 +1,4 @@
-#  
++++ type = "blog" title = "Most long-standing XHCI (USB 3.0+) issues resolved!" author = "waddlesplash" date = "2019-03-08 23:00:31-05:00" tags = ["usb", "xhci"] +++
 
 Last month, I sat down and decided to at the very least attempt to fix our XHCI (USB 3 host controller) bus driver. Issues with it have been the most significant problem users have been facing, as most hardware made post-2012 has an XHCI chip as the system's primary USB chip, and most hardware made post-2014 (or so) has exclusively an XHCI chip and no EHCI (USB 2.0) or prior chipsets (which we do support very well.)
 

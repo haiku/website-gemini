@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "engima" title = "Haiku SVN: USB, AHCI, Filesystems" date = "2007-03-08T13:02:16.000Z" tags = ["usb", "AHCI", "NetPositive", "NTFS", "NFS", "GoogleFS"] +++
 
 <h3>Quick Updates</h3> <em>r19800-r19900</em> <ul> <li>Beginnings of AHCI support</li> <li>Hardware cache flush for SCSI</li> <li>Stability fixes for the USB stack</li> <li>Port of the following filesystems <ul><li>GoogleFS</li> <li>NFS</li> <li>NTFS</li> </ul> </ul>
 

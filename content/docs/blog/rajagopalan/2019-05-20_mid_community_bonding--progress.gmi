@@ -1,4 +1,4 @@
-# Mid Community Bonding--Progress
++++ type = "blog" title = "Mid Community Bonding--Progress" author = "rajagopalan" date = "2019-05-20 23:31:39+05:30" tags = ["haiku", "software"] +++
 
 # Introduction: Hello Everybody, I am G.Rajagopalan working on porting webkit2 to haiku as a part of my GSoC project. So here I am to share our experiences and work regarding the project 😄.
 

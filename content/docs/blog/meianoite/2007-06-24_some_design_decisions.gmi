@@ -1,4 +1,4 @@
-# Some design decisions
++++ type = "blog" author = "meianoite" title = "Some design decisions" date = "2007-06-24T22:39:30.000Z" tags = ["scheduler", "gsoc", "scheduling algorithm", "algorithm", "O(1)", "complexity", "data structure", "multiprocessor", "affinity", "fairness", "real time", "CFS", "Linux", "comparison", "threads", "responsiveness"] +++
 
 <i>(Or: knitting a delicate fabric, part I: the wool<a href="#note1">[1]</a>)</i> <blockquote>I sincerely hope you've read <a href="/blog/meianoite/2007-06-17/introduction_to_the_new_haiku_scheduler_and_other_tidbits#disclaimer">the disclaimer</a> by now, but I guess I'd better link to it anyway :) Thanks.</blockquote>
 

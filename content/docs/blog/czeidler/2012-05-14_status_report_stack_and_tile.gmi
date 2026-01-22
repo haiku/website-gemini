@@ -1,4 +1,4 @@
-# Status Report (Stack and Tile)
++++ type = "blog" author = "czeidler" title = "Status Report (Stack and Tile)" date = "2012-05-14T23:31:03.000Z" tags = ["Stack and Tile", "Session Manager"] +++
 
 Having started my PhD at the University of Auckland two years ago I think it's time to provide a brief overview for the Haiku community about what I am doing here. Since a complete overview would result in a pretty big post I intend to split it into multiple smaller posts. Fingers crossed that I remain motivated enough to keep writing :).
 

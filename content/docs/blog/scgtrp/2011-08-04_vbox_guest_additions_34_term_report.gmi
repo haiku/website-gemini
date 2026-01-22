@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "scgtrp" title = "VBox guest additions: 3/4 term report" date = "2011-08-04T04:12:46.000Z" tags = ["virtualbox", "gsoc2011"] +++
 
 New status report: major feature dropped; bugs fixed;
 

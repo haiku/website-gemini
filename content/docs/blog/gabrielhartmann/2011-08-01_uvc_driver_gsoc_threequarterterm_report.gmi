@@ -1,4 +1,4 @@
-# UVC Driver -- GSoC Three-quarter-term Report
++++ type = "blog" author = "gabrielhartmann" title = "UVC Driver -- GSoC Three-quarter-term Report" date = "2011-08-01T20:25:57.000Z" tags = ["UVC", "driver", "webcam", "gsoc 2011", "gsoc", "gsoc2011"] +++
 
 Not so long ago, at the half way mark of the GSoc, I was optimistic that I was near to actually interpretting data from the camera in such a way as to produce images on screen.  I was successfully grabbing payload data from the camera, the camera's in-use light was on, things were looking good.  Since that point, progress has been repeatedly stalled by strange and difficult to debug behaviour.
 

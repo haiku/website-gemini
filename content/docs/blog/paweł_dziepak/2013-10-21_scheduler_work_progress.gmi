@@ -1,4 +1,4 @@
-# Scheduler work progress
++++ type = "blog" author = "paweł_dziepak" title = "Scheduler work progress" date = "2013-10-21T16:14:21.000Z" tags = ["kernel", "scheduler", "contract", "contract work"] +++
 
 Thanks to generosity of Haiku supporters, I will be able to continue my work on scheduler in November. It's high time I wrote a report about what has already been done. As it was mentioned before my work can be tracked in the <a href="https://github.com/pdziepak/Haiku/tree/scheduler">scheduler</a> branch in my repository. Commit descriptions and some comments in the scheduler code contain more detailed motivation behind some of the decisions I had to make. In this post, though, I will concentrate how my work looked so far and what I plan to do next.
 

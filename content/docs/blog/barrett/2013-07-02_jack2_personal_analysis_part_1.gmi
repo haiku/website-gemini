@@ -1,4 +1,4 @@
-# Jack2 : A Personal Analysis (Part #1)
++++ type = "blog" author = "Barrett" title = "Jack2 : A Personal Analysis (Part #1)" date = "2013-07-02T12:40:54.000Z" tags = ["jack2", "media_kit"] +++
 
 <strong>Intro</strong>
 

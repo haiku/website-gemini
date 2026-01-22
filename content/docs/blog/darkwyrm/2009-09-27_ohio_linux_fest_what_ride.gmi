@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "darkwyrm" title = "Ohio Linux Fest... What a Ride!" date = "2009-09-27T19:13:36.000Z" tags = ["events", "Linux", "ohio"] +++
 
 Well, for not having been doing hardly anything Haiku-related in the last month or so, this kind of made up for it. It all started with almost not getting a table at the conference and then on Wednesday--if I remember correctly, that is-- suddenly having one by the power of Greyskull, um, I mean Koki. ;-) This meant a flurry of e-mails, burning what remaining CDRs I had around the house, quickly putting together a Haiku demo machine, and a host of other details.
 

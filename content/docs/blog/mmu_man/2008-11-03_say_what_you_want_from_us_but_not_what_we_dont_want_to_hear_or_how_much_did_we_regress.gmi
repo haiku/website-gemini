@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "mmu_man" title = "Say what you want from us but not what we don't want to hear... Or how much did we regress ?" date = "2008-11-04T04:42:20.000Z" tags = ["Linux", "rant", "specifications", "drm", "tied sale", "moderation", "open source"] +++
 
 Last week I received a mail telling me MSI wanted to <a href="http://forum.msi.com.tw/index.php?topic=121215.0">hear from me what I wanted on their next products</a> on their forum. Frankly, I didn't even remember having an account on that forum, where I registered to help someone on a BeOS SMP question. So I jumped in and started telling what I, as an Haiku developer, really expected from a hardware manufacturer, trying to explain, with humour but determination, why open hardware is so important to me.
 

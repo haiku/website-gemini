@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "meianoite" title = "And yet another deadline wooshed by..." date = "2009-03-06T09:46:30.000Z" tags = [] +++
 
 Rule #1: never set deadlines when you're moving houses.
 

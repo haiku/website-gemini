@@ -1,4 +1,4 @@
-# Bug Hunting 
++++ type = "blog" author = "axeld" title = "Bug Hunting " date = "2005-12-29T13:23:00.000Z" tags = [] +++
 
 Instead of completing the paging implementation, I got distracted with a couple of crashing bugs that showed up while testing Haiku, and they kept me busy for the last few days. Strangely enough, I could reproduce each bug easily only on different systems.
 

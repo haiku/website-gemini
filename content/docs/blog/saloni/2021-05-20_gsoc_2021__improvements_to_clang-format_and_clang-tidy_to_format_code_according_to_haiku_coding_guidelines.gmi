@@ -1,4 +1,4 @@
-# GSOC 2021 : Improvements to clang-format and clang-tidy to format code according to haiku coding guidelines
++++ type = "blog" title = "GSOC 2021 : Improvements to clang-format and clang-tidy to format code according to haiku coding guidelines" author = "saloni" date = "2021-05-20 18:54:26+05:30" tags = ["haiku", "software"] +++
 
 # Introduction:
 

@@ -1,4 +1,4 @@
-#  
++++ type = "blog" title = "Which Launcher?" author = "moochris" date = "2017-01-22 12:05:49+00:00" tags = ["haiku", "software"] +++
 
 So you've installed Haiku from a recently nightly (or sometime soon, the R1 beta) and you're launching applications from the Deskbar menu (the blue 'leaf' menu). Perfect, but there are a few more options to investigate if you want to quickly launch your favourite programs.
 

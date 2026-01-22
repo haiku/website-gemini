@@ -1,4 +1,4 @@
-# still breathin'
++++ type = "blog" author = "jace" title = "still breathin'" date = "2008-01-04T02:29:19.000Z" tags = ["personal status"] +++
 
 i'm going to miss those of you at Haiku who are moving on. i'm in a dark time of my life, maybe the end, and i revisit the old good times now and then and BeOS is one of the bright, shining gems, despite the bittersweet facts of how it all went down.
 

@@ -1,4 +1,4 @@
-# Hello from the new Haiku website!
++++ type = "blog" title = "Hello from the new Haiku website!" author = "waddlesplash" date = "2017-01-20 18:43:55-05:00" tags = ["website"] +++
 
 Hello, world! If you're reading this message, that means you're looking at the new Haiku website. This has been in the works for a long time, but at last it's finally here.
 

@@ -1,4 +1,4 @@
-# Getting haiku_loader to play nicely with elves
++++ type = "blog" author = "nmentley" title = "Getting haiku_loader to play nicely with elves" date = "2010-06-19T15:04:42.000Z" tags = ["haiku_loader", "elf64", "x86_64", "gsoc", "gsoc2010"] +++
 
 One of the first steps I'm taking in setting up x86_64 support for haiku is updating haiku_loader to support elf64 binaries. I felt like it would be a bit more logical to be able to boot a 64bit kernel before trying to build one.
 

@@ -1,4 +1,4 @@
-# [GSoC 2022] Improving the Calendar Application
++++ type = "blog" title = "[GSoC 2022] Improving the Calendar Application" author = "HarshitSharma" date = "2022-05-24 00:36:57+05:30" tags = ["haiku", "software", "gsoc2022", "gsoc"] +++
 
 # Introduction
 

@@ -1,0 +1,21 @@
+# Debugging
+* 
+=> Debugging_Bootloaders_GEF.gmi Bootloader debugging with GEF
+* 
+=> Debugging_Bootloaders_GEF.gmi#building-haiku Building Haiku
+* 
+=> Debugging_Bootloaders_GEF.gmi#launching-haiku-in-qemu Launching Haiku in QEMU
+* 
+=> Debugging_Bootloaders_GEF.gmi#attaching-gef Attaching GEF
+* 
+=> pci_serial_debug.gmi Using PCI serial ports for debugging
+* 
+=> pci_serial_debug.gmi#devices-known-to-work Devices known to work
+* 
+=> pci_serial_debug.gmi#devices-to-be-tested Devices to be tested
+* 
+=> pci_serial_debug.gmi#configuring Configuring
+* 
+=> optimizing_applications.gmi Profiling and optimizing applications
+* 
+=> optimizing_applications.gmi#overview-of-the-process Overview of the process

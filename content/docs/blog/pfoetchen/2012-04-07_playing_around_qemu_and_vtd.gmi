@@ -1,4 +1,4 @@
-# Playing Around With QEMU and VT-d
++++ type = "blog" author = "pfoetchen" title = "Playing Around With QEMU and VT-d" date = "2012-04-07T21:38:30.000Z" tags = ["vtd", "iommu", "vt-d", "pci", "radeon"] +++
 
 Yesterday I played a bit with qemu and the VT-d/IOMMU extension. The Vt-d extension present in many modern <a href="http://wiki.xensource.com/xenwiki/VTdHowTo">processors</a> allows you to forward a PCI-device directly to your virtual machine so you can access it from the virtual machine as if it were a real device. This can be very helpful to develop drivers for PCI-devices without having to reboot the whole computer all the time.
 

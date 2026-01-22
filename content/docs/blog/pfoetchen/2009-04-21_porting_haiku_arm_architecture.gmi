@@ -1,4 +1,4 @@
-# Porting Haiku to ARM architecture
++++ type = "blog" author = "pfoetchen" title = "Porting Haiku to ARM architecture" date = "2009-04-21T23:35:47.000Z" tags = ["gsoc", "porting", "arm", "gsoc2009"] +++
 
 <h4 class="icon-person-medium">Personal Profile</h4> <ul> <li><strong>Johannes Wischert</strong></li> <li><strong>Brief bio</strong> - I'm a computer science student living in Germany. I'm 25 years old now. I wrote my first program with 8 or 9 years or so and never stopped since then... After my studies I want to work somewhere in the embedded systems development but by now I enjoy my studies and take my time to finish.</li> </ul> <h4 class="icon-app-medium">Project idea information</h4> <ul> <li><strong>Project title</strong> - Port the Haiku Kernel to ARM-Architecture</li>
 

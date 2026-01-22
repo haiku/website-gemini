@@ -1,4 +1,4 @@
-# GSoC work schedule
++++ type = "blog" author = "jalopeura" title = "GSoC work schedule" date = "2011-04-27T08:21:47.000Z" tags = ["gsoc2011"] +++
 
 <p>During most of GSoC, I will be in Faro, Portugal, where I am finishing my Masters. However, I will travel to Santa Rosa, California to visit family for five weeks in June and July.</p>
 

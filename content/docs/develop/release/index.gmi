@@ -2,23 +2,23 @@
 To forge a successful stable release of the Haiku operating system, several important tasks must be accomplished. These steps are time tested as a best roadmap to draft a successful release of Haiku.
 
 * 
-=> milestones.gmi Critical Milestones
+=> cookbook.gmi Release Cookbook
 * 
-=> milestones.gmi#community-concensus Community Concensus
+=> cookbook.gmi#community-concensus Community Concensus
 * 
-=> milestones.gmi#scramle-enhancement-deadline Scramle. Enhancement Deadline
+=> cookbook.gmi#scramble-enhancement-deadline Scramble. Enhancement Deadline
 * 
-=> milestones.gmi#branch Branch
+=> cookbook.gmi#branch Branch
 * 
-=> milestones.gmi#configure-ci-cd-pipelines Configure CI/CD Pipelines
+=> cookbook.gmi#configure-ci-cd-pipelines Configure CI/CD Pipelines
 * 
-=> milestones.gmi#testing Testing
+=> cookbook.gmi#testing Testing
 * 
-=> milestones.gmi#finalization Finalization
+=> cookbook.gmi#finalization Finalization
 * 
-=> milestones.gmi#distribution Distribution
+=> cookbook.gmi#distribution Distribution
 * 
-=> milestones.gmi#after-the-release After the release
+=> cookbook.gmi#after-the-release After the release
 ## Important first steps
 * Review blockers for the next release in 
 => https://dev.haiku-os.org Trac

@@ -1,4 +1,4 @@
-# Design Considerations
++++ type = "blog" author = "ivo" title = "Design Considerations" date = "2007-07-05T07:24:03.000Z" tags = ["icmp", "network stack", "protocols"] +++
 
 Haiku's network stack follows a top-down approach with clear boundaries, pure object oriented design. However, TCP/IP protocol stack was designed more than 30 years ago with different idea in mind. It's mostly speed, fast processing and stability that designers were looking for back then. That's why many boundaries in the TCP/IP protocol suite design are blurred somehow.
 

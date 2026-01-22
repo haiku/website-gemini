@@ -1,4 +1,4 @@
-#  
++++ type = "blog" title = "R1/beta1 release plans - at last" author = "waddlesplash" date = "2018-08-19 23:16:19-04:00" tags = ["r1beta1", "releases"] +++
 
 At last, R1/beta1 is nearly upon us. As I've already explained on the mailing list, only two non-"task" issues remain in the beta1 milestone, and I have prototype solutions for both. The buildbot and other major services have been rehabilitated and will need only minor tweaking to handle the new branch, and mmlr has been massaging the HaikuPorter buildmaster so that it, too, can handle the new branch, though that work is not quite finished yet.
 

@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "ithamar" title = "The ARM keeps moving..." date = "2012-11-22T20:58:23.000Z" tags = ["arm", "kernel_arm", "porting", "progress report"] +++
 
 <h1>The ARM keeps moving...</h1>
 

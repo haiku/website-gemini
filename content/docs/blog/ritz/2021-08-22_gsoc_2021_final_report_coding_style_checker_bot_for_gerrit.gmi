@@ -1,4 +1,4 @@
-# GSoC 2021 Final Report: Coding style checker bot for Gerrit
++++ type = "blog" title = "GSoC 2021 Final Report: Coding style checker bot for Gerrit" author = "ritz" date = "2021-08-22 22:44:06+05:30" tags = ["haiku", "software", "gsoc", "gsoc2021"] +++
 
 Hey everyone! Since the GSoC period is nearing its end therefore here's the final report on my GSoC project **Coding Style Checker Bot**.
 

@@ -1,4 +1,4 @@
-# ARM progress!
++++ type = "blog" author = "ithamar" title = "ARM progress!" date = "2012-11-09T19:04:32.000Z" tags = ["progress report", "kernel_arm", "port", "begeistert"] +++
 
 <strong>The ARM is moving</strong>
 

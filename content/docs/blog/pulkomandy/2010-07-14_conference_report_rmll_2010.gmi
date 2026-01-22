@@ -1,4 +1,4 @@
-# Conference report : RMLL 2010
++++ type = "blog" author = "PulkoMandy" title = "Conference report : RMLL 2010" date = "2010-07-14T09:14:54.000Z" tags = ["rmll", "conference"] +++
 
 Hello readers ! Last week we were at the RMLL (Libre Software Meeting) in France, with François (mmu_man) and Olivier (oco). Haiku has beed holding a booth and giving some talks in this conference for some years now, and it's nice to go and meet people again.
 

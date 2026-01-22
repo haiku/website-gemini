@@ -1,4 +1,4 @@
-# GSoC Introduction: VirtualBox Guest Additions
++++ type = "blog" author = "scgtrp" title = "GSoC Introduction: VirtualBox Guest Additions" date = "2011-04-29T11:45:36.000Z" tags = ["gsoc2011", "virtualbox"] +++
 
 Hello. I'm Mike and I'll be porting part of the VirtualBox guest additions to Haiku. My full proposal is <a href="http://www.google-melange.com/gsoc/proposal/review/google/gsoc2011/scgtrp/1">here</a>, but briefly, the features I plan to port include:
 

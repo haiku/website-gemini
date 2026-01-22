@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "mmu_man" title = "getting to the kernel, 68k way" date = "2008-07-22T00:50:37.000Z" tags = ["port", "progress report", "m68k"] +++
 
 Someday I should write about the start of the 68k port, there is plenty to talk about...
 

@@ -1,4 +1,4 @@
-# BG026 Coding Sprint report
++++ type = "blog" author = "PulkoMandy" title = "BG026 Coding Sprint report" date = "2012-11-09T08:49:35.000Z" tags = ["begeistert", "report", "coding sprint"] +++
 
 Hi there ! This week was the BeGeistert coding sprint. I assume you already read the great <a href="http://www.iscomputeron.com/index.php?option=com_content&view=article&id=1215:begeistert-026-report&catid=1:latest">report at IsComputerOn</a> about the conferences for this week-end, so here's just a summary of the work done durint the coding sprint.
 

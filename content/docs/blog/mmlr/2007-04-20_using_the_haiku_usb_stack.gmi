@@ -1,4 +1,4 @@
-# Using the Haiku USB stack
++++ type = "blog" author = "mmlr" title = "Using the Haiku USB stack" date = "2007-04-20T08:30:26.000Z" tags = ["usb", "USBKit"] +++
 
 <p> 	<b>This article contains outdated information, please read with caution.</b> </p> <p> 	Mainly in the second half of the last year the Haiku USB stack has matured a great deal. Not only has it stabilized a bit, it has also seen the addition of an EHCI driver to support USB 2.0 devices. A rewritten UHCI driver and a new implementation of the USBKit library are other steps to a complete stack.
 

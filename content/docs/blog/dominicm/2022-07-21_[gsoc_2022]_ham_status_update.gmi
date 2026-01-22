@@ -1,4 +1,4 @@
-# [GSoC 2022] Ham: Status Update
++++ type = "blog" title = "[GSoC 2022] Ham: Status Update" author = "Dominic Martinez" date = "2022-07-21 09:02:43-04:00" tags = ["haiku", "software"] +++
 
 Hello everyone. This is a brief update on the Ham project - a drop in replacement for the Jam build system. For those more curious about the technical details, there will be a larger blog post on Ham's action modifier implementation coming soon.
 

@@ -1,4 +1,4 @@
-# Workspaces
++++ type = "blog" author = "axeld" title = "Workspaces" date = "2005-11-03T08:43:00.000Z" tags = ["workspace", "app_server"] +++
 
 <p>Most of us are used to how BeOS handles multiple workspaces: each workspace represents a configuration for the screen, including resolution, colours, and desktop background. The visual appearance, that is UI colours, scroll bar design, etc. is maintained per desktop, though - all workspaces share the same properties in this regard.</p>
 

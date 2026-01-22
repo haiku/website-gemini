@@ -1,4 +1,4 @@
-# Update on work done at FOSDEM: USB webcam & IM Kit
++++ type = "blog" author = "mmu_man" title = "Update on work done at FOSDEM: USB webcam & IM Kit" date = "2008-02-25T17:08:22.000Z" tags = ["USBKit", "FOSDEM", "webcam", "IM Kit"] +++
 
 Here are some screenshots of what I fixed at FOSDEM...
 

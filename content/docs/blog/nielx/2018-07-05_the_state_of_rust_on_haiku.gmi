@@ -1,4 +1,4 @@
-# The State of Rust on Haiku - July 2018
++++ type = "blog" title = "The State of Rust on Haiku - July 2018" author = "nielx" date = "2018-07-05 07:31:51+02:00" tags = ["haiku", "rust", "developer"] +++
 
 The Rust programming language belongs to the category of modern programming languages that aim to provide a reliable and safe alternative to C and C++. In the past few years, few people have been working on getting the compiler, and the other build tools to our platform. And in fact, since Rust 1.0 there have been reasonably working binary packages for building Rust projects on Haiku.
 

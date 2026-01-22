@@ -1,4 +1,4 @@
-# [GSOC 2017 - TCP optimization and fine tuning] Final Report
++++ type = "blog" title = "[GSOC 2017 - TCP optimization and fine tuning] Final Report" author = "a-star" date = "2017-08-26 02:23:06+05:30" tags = ["haiku", "software", "gsoc", "tcp", "gsoc2017", "network"] +++
 
 <h3>Hello everyone</h3>
 

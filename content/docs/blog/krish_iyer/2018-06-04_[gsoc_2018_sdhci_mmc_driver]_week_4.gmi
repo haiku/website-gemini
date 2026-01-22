@@ -1,4 +1,4 @@
-# [GSoC 2018: SDHCI MMC Driver]: Week #4
++++ type = "blog" title = "[GSoC 2018: SDHCI MMC Driver]: Week #4" author = "krish_iyer" date = "2018-06-03 21:11:13+05:30" tags = ["haiku", "software", "driver", "SDHCI", "MMC", "GSoC 2018"] +++
 
 Hey everyone! here I am with another update. Last time I had concluded-"PCI class is not discoverable to device manager", it was actally a bit wrong.
 

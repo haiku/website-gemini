@@ -1,4 +1,4 @@
-#  
++++ type = "blog" title = "Haiku Activity & Contract Report, September 2023" author = "waddlesplash" date = "2023-10-12 21:30:00-04:00" tags = ["contractor", "activity report"] +++
 
 This report covers hrev57257 through hrev57308.
 

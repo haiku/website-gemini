@@ -1,4 +1,4 @@
-# GSoC 2021 Progress Update 2: Modernizing Cardie (Caya)
++++ type = "blog" title = "GSoC 2021 Progress Update 2: Modernizing Cardie (Caya)" author = "JadedCtrl" date = "2021-07-09 11:58:06-05:00" tags = ["gsoc", "gsoc2021", "software"] +++
 
 Looks like it's time for me to clutter the blog again!
 

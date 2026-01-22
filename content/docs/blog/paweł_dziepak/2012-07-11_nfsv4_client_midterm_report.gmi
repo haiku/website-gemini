@@ -1,4 +1,4 @@
-# NFSv4 client: midterm report
++++ type = "blog" author = "paweł_dziepak" title = "NFSv4 client: midterm report" date = "2012-07-11T16:58:10.000Z" tags = ["gsoc", "gsoc2012", "NFS"] +++
 
 <p>Having implemented mandatory hooks by quarter term I had good base for implementing other operations like write, rename, create, etc. Moreover, improvements in file system migration and user ID mapping. Apart from that, file locks required most work, since they are both more complicated than other NFS operations and Haiku VFS originally did not allow the file system to handle them its own way.</p>
 

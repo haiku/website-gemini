@@ -1,4 +1,4 @@
-# Haiku Contract Report: September 2021
++++ type = "blog" title = "Haiku Contract Report: September 2021" author = "waddlesplash" date = "2021-10-02 19:14:33-04:00" tags = ["contractor"] +++
 
 We already had an activity report[1] for this month ... but as I am now working on Haiku full-time[2] thanks to the generous donations[3] of readers like you (thank you!), a second report is in order, containing more detail on what (and some of the 'why') I worked on that the activity report merely summarizes.
 

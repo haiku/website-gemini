@@ -5,6 +5,10 @@
 HAIKU_SOURCES=$HOME/Code/haiku
 HAIKU_WEBSITE=$HOME/Code/website
 
+go install github.com/n0x1m/hugoext@latest
+go install github.com/n0x1m/md2gmi@latest
+go install github.com/n0x1m/gmifs@latest
+
 cd content
 for i in develop user api; do
 	WORKPATH=$HAIKU_SOURCES/docs/$i
@@ -47,7 +51,7 @@ for i in $(find $HAIKU_WEBSITE/content/blog -name "*.md" -not -name "_index.md")
 	BASE=$(basename -s.md $i)
 	echo "building docs/blog/$AUTHOR/$BASE.gmi..."
 	mkdir -p "docs/blog/$AUTHOR"
-	md2gmi -i $i > docs/blog/$AUTHOR/$BASE.gmi
+	~/go/bin/md2gmi -i $i > docs/blog/$AUTHOR/$BASE.gmi
 done
 
 echo "# Blog Articles" > docs/blog/index.gmi

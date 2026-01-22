@@ -1,4 +1,4 @@
-# WebKit weekly report #39
++++ type = "blog" author = "PulkoMandy" title = "WebKit weekly report #39" date = "2014-08-01T08:13:18.000Z" tags = ["WebKit", "webpositive", "contract", "Services Kit", "contract work"] +++
 
 The quest to provide a better web browsing experience continues this week with some small fixes which result from hours of tracking down bugs.
 

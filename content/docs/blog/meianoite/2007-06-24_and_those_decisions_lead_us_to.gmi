@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "meianoite" title = "And those decisions lead us to..." date = "2007-06-25T01:21:38.000Z" tags = ["scheduler", "gsoc", "scheduling algorithm", "algorithm", "O(1)", "complexity", "data structure", "multiprocessor", "affinity", "fairness", "real time", "CFS", "Linux", "comparison", "threads", "responsiveness"] +++
 
 <i>(Or: knitting a delicate fabric, part II: sewing it all together) (Or: Right, Joker, the underwear might be on the outside, but I get to drive the Batmobile!) (Or: I just <b>had</b> to say something about Batman and the Batmobile. Couldn't help it.)</i>
 

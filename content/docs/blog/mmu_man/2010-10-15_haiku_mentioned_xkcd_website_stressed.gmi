@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "mmu_man" title = "Haiku mentioned on XKCD; website stressed" date = "2010-10-15T19:43:36.000Z" tags = ["xkcd", "website"] +++
 
 This morning I was welcome by a nice <a href="http://xkcd.com/806/">XKCD cartoon</a> mentioning Haiku (as an experimental OS).
 

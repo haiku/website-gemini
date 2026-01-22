@@ -1,4 +1,4 @@
-# Ext3 Journal Implementation
++++ type = "blog" author = "jvff" title = "Ext3 Journal Implementation" date = "2010-08-05T00:49:14.000Z" tags = ["ext3", "journal", "gsoc", "gsoc2010"] +++
 
 The fundamental parts of the journal code are finished. Although they still need more testing, and they can change as more of the Ext3 code is written, they are ready for supporting the first steps in write support for ext2 and ext3 volumes. This blog post explains the code, and how it is organized to handle ext2 and ext3 volumes.
 

@@ -1,4 +1,4 @@
-# GSoC 2011: May 23 (end of community bonding period) Milestone Report
++++ type = "blog" author = "antifinidictor" title = "GSoC 2011: May 23 (end of community bonding period) Milestone Report" date = "2011-05-23T08:11:22.000Z" tags = ["gsoc 2011", "milestone report", "gsoc2011"] +++
 
 During Community Bonding period, I began the process of setting up my Haiku working environment.  Initially I attempted to install Haiku on my machine using VirtualBox; while this ran successfully, I could not access the internet or USB devices from my virtual machine (and hence could load the SDL libraries into Haiku).  I have since created a Haiku-USB drive which also loads, although my graphics hardware breaks down if I do not run Haiku in safe mode, and Haiku still does not recognize my ethernet connection.  I have also tried connecting via Wifi, with similar results.
 

@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "PulkoMandy" title = "End of contract - closing words." date = "2015-02-18T08:21:27.000Z" tags = ["contract work"] +++
 
 Hi,
 

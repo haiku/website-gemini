@@ -1,4 +1,4 @@
-# GSoC 2021 Project: Modernizing Caya
++++ type = "blog" title = "GSoC 2021 Project: Modernizing Caya" author = "JadedCtrl" date = "2021-05-20 09:46:10-05:00" tags = ["gsoc", "gsoc2021"] +++
 
 # Introduction Hi! I'm Jaidyn Levesque (jadedctrl on IRC and elsewhere), a 2nd year Computer Science student. I've been using \*nixes for several years now, and just moved over to Haiku as my main OS a little over a year ago. I'm lucky enough to be a mentee this summer, and I'm excited to get started!
 

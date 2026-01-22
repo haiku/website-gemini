@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "mmu_man" title = "RMLL 2008, suite et fin" date = "2008-07-20T02:19:43.000Z" tags = ["event", "report", "rmll"] +++
 
 Been quite busy those days, but I wouldn't forget to report the remaining days at RMLL... more people, talks, and RMS of course!
 

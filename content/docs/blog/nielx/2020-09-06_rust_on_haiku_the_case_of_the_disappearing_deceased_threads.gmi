@@ -1,4 +1,4 @@
-# Rust on Haiku: the Case of the Disappearing Deceased Threads
++++ type = "blog" title = "Rust on Haiku: the Case of the Disappearing Deceased Threads" author = "nielx" date = "2020-09-06 07:21:48+01:00" tags = ["haiku", "software", "rust", "developer"] +++
 
 Summer! The time to slow down, relax, go to strange places, and do the projects that are long overdue. This summer I had the joy of spending my time in a lovely house near Lyon in France. In many ways the summer was like others, meaning there was plenty of wine and a lot of relaxing activities. At the same time, the Covid situation did give me a lot of reasons to scale back exploratory activities at the tourist hot spots, and instead focus on activities close to home. I decided to seize the opportunity and to see if I could dive into one of my long-standing pet peeves in the Haiku ecosystem.
 

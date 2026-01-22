@@ -1,4 +1,4 @@
-# OpenJDK port: community bonding report
++++ type = "blog" author = "hamish" title = "OpenJDK port: community bonding report" date = "2012-05-24T20:09:44.000Z" tags = ["OpenJDK", "gsoc2012", "gsoc", "gsoc gsoc2012 OpenJDK"] +++
 
 Over the community bonding period I've been researching the best approach to take for the AWT port, and over the past week or two I've been implementing a prototype.
 

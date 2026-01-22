@@ -1,4 +1,4 @@
-# [GSoC 2017] Week 3-4 of Community Bonding
++++ type = "blog" title = "[GSoC 2017] Week 3-4 of Community Bonding" author = "AkshayAgarwal007" date = "2017-06-04 08:41:03+05:30" tags = ["haiku","gsoc2017","gsoc","Google Summer of Code"] +++
 
 <p>Hello Everyone!</p>
 

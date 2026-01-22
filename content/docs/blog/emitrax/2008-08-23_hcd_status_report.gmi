@@ -1,4 +1,4 @@
-# [HCD]: status report
++++ type = "blog" author = "emitrax" title = "[HCD]: status report" date = "2008-08-23T08:51:41.000Z" tags = ["hcd2008", "udf"] +++
 
 It's been a bit since my last status update, so I guess it is time for another one.
 

@@ -1,4 +1,4 @@
-#  
++++ type = "blog" title = "Bug: XHCI (usb 3.0) issues" author = "kallisti5" date = "2017-07-17 15:59:34-05:00" tags = ["haiku", "software"] +++
 
 As we work to stabilize Haiku and move closer to the R1 beta releases, USB driver issues are becomming more apparent.
 

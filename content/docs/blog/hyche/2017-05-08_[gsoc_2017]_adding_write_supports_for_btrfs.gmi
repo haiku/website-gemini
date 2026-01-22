@@ -1,4 +1,4 @@
-# [GSoC 2017] Adding write supports for Btrfs
++++ type = "blog" title = "[GSoC 2017] Adding write supports for Btrfs" author = "HyChe" date = "2017-05-08 13:49:47+07:00" tags = ["haiku", "gsoc2017", "gsoc", "filesystem", "btrfs"] +++
 
 <p>Hello everyone,</p>
 

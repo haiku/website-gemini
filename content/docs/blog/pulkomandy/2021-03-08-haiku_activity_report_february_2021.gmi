@@ -1,4 +1,4 @@
-# Haiku activity report - February 2021
++++ type = "blog" title = "Haiku activity report - February 2021" author = "PulkoMandy" date = "2021-03-08 08:53:07+02:00" tags = [] +++
 
 This report covers revisions hrev54947-hrev54978 (that was a quiet month in Haiku)
 

@@ -1,4 +1,4 @@
-# Coding week no 2 and 3
++++ type = "blog" title = "Coding week no 2 and 3" author = "rajagopalan" date = "2019-06-20 17:11:01+05:30" tags = ["haiku", "software","gosc2019","webkit"] +++ <h3>Report for Coding Week #2 and #3</h3>
 
 <p>Love that your beautiful face is reading my Blog today❤️. First all I woul like to ask sorry to my fans (if any 😅😂) for delaying the posts. Prepare to get blown away🎉🎉💻</p>
 

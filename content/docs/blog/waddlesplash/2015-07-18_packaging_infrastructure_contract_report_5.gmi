@@ -1,4 +1,4 @@
-# 'Packaging Infrastructure' Contract Report #5
++++ type = "blog" author = "waddlesplash" title = "'Packaging Infrastructure' Contract Report #5" date = "2015-07-18T16:17:15.000Z" tags = ["contract work", "package management", "infrastructure"] +++
 
 Hello again!<br> It's been two weeks since my last report, as I wasn't working full-time these past two due to some outside appointments and other conflicts. I'll be back to working full-time next week. Despite this, I managed to make a lot of progress on a number of fronts.
 

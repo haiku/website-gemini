@@ -1,4 +1,4 @@
-# Timers (GSoC) Update #1
++++ type = "blog" author = "dustin_howett" title = "Timers (GSoC) Update #1" date = "2008-06-11T05:32:25.000Z" tags = ["gsoc", "timer", "hpet"] +++
 
 Just posting a very brief entry to let you all know what's up with HPET support in Haiku.
 

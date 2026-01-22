@@ -1,4 +1,4 @@
-# Lesson 16: Fonts
++++ type = "blog" author = "darkwyrm" title = "Lesson 16: Fonts" date = "2011-01-09T13:46:11.000Z" tags = ["development", "tutorials", "programming-with-haiku"] +++
 
 Most people think of fonts as merely a means to an end, but in this lesson we will take a crash course in typography and the very basics of displaying text in Haiku. Also included is a review of the second unit, lessons 6 through 15.
 

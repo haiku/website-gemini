@@ -1,4 +1,4 @@
-# gsoc2012 cpuidle project introduction
++++ type = "blog" author = "yongcong" title = "gsoc2012 cpuidle project introduction" date = "2012-04-27T16:04:08.000Z" tags = [] +++
 
 My gsoc2012 project is adding cpuidle support to haiku. As we all know, transistor power consumption is composed of dynamic and static ones. The former is due to charge/discharge of capacitance and other switching activity; the later is due to leakage and bias current. In the following section, I'd like to simply abstract power saving technology in nowadays cpu; powering saving technology in nowadays OS; what's missing in haiku, IOW the reason why I want to work on it.
 

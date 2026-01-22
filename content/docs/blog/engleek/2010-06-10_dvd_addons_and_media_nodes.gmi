@@ -1,4 +1,4 @@
-# Of DVD add-ons and media nodes
++++ type = "blog" author = "engleek" title = "Of DVD add-ons and media nodes" date = "2010-06-10T14:44:02.000Z" tags = ["gsoc", "gsoc2010", "dvd", "media kit", "media add-on", "media node"] +++
 
 Extending the media kit with the ability to read DVD is a challenge, but a unique opportunity to learn about the kit architecture and Haiku software integration. This time I'll be talking about my actual first development steps concerning DVD support.
 

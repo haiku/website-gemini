@@ -1,4 +1,4 @@
-# app_server Memory Management Revisited
++++ type = "blog" author = "axeld" title = "app_server Memory Management Revisited" date = "2006-03-23T08:30:00.000Z" tags = ["app_server"] +++
 
 I recently looked into why BeIDE's interface did only have green squares where its icons should have been (bug #313). The function importing the client's bitmap data did not work correctly, and while playing with it, the app_server suddenly crashed, and continued to do so in a reproducible way.
 

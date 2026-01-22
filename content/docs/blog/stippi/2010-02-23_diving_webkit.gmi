@@ -1,4 +1,4 @@
-# Diving into WebKit
++++ type = "blog" author = "stippi" title = "Diving into WebKit" date = "2010-02-23T19:11:57.000Z" tags = ["WebKit", "webpositive", "contract work"] +++
 
 First of all, I want to thank Haiku, Inc. for giving me the opportunity to concentrate fully for a while on the WebKit port and browser! This is an awesome chance that I intend to make full use of.
 

@@ -1,4 +1,4 @@
-# Positively Critical: WebPositive and Haiku
++++ type = "blog" title = "Positively Critical: WebPositive and Haiku" author = "Animortis" date = "2021-08-10 18:55:15-04:00" tags = ["haiku", "software", "WebPositive", "promotion"] +++
 
 Few components of Haiku are as important to the operating system and its functionality as the preferred web browser and internal project: WebPositive.
 

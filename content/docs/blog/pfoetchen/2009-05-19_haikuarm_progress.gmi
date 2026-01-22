@@ -1,4 +1,4 @@
-# Haiku-ARM progress
++++ type = "blog" author = "pfoetchen" title = "Haiku-ARM progress" date = "2009-05-19T16:18:30.000Z" tags = ["arm", "u-boot"] +++
 
 I got the kernel to boot "a bit" ;) but since u-boot does not pass the kernel arguments when loading with loadelf I had to fake some kernel arguments etc..
 

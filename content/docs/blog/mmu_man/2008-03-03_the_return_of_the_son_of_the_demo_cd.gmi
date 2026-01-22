@@ -1,4 +1,4 @@
-# The return of the son of the demo CD
++++ type = "blog" author = "mmu_man" title = "The return of the son of the demo CD" date = "2008-03-04T02:13:06.000Z" tags = ["obsolete"] +++
 
 <h3>Document Obsolete</h3> <p><strong>2009-June: This document is now obsolete. We are in the process of consolidating and re-organizing the website documentation. For now please refer to <a href="http://svn.berlios.de/svnroot/repos/haiku/haiku/trunk/docs/userguide/en/installation/">one of these guides</a>. Alternatively, you can view the <a href="/node/2500">in-progress website documentation</a>.
 

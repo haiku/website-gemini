@@ -1,4 +1,4 @@
-# Repository Update
++++ type = "blog" title = "Repository Update" author = "kallisti5" date = "2018-09-11 08:54:35-05:00" tags = ["haiku", "software", "repository"] +++
 
 A small notification that we have updated our repository URL's in preperation for R1 Beta 1.
 

@@ -1,4 +1,4 @@
-# [GSoC 2018: SDHCI MMC Driver]: Week #1 and #2
++++ type = "blog" title = "[GSoC 2018: SDHCI MMC Driver]: Week #1 and #2" author = "krish_iyer" date = "2018-05-06 17:58:47+05:30" tags = ["haiku", "driver", "MMC", "SDHCI", "GSoC 2018"] +++
 
 Hey folks! here's the updates of past two weeks on the project!
 

@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "axeld" title = "Mmmh Fonts." date = "2005-11-08T09:46:00.000Z" tags = ["fonts", "app_server"] +++
 
 In the last couple of days, I worked mainly on the font sub-system in the app_server. I didn't think I would spend that much time on it, and I haven't even touched the FreeType backend other than temporarily fixing threaded access to it, as explained earlier.
 

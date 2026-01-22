@@ -1,4 +1,4 @@
-#  
++++ type = "blog" title = "OK Lenovo, we need to talk!" author = "mmu_man" date = "2021-10-20 16:00:00+02:00" tags = ["BeOS", "Linux", "rant", "specifications", "drm", "tied sale", "open source", "right to repair"] +++
 
 I've been wanting to publicly comment on Lenovo's statement on Linux support for a while, as there's much to say about it, and my failing attempt at finding a suitable replacement for my venerable T510 gave me an excuse to document my love-hate relationship with Lenovo all at once.
 

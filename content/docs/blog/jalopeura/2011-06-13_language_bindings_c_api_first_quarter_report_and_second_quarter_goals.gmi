@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "jalopeura" title = "Language Bindings for the C++ API: First Quarter Report and Second Quarter Goals" date = "2011-06-13T16:46:27.000Z" tags = ["api", "gsoc2011", "perl", "python"] +++
 
 During the first quarter, I defined an interface language to use for creating the bindings. I had to create my own for several reasons. Probably the biggest factor was the need to know whether the target language has the right to destroy an object. Most of the target languages has some kind of automatic garbage collection; the programmer never needs to worry about whether to delete an object to free up memory. I didn't want to force programmers to worry about it when they don't normally need to. Therefore, I had to be able to mark whether an object was delete-able, so the generated bindings could delete it automatically if necessary.
 

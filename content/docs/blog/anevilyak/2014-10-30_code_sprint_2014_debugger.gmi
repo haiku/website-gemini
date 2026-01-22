@@ -1,4 +1,4 @@
-# Code Sprint 2014: Debugger
++++ type = "blog" author = "anevilyak" title = "Code Sprint 2014: Debugger" date = "2014-10-31T02:11:10.000Z" tags = ["debugger", "expressions", "code sprint", "begeistert", "conditional breakpoints"] +++
 
 While I was unable to actually attend Begeistert this time around, I was nonetheless able to take some time off work to join in on the traditional during/post-BG code sprint. As per usual, this revolved around improving our integrated debugger.
 

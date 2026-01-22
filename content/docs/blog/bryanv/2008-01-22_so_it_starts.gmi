@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "bryanv" title = "So it starts." date = "2008-01-23T04:43:28.000Z" tags = ["OpenJDK"] +++
 
 As I write this first post, I'm in the process of sending off the initial OpenJDK project page content to Mark Reinhold for public posting. I'm grinning wildly, and I'm having some great flash-back style memories of working on the JDK 1.4 port.
 

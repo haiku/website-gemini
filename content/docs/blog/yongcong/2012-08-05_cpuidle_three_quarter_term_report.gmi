@@ -1,4 +1,4 @@
-# cpuidle: three quarter term report
++++ type = "blog" author = "yongcong" title = "cpuidle: three quarter term report" date = "2012-08-05T11:34:33.000Z" tags = ["gsoc2012", "gsoc"] +++
 
 I began to implement the acpi cpuidle driver so that the power saving feature can benefit all x86 platforms(In theory although). The acpi is more complicated than I thought. The main time is spent on implementing "_CST" evaluation and decoding.
 

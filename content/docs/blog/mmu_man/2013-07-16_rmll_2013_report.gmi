@@ -1,4 +1,4 @@
-# RMLL 2013 Report
++++ type = "blog" author = "mmu_man" title = "RMLL 2013 Report" date = "2013-07-15T23:23:37.000Z" tags = ["rmll", "lsm"] +++
 
 <p> This year, the RMLL (Rencontres Mondiales du Logiciel Libre) / LSM (Libre Software Meeting) were held in Brussels, in the very same place where <a href="https://fosdem.org/">FOSDEM</a> is held every year, although not by the same team.
 

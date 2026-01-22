@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "axeld" title = "Sorry, Volume Is Busy! " date = "2006-01-15T19:43:00.000Z" tags = ["vfs", "unmount"] +++
 
 If you've used BeOS, you're probably familiar with the above message when trying to unmount a volume. From time to time, some application keeps accessing a volume, and you can't determine which application that is. It might be caused by a running live query, but it might also be caused by buggy background applications that forget to close a file.
 

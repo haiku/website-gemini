@@ -1,4 +1,4 @@
-# [GSoC 2018: SDHCI MMC Driver]: Third Phase Outline
++++ type = "blog" title = "[GSoC 2018: SDHCI MMC Driver]: Third Phase Outline" author = "krish_iyer" date = "2018-07-12 10:52:58+05:30" tags = ["haiku", "software", "GSoC 2018", "SDHCI", "MMC", "Drivers"] +++
 
 So here we are in the final week of the second phase of this project. I would like to address what was planned  for this phase and what we have achieved and will proceed to plan for the third phase.
 

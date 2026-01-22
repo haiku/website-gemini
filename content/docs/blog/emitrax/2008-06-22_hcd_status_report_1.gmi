@@ -1,4 +1,4 @@
-# HCD [bfs]: Status Report #1
++++ type = "blog" author = "emitrax" title = "HCD [bfs]: Status Report #1" date = "2008-06-22T17:33:19.000Z" tags = ["bfs", "vfs", "hcd"] +++
 
 It's been almost a month already since the very first Haiku Code Drive began!
 

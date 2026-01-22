@@ -1,4 +1,4 @@
-# [GSoC 2022] XFS : Final Report
++++ type = "blog" title = "[GSoC 2022] XFS : Final Report" author = "mashijams" date = "2022-09-09" tags = ["haiku", "software", "gsoc2022", "xfs", "file system"] +++
 
 Hello!
 

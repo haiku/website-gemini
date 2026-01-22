@@ -1,4 +1,4 @@
-# GSoC Project : Services Server And Contacts API
++++ type = "blog" author = "Barrett" title = "GSoC Project : Services Server And Contacts API" date = "2011-04-28T21:05:32.000Z" tags = ["services", "kit", "gsoc2011", "contacts api"] +++
 
 Unlike most students i'm not new to Haiku, i've already contributed around the Haiku community, maybe you can remember me for my work on Caya (msn plugin). Not by chance my gsoc project is somehow related to Caya (and every app that expose contacts).
 

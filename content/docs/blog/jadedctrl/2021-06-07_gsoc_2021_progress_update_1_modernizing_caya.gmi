@@ -1,4 +1,4 @@
-# GSoC 2021 Progress Update 1: Modernizing Caya
++++ type = "blog" title = "GSoC 2021 Progress Update 1: Modernizing Caya" author = "JadedCtrl" date = "2021-06-07 09:19:49-05:00" tags = ["gsoc", "gsoc2021"] +++
 
 It's the end of the first GSoC period, so it's about time I clutter the blog again!
 

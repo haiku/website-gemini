@@ -1,4 +1,4 @@
-# Network Stack Update
++++ type = "blog" author = "axeld" title = "Network Stack Update" date = "2010-07-27T10:20:41.000Z" tags = ["network stack", "icmp", "contract work"] +++
 
 First of all, thank a lot for your generous donations! It was really stunning to see how much money could be raised in such a short time. And since it's been some time since my last commit, I thought it would be a good idea to report what I'm currently up to. But first, let's have a look at what I did last week for the most part:
 

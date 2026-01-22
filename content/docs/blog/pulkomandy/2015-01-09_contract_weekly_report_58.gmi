@@ -1,4 +1,4 @@
-# Contract weekly report #58
++++ type = "blog" author = "PulkoMandy" title = "Contract weekly report #58" date = "2015-01-09T08:45:54.000Z" tags = [] +++
 
 Hello there, welcome to the first contract report for 2015!
 

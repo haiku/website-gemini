@@ -1,4 +1,4 @@
-# Locale Kit: everything about catalogs and catalog add ons
++++ type = "blog" author = "PulkoMandy" title = "Locale Kit: everything about catalogs and catalog add ons" date = "2009-06-01T19:52:17.000Z" tags = ["gsoc", "localekit", "gsoc2009"] +++
 
 Today I have started to write a catalog add-on to save catalogs in plain text for easy translation. I've spent some time looking at the involved C++ classes, and here is what I found.
 

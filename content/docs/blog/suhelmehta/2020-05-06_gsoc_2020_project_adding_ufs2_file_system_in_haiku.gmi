@@ -1,4 +1,4 @@
-# GSoC 2020 Project: Adding UFS2 file system in Haiku
++++ type = "blog" title = "GSoC 2020 Project: Adding UFS2 file system in Haiku" author = "SuhelMehta" date = "2020-05-06 14:20:56+05:30" tags = ["haiku", "software", "gsoc", "gsoc2020", "file system"] +++
 
 Hello everyone! I am one of the selected students for this year Google Summer of Code(GSoC). This is my first blog on Haiku website and in this post I will introduce myself and share details about my project.
 

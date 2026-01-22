@@ -1,4 +1,4 @@
-# Haiku activity report - October 2021
++++ type = "blog" title = "Haiku activity report - October 2021" author = "PulkoMandy" date = "2021-11-01 08:53:07+02:00" tags = ["haiku", "software", "activity report"] +++
 
 Hello there, it's time for the monthly activity report!
 

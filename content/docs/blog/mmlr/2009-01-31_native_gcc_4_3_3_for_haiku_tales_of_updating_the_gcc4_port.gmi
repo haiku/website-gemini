@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "mmlr" title = "Native GCC 4.3.3 for Haiku - Tales of updating the GCC4 port" date = "2009-02-01T02:38:58.000Z" tags = ["gcc", "gcc 4.3.3", "binutils"] +++
 
 <p> 				Out of no real particular motivation I wanted to build a native GCC4 for Haiku. We've had a GCC 4.1.2 cross-compiler for a pretty long time now, but since there were some issues with GCC4 built Haiku installations and especially since there never was a native toolchain for GCC4 based Haiku, it has always been a second class citizen. You could experiment around with it and we've had hybrid builds able to use software for both GCC2 and GCC4 Haiku on the same install, but since you had to use the cross-compiler to build GCC4 Haiku apps it's always been a bit less convenient that just building for GCC2 Haiku. But there's a lot of software around that simply can't be built using GCC2 anymore. The reason for that being the use of coding conventions or simply features that weren't available in GCC2. So a native GCC4, meaning a GCC4 running inside Haiku and building GCC4 Haiku apps, is a really important thing to have for porting and building many future applications.
 

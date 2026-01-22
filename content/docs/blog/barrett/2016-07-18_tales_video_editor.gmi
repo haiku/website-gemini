@@ -1,4 +1,4 @@
-# Tales of a Video Editor
++++ type = "blog" author = "Barrett" title = "Tales of a Video Editor" date = "2016-07-18T22:00:25.000Z" tags = ["video editing", "UltraDV", "media_kit"] +++
 
 Someone might have already noticed there's some ferment around <a href="https://github.com/Barrett17/UltraDV">UltraDV</a>, originally supposed to be a BeOS killer app then it stalled down. It was finally open sourced under MIT license around 2013 and today we are trying to find a path to see it's <a href="https://freedomsponsors.org/issue/767/port-ultradv-over-to-haiku">development continue</a>. Today I'm going to show the good points as well as the hard ones.
 

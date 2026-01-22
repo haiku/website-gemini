@@ -1,4 +1,4 @@
-# ASLR and DEP implemented
++++ type = "blog" author = "paweł_dziepak" title = "ASLR and DEP implemented" date = "2013-04-17T22:37:35.000Z" tags = [] +++
 
 <p>Starting with hrev45522 address space layout randomization (ASLR) and data execution prevention (DEP) are available in Haiku. These two features, which have actually become a standard in any modern OS, make it much harder to exploit any vulnerability that may be present in an application running on Haiku thus generally improve system security.<p>
 

@@ -1,4 +1,4 @@
-# [GSoC 2017 - BTRFS Write Supports] Week #2
++++ type = "blog" title = "[GSoC 2017 - BTRFS Write Supports] Week #2" author = "HyChe" date = "2017-05-19 21:42:20+07:00" tags = ["haiku", "gsoc", "gsoc2017", "filesystem", "btrfs", "driver"] +++
 
 <p>Hello everyone,</p> <p>This is my second report about my project <b>"Adding write supports for BTRFS"</b>. There hasn't been much coding in this week and previous week, just some researchs, some style fixes in btrfs code base, and I have managed on setting up fs_shell for btrfs, or now you can say btrfs_shell, based on bfs_shell work. fs_shell is a framework containing all the kernel emulation and the user and scripting interface (Thanks Ingo for the info), this allows to compile and run filesystem (Haiku's, for example btrfs) in userland under Linux or any host systems that can build Haiku.</p>
 

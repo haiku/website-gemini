@@ -1,4 +1,4 @@
-# Coding week #1
++++ type = "blog" title = "Coding week #1" author = "rajagopalan" date = "2019-06-04 17:04:02+05:30" tags = ["haiku", "software"] +++
 
  Hello everybody. This is me Rajagopalan working on getting webkit2 on haiku. Previously as you guys know we were trying to get IPC working. Well we have succeeded in that after hitting some obstacles.
 

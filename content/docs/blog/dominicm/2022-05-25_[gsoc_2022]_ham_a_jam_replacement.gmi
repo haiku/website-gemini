@@ -1,4 +1,4 @@
-# [GSoC 2022] Ham: A Jam Replacement
++++ type = "blog" title = "[GSoC 2022] Ham: A Jam Replacement" author = "Dominic Martinez" date = "2022-05-25 05:13:25+00:00" tags = ["haiku", "software", "gsoc", "gsoc2022", "ham", "jam"] +++
 
 # Introduction
 

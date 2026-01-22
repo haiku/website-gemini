@@ -1,4 +1,4 @@
-# ANNOUNCEMENT: First API Documentation Team Meeting
++++ type = "blog" author = "nielx" title = "ANNOUNCEMENT: First API Documentation Team Meeting" date = "2007-05-15T11:30:33.000Z" tags = ["documentation", "api", "meeting"] +++
 
 <p>On Friday the 18th of May, 19:00 GMT (21:00 in Amsterdam, 20:00 in London), I'd like the documentation team to meet. This meeting is for all the people interested in the API documentation, whether or not you are actually planning on contributing or not. We would like to hear as much different opinions as possible.</p>
 

@@ -1,4 +1,4 @@
-# [GSoC 2017] Porting the Swift Programming Language to Haiku
++++ type = "blog" title = "[GSoC 2017] Porting the Swift Programming Language to Haiku" author = "return0e" date = "2017-05-10 12:58:17+01:00" tags = ["swift", "gsoc2017", "gsoc"] +++
 
 <h3>Introduction</h3>
 

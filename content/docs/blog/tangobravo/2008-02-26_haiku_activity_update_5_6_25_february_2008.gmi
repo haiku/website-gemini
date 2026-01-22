@@ -1,4 +1,4 @@
-# Haiku Activity Update #5: 6-25 February 2008
++++ type = "blog" author = "tangobravo" title = "Haiku Activity Update #5: 6-25 February 2008" date = "2008-02-26T22:15:03.000Z" tags = ["activity update", "progress"] +++
 
 Here's a summary of the last 3 weeks in Haiku-land. Axel was off skiing for part of this period, but progress has continued apace (and Axel has still managed to make his way into almost all of my update sub-sections!).
 

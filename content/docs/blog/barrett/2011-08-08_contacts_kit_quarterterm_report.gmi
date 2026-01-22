@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "Barrett" title = "Contacts Kit, quarter-term report" date = "2011-08-08T23:44:27.000Z" tags = ["contacts kit", "serviceskit", "gsoc2011"] +++
 
 In these weeks i have improved the contacts kit core in order to have enough support for the formats supported. The vcard and people translators can now translate and exchange many types of field, though photo and groups aren't yet supported.
 

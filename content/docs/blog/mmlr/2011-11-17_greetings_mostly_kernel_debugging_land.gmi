@@ -1,4 +1,4 @@
-# Greetings (mostly) from the Kernel (Debugging Land)
++++ type = "blog" author = "mmlr" title = "Greetings (mostly) from the Kernel (Debugging Land)" date = "2011-11-17T17:00:07.000Z" tags = ["contract work", "allocation tracking"] +++
 
 So what is going on right now in the time I spend on my Haiku contract? For the past two and a half weeks I've had my mind wrapped around various parts of the kernel. Things started out at BeGeistert and the coding sprint following it. The nice thing about the coding sprint is that you spend a lot of time with very knowledgeable people and can therefore tackle things that you would usually shy away from. In this case, Ingo Weinhold and I were seeing some random memory corruption problems and an apparent memory/pages leak. So we started investigating those by adding more debug functions into the relevant parts.
 

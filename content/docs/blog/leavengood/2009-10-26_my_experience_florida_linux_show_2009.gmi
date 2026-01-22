@@ -1,4 +1,4 @@
-# My Experience At the Florida Linux Show 2009
++++ type = "blog" author = "leavengood" title = "My Experience At the Florida Linux Show 2009" date = "2009-10-26T19:27:41.000Z" tags = ["conference", "florida linux show", "speaking", "presentation"] +++
 
 <p>On October 24, 2009 I attended and spoke at the <a href="http://www.floridalinuxshow.com/">Florida Linux Show</a> in Orlando, FL. In this post I'll talk about my experience at the conference.</p>
 

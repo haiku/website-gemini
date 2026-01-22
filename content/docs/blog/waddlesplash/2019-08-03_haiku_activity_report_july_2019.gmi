@@ -1,4 +1,4 @@
-# Haiku Activity Report: Performance Edition
++++ type = "blog" title = "Haiku Activity Report: Performance Edition" author = "waddlesplash" date = "2019-08-04 23:00:00-04:00" tags = [] +++
 
 Welcome to the monthly report for July 2019! Most of the more interesting changes this month have been from myself in the way of performance optimizations, so I'm writing the progress report this month so I can talk about those in some detail.
 

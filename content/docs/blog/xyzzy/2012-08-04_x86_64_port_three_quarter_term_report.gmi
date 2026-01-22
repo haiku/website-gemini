@@ -1,4 +1,4 @@
-# x86_64 port: three quarter term report
++++ type = "blog" author = "xyzzy" title = "x86_64 port: three quarter term report" date = "2012-08-04T10:50:42.000Z" tags = ["gsoc", "gsoc2012", "x86_64"] +++
 
 I have continued to make good progress since my midterm report. All the kernel functionality except for user debugging is implemented, and I have ported a basic set of drivers, including PCI, disk drivers, BFS and PS/2 input. For most drivers, porting is just a matter of fixing compiler warnings. For some, there are 64-bit issues which make porting more difficult. For example, the USB stack will require a bit more work as it currently assumes that addr_t is 32-bit everywhere.
 

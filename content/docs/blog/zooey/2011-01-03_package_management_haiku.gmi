@@ -1,4 +1,4 @@
-# Package Management for Haiku
++++ type = "blog" author = "zooey" title = "Package Management for Haiku" date = "2011-01-03T18:49:43.000Z" tags = ["package management", "contract work"] +++
 
 <em>"Make everything as simple as possible, but not simpler."</em>
 

@@ -1,4 +1,4 @@
-# Getting Started
++++ type = "blog" author = "soapdog" title = "Getting Started" date = "2007-04-29T19:53:00.000Z" tags = ["soc", "gsoc", "hello"] +++
 
 Hello All,
 

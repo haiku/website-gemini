@@ -1,4 +1,4 @@
-# GSoC 2021: XFS support progress update
++++ type = "blog" title = "GSoC 2021: XFS support progress update" author = "Xiaojie" date = "2021-07-06 01:33:24+08:00" tags = ["haiku", "software"] +++
 
 # XFS project progress
 

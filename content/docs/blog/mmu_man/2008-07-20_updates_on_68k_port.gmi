@@ -1,4 +1,4 @@
-# Updates on 68k port
++++ type = "blog" author = "mmu_man" title = "Updates on 68k port" date = "2008-07-21T02:17:15.000Z" tags = ["port", "progress report", "m68k"] +++
 
 I've been getting further recently on the 68k port, as you may know already everything now compiles but the kernel is still largely stubbed, misses drivers, and the bootloader doesn't load it yet.
 

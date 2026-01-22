@@ -1,4 +1,4 @@
-# Everyone loves benchmarks
++++ type = "blog" author = "stippi" title = "Everyone loves benchmarks" date = "2010-01-12T15:23:47.000Z" tags = ["benchmark", "hostplatform", "performance"] +++
 
 <p> In these exciting times, during which Ingo Weinhold is making great progress with some performance optimizations in the Haiku kernel, I felt this strong urge to conduct some benchmark results, even if that caused me great deal of pain in setting up all the test platforms! The results are quite interesting, even though I didn't manage to test all possible combinations of host platforms and file systems.
 

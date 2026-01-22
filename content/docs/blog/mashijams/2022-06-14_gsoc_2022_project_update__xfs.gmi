@@ -1,4 +1,4 @@
-# [GSoC 2022] XFS : Community Bonding Progress
++++ type = "blog" title = "[GSoC 2022] XFS : Community Bonding Progress" author = "mashijams" date = "2022-06-14" tags = ["haiku", "software", "gsoc2022", "xfs", "file system"] +++
 
 Hello!
 

@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "meianoite" title = "The first (or nth, even) attempt: a cautionary tale" date = "2007-06-17T22:27:44.000Z" tags = ["scheduler", "gsoc", "scheduling algorithm", "algorithm", "O(1)", "complexity", "data structure", "multiprocessor", "affinity", "fairness", "real time", "CFS", "Linux", "comparison", "threads", "responsiveness"] +++
 
 <i>(Or: rose-coloured glasses are both the blessing and the curse of being in love)</i> <blockquote>But first, the obligatory <a href="/blog/meianoite/2007-06-17/introduction_to_the_new_haiku_scheduler_and_other_tidbits#disclaimer">disclaimer</a>, in case you missed it. Thanks.</blockquote>
 

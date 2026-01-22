@@ -1,4 +1,4 @@
-# Booting our RISC-V images
++++ type = "blog" title = "Booting our RISC-V images" author = "kallisti5" date = "2021-11-07 07:29:13-06:00" tags = ["haiku", "software"] +++
 
 Thanks in large part to the hard work by X512 and everyone developing on Haiku, our nightly RISCV64 images are now functional.
 

@@ -1,4 +1,4 @@
-# GSoC 2020 Final Report: Improving and Extending Services Kit
++++ type = "blog" title = "GSoC 2020 Final Report: Improving and Extending Services Kit" author = "leorize" date = "2020-08-31 02:00:18-05:00" tags = ["gsoc", "gsoc2020"] +++
 
 Hi all. This is my final report on my project aiming to improve Services Kit, the networking backend behind most native Haiku application, most notably WebPositive.
 

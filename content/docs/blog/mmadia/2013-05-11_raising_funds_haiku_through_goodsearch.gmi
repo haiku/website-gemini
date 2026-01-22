@@ -1,4 +1,4 @@
-# Raising funds for Haiku through Goodsearch
++++ type = "blog" author = "mmadia" title = "Raising funds for Haiku through Goodsearch" date = "2013-05-11T17:10:14.000Z" tags = ["donations", "haiku-inc"] +++
 
 <a href="http://www.goodsearch.com/?charityid=949749"><img src="/files/images/goodsearch_200x40.jpg" alt="GoodSearch logo" border="8" align="right" /></a> Last month on the [haiku-inc] mailing list, Arman "Kulluminatii" Chahal suggested adding Haiku to <a href="http://www.goodsearch.com">Goodsearch</a>. "What is Goodsearch?", you may ask. It's a Yahoo! powered search engine that will donate money (about a penny) to your favorite non-profit or school. They provide <a href="http://www.goodsearch.com/about">other ways to help earn money</a> -- shopping online, participating in online surveys, completing special offers and more! This past week, the registration process completed and Haiku is now a <a href="http://www.goodsearch.com/nonprofit/haiku.aspx">participating non profit</a>!
 

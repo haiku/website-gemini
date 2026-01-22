@@ -1,4 +1,4 @@
-# GSoC 2009 Project: CIFS Client Implementation
++++ type = "blog" author = "obaro_ogbo" title = "GSoC 2009 Project: CIFS Client Implementation" date = "2009-04-22T17:20:48.000Z" tags = ["gsoc", "CIFS", "gsoc2009", "cifs client"] +++
 
 Greetings one and all! I am Obaro Ogbo, one of the students selected for GSoC 2009. I also use the name nastee on irc and on <a href=https://dev.haiku-os.org>Haiku Bug Tracker</a>. I am a 3rd year student of Computer Science and Technology at Bells University of Technology Ota, Nigeria, and it appears I'm the first ever Nigerian GSoC student :-).
 

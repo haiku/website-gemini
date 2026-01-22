@@ -1,4 +1,4 @@
-# GSoC2020: First Evaluation
++++ type = "blog" title = "GSoC2020: First Evaluation" author = "PreetpalKaur" date = "2020-07-09 17:49:28+05:30" tags = ["haiku", "software"] +++
 
 # First Evaluation completed :)
 

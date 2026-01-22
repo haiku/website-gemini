@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "PulkoMandy" title = "Haiku monthly activity report - 12/2016" date = "2017-01-06T20:26:14.000Z" tags = [] +++
 
 Happy new year everyone!
 

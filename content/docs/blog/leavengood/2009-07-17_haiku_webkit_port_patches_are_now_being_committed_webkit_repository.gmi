@@ -1,4 +1,4 @@
-# Haiku WebKit Port Patches Are Now Being Committed Into the WebKit Repository!
++++ type = "blog" author = "leavengood" title = "Haiku WebKit Port Patches Are Now Being Committed Into the WebKit Repository!" date = "2009-07-17T06:11:16.000Z" tags = ["WebKit", "gsoc 2009", "native browser"] +++
 
 After much effort from my GSoC student Maxime Simon and plenty of gentle coaxing from WebKit reviewers, I'm proud to announce that the various patches to add support for Haiku as a platform in WebKit are now being committed!
 

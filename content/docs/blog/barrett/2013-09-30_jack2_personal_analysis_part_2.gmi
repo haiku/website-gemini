@@ -1,4 +1,4 @@
-# Jack2 : A Personal Analysis (Part #2)
++++ type = "blog" author = "Barrett" title = "Jack2 : A Personal Analysis (Part #2)" date = "2013-09-30T16:28:53.000Z" tags = ["jack2", "media_kit", "libjackcompat"] +++
 
 Hello, it has been passed some time from the Part 1 of this article, I've continued my investigations as well, and I have finally some more clear plans for such a hypotetic Jack2 port. Unfortunately i had not enough time to research a bit more in the latency differences between the media_kit and jack, sorry, this should be post-poned until i have precise emphyrical measuring methods.
 

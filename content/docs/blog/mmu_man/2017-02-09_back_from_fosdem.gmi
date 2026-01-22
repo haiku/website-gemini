@@ -1,4 +1,4 @@
-# Back from FOSDEM!
++++ type = "blog" title = "Back from FOSDEM!" author = "mmu_man" date = "2017-02-09 03:21:35+01:00" tags = ["haiku", "FOSDEM", "ReactOS"] +++
 
 <a href="/files/blog/mmu_man/FOSDEM2017_DSCN5468.jpg" title="Haiku & ReactOS booth with the full teams"><img src="/files/blog/mmu_man/FOSDEM2017_DSCN5468.jpg" title="Haiku & ReactOS booth with the full teams" alt="Haiku & ReactOS booth with the full teams" width="25%" height="25%" align="right" /></a>So, I just arrived from Brussels back home. One more <a href="https://fosdem.org/2017/">FOSDEM</a> done. As always it was action-packed, and I couldn't clone myself enough times to see everything. The fact that we had the booth and that 3 out of the 4 talks I proposed were accepted probably didn't help.
 

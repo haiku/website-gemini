@@ -1,4 +1,4 @@
-# GSOC 2021:Progress Report of Improvements to clang-format
++++ type = "blog" title = "GSOC 2021:Progress Report of Improvements to clang-format" author = "saloni" date = "2021-07-27 12:17:53+05:30" tags = ["haiku", "software", "gsoc 2021", "clang-format", "gsoc", "haiku-format"] +++
 
 This blog will contain all the information about what I have done till now.
 

@@ -1,4 +1,4 @@
-# Enhancing the scheduler
++++ type = "blog" author = "paweł_dziepak" title = "Enhancing the scheduler" date = "2013-09-07T20:17:54.000Z" tags = ["kernel", "scheduler", "contract work"] +++
 
 Soon I am going to work as a full-time Haiku developer on enhancing the scheduler. The goal is to improve performance of the whole system and finally deal with some long standing problems. To achieve this CPU affinity will be introduced what would make cache utilization better and I will implement scheduler strategies based on dynamic priorities what, hopefully, would once and for all deal with priority inversion. In addition to that, I want to make scheduler more power-aware. Haiku currently lacks low-level support for some of the more advanced power related features of CPUs but having scheduler ready for would save us from redesigning it later. Also, there are still ways to conserve energy without using the most recent technologies.
 

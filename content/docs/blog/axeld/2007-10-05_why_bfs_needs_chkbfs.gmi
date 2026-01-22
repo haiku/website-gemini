@@ -1,4 +1,4 @@
-# Why BFS needs chkbfs
++++ type = "blog" author = "axeld" title = "Why BFS needs chkbfs" date = "2007-10-05T09:16:12.000Z" tags = ["bfs", "chkbfs"] +++
 
 <p> You are probably aware of the existance of <i>chkbfs</i>. This tool checks the file system for errors, and corrects them, if possible.
 

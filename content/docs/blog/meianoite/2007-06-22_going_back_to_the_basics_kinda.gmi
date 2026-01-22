@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "meianoite" title = "Going back to the basics... kinda." date = "2007-06-22T05:52:42.000Z" tags = ["scheduler", "gsoc", "scheduling algorithm", "algorithm", "O(1)", "complexity", "data structure", "multiprocessor", "affinity", "fairness", "real time", "CFS", "Linux", "comparison", "threads", "responsiveness"] +++
 
 <i>(Or: what you finally learn to do after a number of false starts)</i> <blockquote>But first, the obligatory <a href="/blog/meianoite/2007-06-17/introduction_to_the_new_haiku_scheduler_and_other_tidbits#disclaimer">disclaimer</a>, in case you missed it. Thanks.</blockquote>
 

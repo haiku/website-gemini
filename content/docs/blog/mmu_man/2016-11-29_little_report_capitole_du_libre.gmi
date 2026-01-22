@@ -1,4 +1,4 @@
-# A little report on Capitole du Libre
++++ type = "blog" author = "mmu_man" title = "A little report on Capitole du Libre" date = "2016-11-29T18:50:56.000Z" tags = ["libre", "capitole", "event"] +++
 
 <a href="https://www.haiku-os.org/files/CdL2016_DSCN5345.jpg" title="Adrien speaking"><img src="https://www.haiku-os.org/files/CdL2016_DSCN5345.jpg" title="Adrien speaking" alt="Adrien speaking" width="25%" height="25%" align="right"></a>Before I forget due to the GCI frenzy, let's take some time to write down about <a href="https://2016.capitoledulibre.org/" title="Capitole du Libre">Capitole du Libre</a>, which was held in Toulouse on the 19th and 20th November.
 

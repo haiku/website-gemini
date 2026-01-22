@@ -1,4 +1,4 @@
-# Keep browsing
++++ type = "blog" author = "emitrax" title = "Keep browsing" date = "2007-04-18T17:33:30.000Z" tags = ["usb", "soc", "code"] +++
 
 I've been reading some more code and I'm getting more confident with it.
 

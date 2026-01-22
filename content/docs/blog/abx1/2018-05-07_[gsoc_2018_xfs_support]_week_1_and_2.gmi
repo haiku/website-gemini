@@ -1,4 +1,4 @@
-# [GSoC 2018: XFS support] Week #1 and #2
++++ type = "blog" title = "[GSoC 2018: XFS support] Week #1 and #2" author = "abx1" date = "2018-05-07 21:30:08+05:30" tags = ["haiku", "gsoc2018", "xfs", "gsoc"] +++
 
 Hey everyone, I have been working on the project for the past two weeks and would love to share my update here as well.
 

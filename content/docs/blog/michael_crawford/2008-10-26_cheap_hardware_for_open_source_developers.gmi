@@ -1,4 +1,4 @@
-# Cheap Hardware For Open Source Developers
++++ type = "blog" author = "michael_crawford" title = "Cheap Hardware For Open Source Developers" date = "2008-10-26T12:47:35.000Z" tags = ["hardware", "Recycling", "Device Drivers", "Testing", "SPARE"] +++
 
 Matt Zehner, a teacher at <a href="http://branham.cuhsd.org/">Branham High School</a> in San Jose, sponsors the school's SPARE e-Waste recycling program: Students Promoting Awareness of Recycling and the Environment.
 

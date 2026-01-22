@@ -1,4 +1,4 @@
-# My feelings about GSOC and Firewire status
++++ type = "blog" author = "absabs" title = "My feelings about GSOC and Firewire status" date = "2007-08-31T02:36:49.000Z" tags = ["gsoc"] +++
 
 During this summer I was working under my mentor Jerome Duval's guidance. This is the first time I tried to be part of the GSOC program.
 

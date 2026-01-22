@@ -1,4 +1,4 @@
-# GSOC 2011: Quarter-term Milestone Report
++++ type = "blog" author = "antifinidictor" title = "GSOC 2011: Quarter-term Milestone Report" date = "2011-06-14T22:49:10.000Z" tags = ["gsoc2011", "milestone report", "quarter term", "quarter"] +++
 
 As anticipated, I was able to do little more than set up my environment during the first stretch of GSOC and the last few weeks of school and my previous internship.  I was able to find computer with a compatible network and graphics card, which should hopefully be faster than running Haiku on a virtual machine on my normal computer.  I also successfully installed haikuporter, although I am having some trouble using it.  I am also trying out an IRC account.
 

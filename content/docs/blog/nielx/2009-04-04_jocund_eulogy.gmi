@@ -1,4 +1,4 @@
-# A Jocund Eulogy
++++ type = "blog" author = "nielx" title = "A Jocund Eulogy" date = "2009-04-04T21:12:03.000Z" tags = ["goodbye"] +++
 
 According to my resume, I've been contributing to Haiku since 2002. I don't remember how I determined that start date, and GMail is only five years old so searching that does not provide me with an answer either. What I do know is that I feel a strong connection with this project. Which really makes it all that harder to part.
 

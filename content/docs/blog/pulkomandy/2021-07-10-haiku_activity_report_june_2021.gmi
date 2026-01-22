@@ -1,4 +1,4 @@
-# Haiku activity report - June 2021
++++ type = "blog" title = "Haiku activity report - June 2021" author = "PulkoMandy" date = "2021-07-10 08:53:07+02:00" tags = ["haiku", "software", "activity report", "June"] +++
 
 Hello, it's time for the June activity report! (yes, not much innovation in the tagline for these reports lately. I'm out of ideas, or maybe just lazy to find new ones).
 

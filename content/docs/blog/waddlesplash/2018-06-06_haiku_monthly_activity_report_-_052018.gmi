@@ -1,4 +1,4 @@
-#  
++++ type = "blog" title = "Haiku monthly activity report - 05/2018 (ft. LibreOffice!)" author = "waddlesplash" date = "2018-06-06 17:51:30-04:00" tags = ["monthly-report"] +++
 
 Welcome to the fifth monthly report for 2018! ... Yes, I know, <a href="/blog/pulkomandy/">PulkoMandy</a> usually does these. But he's got WebKit fixes to do, and not much spare time, so this month at least he gets a break while I cover for him.
 

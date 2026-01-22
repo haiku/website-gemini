@@ -1,4 +1,4 @@
-# Locale Kit: (somewhat) weekly report
++++ type = "blog" author = "PulkoMandy" title = "Locale Kit: (somewhat) weekly report" date = "2009-06-19T18:42:41.000Z" tags = ["gsoc", "localekit", "gsoc2009"] +++
 
 Mid-term evaluations for GSoC are already coming...
 

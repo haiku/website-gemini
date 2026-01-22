@@ -1,20 +1,34 @@
 # Kernel
 * 
+=> system_calls.gmi System calls
+* 
+=> system_calls.gmi#execution-flow Execution flow
+* 
+=> system_calls.gmi#userland Userland
+* 
+=> system_calls.gmi#in-the-kernel In the kernel
+* 
+=> system_calls.gmi#adding-syscalls Adding syscalls
+* 
+=> system_calls.gmi#hello-world Hello world
+* 
+=> system_calls.gmi#conclusion Conclusion
+* 
 => device_manager_introduction.gmi Device Driver Architecture
 * 
-=> device_manager_introduction.gmi#the-basics 1. The Basics
+=> device_manager_introduction.gmi#the-basics The Basics
 * 
-=> device_manager_introduction.gmi#exploring-the-device-tree 2. Exploring the Device Tree
+=> device_manager_introduction.gmi#exploring-the-device-tree Exploring the Device Tree
 * 
-=> device_manager_introduction.gmi#writing-a-driver 3. Writing a Driver
+=> device_manager_introduction.gmi#writing-a-driver Writing a Driver
 * 
-=> device_manager_introduction.gmi#publishing-a-device 4. Publishing a Device
+=> device_manager_introduction.gmi#publishing-a-device Publishing a Device
 * 
-=> device_manager_introduction.gmi#writing-a-bus-driver 5. Writing a Bus Driver
+=> device_manager_introduction.gmi#writing-a-bus-driver Writing a Bus Driver
 * 
 => device_manager_introduction.gmi#the-generic-bus The generic bus
 * 
-=> device_manager_introduction.gmi#open-issues 6. Open Issues
+=> device_manager_introduction.gmi#open-issues Open Issues
 * 
 => obsolete_pnp_manager.gmi Plug and Play Manager
 * 
@@ -53,19 +67,3 @@
 => boot/boot_process_specs.gmi#u-boot U-Boot
 * 
 => boot/boot_process_specs.gmi#efi EFI
-* 
-=> boot/Debugging_Bootloaders_GEF.gmi Bootloader debugging with GEF
-* 
-=> boot/Debugging_Bootloaders_GEF.gmi#building-haiku Building Haiku
-* 
-=> boot/Debugging_Bootloaders_GEF.gmi#launching-haiku-in-qemu Launching Haiku in QEMU
-* 
-=> boot/Debugging_Bootloaders_GEF.gmi#attaching-gef Attaching GEF
-* 
-=> pci_serial_debug.gmi Using PCI serial ports for debugging
-* 
-=> pci_serial_debug.gmi#devices-known-to-work Devices known to work
-* 
-=> pci_serial_debug.gmi#devices-to-be-tested Devices to be tested
-* 
-=> pci_serial_debug.gmi#configuring Configuring

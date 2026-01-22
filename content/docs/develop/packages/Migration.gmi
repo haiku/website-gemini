@@ -7,7 +7,7 @@ This document gives an overview of what changes with the migration to package ma
 * Software (i.e. packages) can be installed via the command line package manager "pkgman" – "pkgman search/install/uninstall/update ..." searches for, installs, uninstalls, and updates packages respectively. Packages can also be installed manually by moving (not copying) them to the respective “packages” subdirectory in “/boot/system” or “/boot/home/config”.
 
 * The directory layout has changed and many directories have become read-only. Cf. 
-=> DirectoryStructure.rst DirectoryStructure
+=> DirectoryStructure.gmi#directory-structure Boot Volume Directory Structure
  for details.
 
 * The Deskbar menu works differently. It uses a new virtual directory Tracker/Deskbar feature to generate its content. Any package can contribute Deskbar menu entries by including respective symlinks in “data/deskbar/menu”. The virtual directory merges the respective directories from all installation locations plus the user settings directory “/boot/home/config/settings/deskbar/menu”. That means whenever a package is installed/removed its Desbar menu entries will be added/removed automatically. The user settings directory allows the user to add new entries manually. The whole behavior can be changed by overriding the default virtual directory. Before using the default virtual directory “/boot/system/data/deskbar/menu_entries” Deskbar first looks for “/boot/home/config/settings/deskbar/menu_entries”. This can be a virtual directory as well, or a regular directory, or a symlink to either. E.g. making it a symlink to the “menu” directory will cause Deskbar to use only the contents of that directory, i.e. the menu contents is completely user-defined.
@@ -24,7 +24,7 @@ This document gives an overview of what changes with the migration to package ma
 * "setgcc" is gone. The commands of the tool chain for the secondary architecture (by default) live in “/boot/system/bin/<arch>”. Prepending that path to the "PATH" environment variable would make them shadow the respective primary architecture commands – the effect would be similar to the one "setgcc" had, but only for the current shell session. Executing the new command "setarch <arch>" will start a new shell with a respectively modified "PATH". The commands of the secondary tool chain are also available in the standard path with a name suffixed with “-<arch>” (e.g. “gcc-x86” for the gcc 4 executable on a gcc2/gcc4 hybrid).
 
 * Software can be packaged using the "package" tool. Cf. 
-=> BuildingPackages.rst BuildingPackages
+=> BuildingPackages.gmi#building-packages Building Packages
  for more information.
 
 * The "find_directory()" API has been partially deprecated. While there are still some use cases where it should be used, in many cases the new "find_path*()" API, respectively the "BPathFinder" class should be used instead (cf. the 

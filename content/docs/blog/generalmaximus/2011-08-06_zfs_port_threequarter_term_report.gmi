@@ -1,4 +1,4 @@
-# ZFS Port: Three-Quarter Term Report
++++ type = "blog" author = "generalmaximus" title = "ZFS Port: Three-Quarter Term Report" date = "2011-08-06T04:46:25.000Z" tags = ["zfs gsoc gsoc2011"] +++
 
 <p>Briefly, my goals for the three quarter term were: port libzfs, port the commandline tools <em>zfs</em> and <em>zpool</em>, and write a kernel module to communicate with userland tools via ioctl() calls on a /dev/zfs. Another goal was to make sure our port of ZFS passes all tests in <em>ztest</em>.</p>
 

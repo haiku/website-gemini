@@ -1,4 +1,4 @@
-# WebKit Port Complications
++++ type = "blog" author = "leavengood" title = "WebKit Port Complications" date = "2007-08-20T23:31:52.000Z" tags = ["development", "porting", "compiler", "gcc", "WebKit", "haikuware bounty"] +++
 
 <p>I have been documenting my progress on porting the <a target="_new" href="http://webkit.org">WebKit</a> project to Haiku on the <a target="_new" href="http://www.haikuware.com">Haikuware</a> site, but decided to also post information here. You may want to read my <a target="_new" href="http://www.haikuware.com/index.php?option=com_content&task=view&id=92">previous blog article</a> about this port and also the information at the <a target="_new" href="http://www.haikuware.com/index.php?option=com_content&task=view&id=54&Itemid=39">WebKit bounty</a> on Haikuware. Please consider <a target="_new" href="http://www.haikuware.com/index.php?option=com_content&task=view&id=47&Itemid=71">donating to a bounty.</a></p>
 

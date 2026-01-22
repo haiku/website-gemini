@@ -1,4 +1,4 @@
-# Reinventing the wing
++++ type = "blog" author = "aldeck" title = "Reinventing the wing" date = "2010-03-30T17:02:15.000Z" tags = ["thoughts", "engineering", "operating system"] +++
 
 Everybody has already heard about the famous metaphor "Reinventing the wheel". It's most of the time a good advice. However, what happens if your'e not reinventing a wheel. But let's say... a wing.
 

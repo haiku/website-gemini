@@ -1,4 +1,4 @@
-# Translation Work Needed in Preparation for Beta 3
++++ type = "blog" title = "Translation Work Needed in Preparation for Beta 3" author = "jt15s" date = "2021-06-08 14:34:07+10:00" tags = ["haiku", "software", "translation"] +++ As we get closer to the release of Beta 3, it is important we ensure our translations are updated.
 
 ## Current State of Translation Work - As of now, no new language has currently reached over 60% since Beta 2 was released last year.
 

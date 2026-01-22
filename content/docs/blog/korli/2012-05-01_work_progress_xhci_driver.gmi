@@ -1,4 +1,4 @@
-# Work in progress on the xHCI driver
++++ type = "blog" author = "korli" title = "Work in progress on the xHCI driver" date = "2012-05-01T22:23:38.000Z" tags = ["xHCI driver qemu", "xHCI", "driver", "QEMU"] +++
 
 I started to work on the xHCI driver in late 2011: I found the code provided during the Google Summer of Code 2011 was promising and didn't get its full exposure. Another reason was Haiku Inc. provided me with hardware I needed to mentor the xHCI project by Jian Jiang.
 

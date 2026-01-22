@@ -1,4 +1,4 @@
-# Google Summer of Code: Zeroconf!
++++ type = "blog" author = "alex_roman" title = "Google Summer of Code: Zeroconf!" date = "2008-04-23T18:13:11.000Z" tags = ["soc"] +++
 
 This summer I'll be attempting to enable Zeroconf support in Haiku.
 

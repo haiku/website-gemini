@@ -1,4 +1,4 @@
-# Streaming Support And MediaKit Development - Report #6
++++ type = "blog" author = "Barrett" title = "Streaming Support And MediaKit Development - Report #6" date = "2016-06-07T14:29:12.000Z" tags = ["media server", "media_kit", "streaming contract"] +++
 
 Finally a new report. The time since the latest report has been spent mostly into gaining a preliminary support to streaming and begin finalyzing the underlying support code.
 

@@ -1,4 +1,4 @@
-# OpenJDK port: midterm report
++++ type = "blog" author = "hamish" title = "OpenJDK port: midterm report" date = "2012-07-14T23:47:17.000Z" tags = ["gsoc", "gsoc2012", "OpenJDK"] +++
 
 After my quarter term report I worked on various bugs in the AWT port reported by testers, such as keyboard input problems. I also began reading up on the media kit in preparation for the next part of my project: the jsound port. This will bring audio and MIDI functionality to the OpenJDK port. Over the last week I made a start on the implementation for PCM input/output.
 

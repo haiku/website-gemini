@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "jalopeura" title = "Language Bindings for the C++ API: Git Mirror, Gcc4, and Other Changes" date = "2011-07-16T23:48:29.000Z" tags = ["api", "gsoc2011", "perl", "python"] +++
 
 A status update for those interested:
 

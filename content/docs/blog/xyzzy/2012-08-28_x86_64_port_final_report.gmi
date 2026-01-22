@@ -1,4 +1,4 @@
-# x86_64 port: final report
++++ type = "blog" author = "xyzzy" title = "x86_64 port: final report" date = "2012-08-28T09:57:09.000Z" tags = ["gsoc", "gsoc2012", "x86_64"] +++
 
 Since the three-quarter term report, I have continued porting userland servers and apps. The app server is fully functional, as are Deskbar and Tracker and a few other apps. I also cross-compiled all of the basic development optional packages (GCC/Binutils, autotools, make, etc.) for x86_64. Another screenshot showing the current state of things is below:
 

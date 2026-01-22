@@ -1,4 +1,4 @@
-# Browsing the USB Stack code
++++ type = "blog" author = "emitrax" title = "Browsing the USB Stack code" date = "2007-04-13T21:49:47.000Z" tags = ["usb", "soc", "code"] +++
 
 I said it already, but I'm going to say it a million of times, I've never EVER would expected to work on such a project for the Google Summer of Code, I actually didn't even think I would get in the soc. But anyway, here I am... so let's begin!
 

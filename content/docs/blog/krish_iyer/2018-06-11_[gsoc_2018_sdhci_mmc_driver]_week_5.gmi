@@ -1,4 +1,4 @@
-# [GSoC 2018: SDHCI MMC Driver]: Week #5
++++ type = "blog" title = "[GSoC 2018: SDHCI MMC Driver]: Week #5" author = "krish_iyer" date = "2018-06-11 18:34:48+05:30" tags = ["haiku", "driver", "SDHCI", "MMC", "GSoC 2018"] +++
 
 Hey, here I am with another update! Last time I mentioned about splitting up the module but due to time constraint we agreed to skip that currently and move  forward. After setting up the bus, I thought it would be bus manager which needs to be setted up for data transfer and other read and write operations but it turns  out to few things which need to be done before that and it's actually not the bus manager who do these operations, it will just create an instance of the  interrupts and the operations to be done, and call back after it's done. I was referring to virtio subsystem's driver layout so wasn’t able to notice a difference  between virtio and sdhc and i.e there are slots that needs to be attached to the bus(MMC bus) unlike in virtio where devices are attached.
 

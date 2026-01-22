@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "jalopeura" title = "Language Bindings for the C++ API: Third Quarter Report and Fourth Quarter Goals" date = "2011-08-06T08:10:42.000Z" tags = ["api", "gsoc2011", "perl", "python"] +++
 
 The following classes are now mostly implemented; there are some methods that cannot be implemented yet because they require objects that are not yet implemented, but otherwise these classes are complete.
 

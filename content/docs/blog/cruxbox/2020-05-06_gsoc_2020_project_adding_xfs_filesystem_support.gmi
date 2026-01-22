@@ -1,4 +1,4 @@
-# GSoC 2020 Project: Adding XFS file system in Haiku
++++ type = "blog" title = "GSoC 2020 Project: Adding XFS file system in Haiku" author = "CruxBox" date = "2020-05-11 23:35:56+05:30" tags = ["haiku", "software", "gsoc", "gsoc2020", "file system"] +++
 
 Sorry for the late post, but here we go!
 

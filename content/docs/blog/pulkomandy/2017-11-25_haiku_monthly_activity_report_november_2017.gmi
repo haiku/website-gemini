@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "PulkoMandy" title = "Haiku monthly activity report - 11/2017" date = "2017-11-25T20:26:14.000Z" tags = [] +++
 
 <p>Hi there,<p> <p>This month has been quite filled with Haiku events, including two conferences and a coding sprint.</p> <p>Read on for our adventures climbing over a gate, planespotting, and eventually troubleshooting a real-scale flight simulator!</p>
 

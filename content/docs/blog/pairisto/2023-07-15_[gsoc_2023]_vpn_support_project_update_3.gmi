@@ -1,4 +1,4 @@
-# [GSoC 2023] VPN Support Project Update #3
++++ type = "blog" title = "[GSoC 2023] VPN Support Project Update #3" author = "Pairisto" date = "2023-07-15 01:19:01-05:00" tags = ["haiku", "software"] +++
 
 Sorry for the late blog post everyone! Personal life and some roadblocks on the project got in the way but I am proud to say that the driver is up and working!
 

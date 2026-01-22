@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "engima" title = "Haiku SVN: USBKit, Messaging, VMDK" date = "2007-03-13T08:18:54.000Z" tags = ["usb", "USBKit", "BMessage", "VMWare", "VMDK"] +++
 
 <h3>Quick Updates</h3> <em>19900-20000</em> <ul> <li>Introduction of USBKit reimplementation</li> <li>Interesting local message passing optimisations</li> <li>VMWare vmdk tools <ul><li>vmdk image generator</li> <li>vmdk jam target: haiku-vmware-image</li></ul></li></ul>
 

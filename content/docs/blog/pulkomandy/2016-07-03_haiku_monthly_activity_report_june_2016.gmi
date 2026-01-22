@@ -1,4 +1,4 @@
-# Haiku monthly activity report - June 2016
++++ type = "blog" author = "PulkoMandy" title = "Haiku monthly activity report - June 2016" date = "2016-07-03T16:54:28.000Z" tags = [] +++
 
 Hey there, <p> Finally the reports are back to normal monthly schedule! <p> The summer is coming, which in my case means a little more free time for Haiku hacking. Anyway, on to the interesting facts. This report covers hrev50367-hrev50387 (yes, only 20 revisions this month, but some of them are large-ish with several commits from Barrett).
 

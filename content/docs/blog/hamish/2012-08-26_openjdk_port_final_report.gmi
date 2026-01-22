@@ -1,4 +1,4 @@
-# OpenJDK port: final report
++++ type = "blog" author = "hamish" title = "OpenJDK port: final report" date = "2012-08-26T23:43:25.000Z" tags = ["gsoc", "gsoc2012", "OpenJDK"] +++
 
 Since my three-quarter term report I've been working on adding audio input support to the jsound port and fixing various bugs in the JDK. Since the AWT/Java2d and jsound ports are now completed, my goals for the summer have been accomplished! The OpenJDK port is now in a fairly usable state, and community members have been using it to run some large scale Swing apps such as NetBeans and ThinkFree office.
 

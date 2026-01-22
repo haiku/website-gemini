@@ -1,4 +1,4 @@
-# Mini report and pictures from FOSDEM 2010
++++ type = "blog" author = "aldeck" title = "Mini report and pictures from FOSDEM 2010" date = "2010-02-08T15:21:07.000Z" tags = ["FOSDEM", "2010", "report", "pictures", "photos"] +++
 
 Just came back from FOSDEM 2010, i don't have much to say, since it was quite a flash journey for me, i left home Sunday at 7:30AM and got back at 7:30PM. I originally planned to go on both days  but this year Haiku didn't have its own stand, instead Haiku was present Sunday in the Alt-OS (ie: not Linux nor BSD) DevRoom in the form of several talks by François Revol, Olivier Coursière and Niels Reedijk. The <a href="http://fosdem.org/2010/schedule/devrooms/altos" title="DevRoom">Alt-OS DevRoom</a> was a (~50 people capacity) class room, that François entirely managed and organized, he invited other projects to give talks and scheduled the talks.
 

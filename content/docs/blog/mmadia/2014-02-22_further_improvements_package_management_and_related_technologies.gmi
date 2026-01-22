@@ -1,4 +1,4 @@
-# Further improvements to package management and related technologies
++++ type = "blog" author = "mmadia" title = "Further improvements to package management and related technologies" date = "2014-02-23T00:07:27.000Z" tags = ["package management"] +++
 
 <p> Since the package management feature branch was merged into HAIKU's master repository, numerous issues were uncovered. As with any large feature, an influx of regressions and other issues should always be expected.
 
@@ -24,7 +24,7 @@ It can now install Gobe Productive 2.0 (Trial) and reports from IRC mention many
 
 The directory /boot/common was removed, or more correctly it has been merged into /boot/system [<a href="https://dev.haiku-os.org/wiki/PackageManagement/DirectoryStructure">1</a>].
 
-</p> <div class="alert alert-info"> This directory was physically added in Haiku (in BeOS, it existed only as the B_COMMON_*_DIRECTORY file mappings).
+</p> {{< alert-info "" `This directory was physically added in Haiku (in BeOS, it existed only as the B_COMMON_*_DIRECTORY file mappings).
 
 It was originally planned to help ensure /boot/system (B_SYSTEM_DIRECTORY) would only contain the essentials needed by Haiku.
 
@@ -32,9 +32,7 @@ Everything else would be in /boot/common (B_COMMON_DIRECTORY) or in /boot/home (
 
 Unfortunately this never worked out as planned.
 
-One of the contributing factors was that more and more software moved out of Haiku's repository and become 3rd party packages.
-
-</div> <p> Removing /boot/common simplified some things, such as package dependencies between software provided by Haiku (e.g., git) and user-installed pacakges (e.g., git_svn). [<a href="https://www.freelists.org/post/haiku-development/Removing-bootcommon">1</a>] </p> <p> The changes involving /boot/common mostly affected software built for Haiku R1 pre-beta.
+One of the contributing factors was that more and more software moved out of Haiku's repository and become 3rd party packages.`>}} <p> Removing /boot/common simplified some things, such as package dependencies between software provided by Haiku (e.g., git) and user-installed pacakges (e.g., git_svn). [<a href="https://www.freelists.org/post/haiku-development/Removing-bootcommon">1</a>] </p> <p> The changes involving /boot/common mostly affected software built for Haiku R1 pre-beta.
 
 Any software that hard coded paths to it (either as a zip that extracts to boot or explicitly uses /boot/common/...) broke.
 

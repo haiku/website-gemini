@@ -1,4 +1,4 @@
-# [GSoC 2017 - BTRFS write support] Week #9 #10 #11 (Second coding period)
++++ type = "blog" title = "[GSoC 2017 - BTRFS write support] Week #9 #10 #11 (Second coding period)" author = "HyChe" date = "2017-08-04 12:06:52+07:00" tags = ["haiku", "gsoc2017", "gsoc", "filesystem", "btrfs"] +++
 
 ### Hi there!
 

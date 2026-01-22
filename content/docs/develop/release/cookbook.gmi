@@ -1,4 +1,4 @@
-# Critical Milestones
+# Release Cookbook
 This page documents the steps needed during a release.
 
 ## Community Concensus
@@ -16,7 +16,7 @@ This page documents the steps needed during a release.
 
 Each of the steps below should be announced on the mailing list to remind everyone where we’re at.
 
-## Scramle. Enhancement Deadline
+## Scramble. Enhancement Deadline
 **Time:** ~ 1 week
 
 * Roughly one week for people to finish up their enhancements for *(RELEASE)*
@@ -49,7 +49,7 @@ Each of the steps below should be announced on the mailing list to remind everyo
 
 
 * Disable serial debug output in bootloader and kernel config file (
-=> https://git.haiku-os.org/haiku/commit/?h=r1beta1&id=81fb2084b01e87c15bdde507e024e2938af71272 example
+=> https://git.haiku-os.org/haiku/commit/?h=r1beta5&id=9d0312eb00a75051275accf9967ddc1c64154334 example
 )
 
 * Turn KDEBUG_LEVEL down to 1, for performance reasons (
@@ -61,9 +61,7 @@ Each of the steps below should be announced on the mailing list to remind everyo
 ), and update logos
 
 * Update both package repos to use the branch’s repos (
-=> https://git.haiku-os.org/haiku/commit/?h=r1beta1&id=ebd3fb55d9549247be65c4b62e3653f9bc1a7841 part 1
-, 
-=> https://git.haiku-os.org/haiku/commit/?h=r1beta1&id=3d0db15a6f2963f011554f421611ee9c9b31c6f5 part 2
+=> https://git.haiku-os.org/haiku/commit/?h=r1beta4&id=b9c0fea70a1fd7edc396e0e6992b77a7c5a3b4f8 example
 )
 
 ## Configure CI/CD Pipelines
@@ -88,24 +86,22 @@ Once your code is branched, you can begin setting up CI/CD pipelines in concours
 
 * **Release Coordinator** should be downright obnoxious about people testing TC images!
 
-* Have people test on as much hardware as possible to find issues with drivers
+* Have people test on as much hardware as possible to find issues
 
 * Use Gerrit “cherry-pick” function to propose a change for inclusion in the release branch
 
 ## Finalization
 **Time:** ~ 1 week
 
-* If everything is going well, produce Release Candidate images
+* Synchronize **i18n** strings and userguide
 
-* Tag the release candidate builds on the brach (rc0)
+* Produce **Release Candidate** images
 
-* RC images all want to be *(RELEASE)*
-
-* Any RC image can be renamed *(RELEASE)*
+* **Tag** the release candidate builds on the brach (rc0)
 
 * Ensure release notes and press release are almost done.
 
-* MOAR Testing!
+* More testing!
 
 * When you have decided that an RC is actually the release, tag it in git
 
@@ -135,9 +131,7 @@ Once your code is branched, you can begin setting up CI/CD pipelines in concours
       |--[all optional packages]
 ```
 
-* rsync release-files-directory to 
-=> http://haiku-files.org/files/releases/[release-name http://haiku-files.org/files/releases/[release-name
-]
+* rsync release-files-directory to /files/releases/[release-name]
 
 * rsync release-files-directory to baron:/srv/rsync/haiku-mirror-seed/releases/[release-name]/ (the 3rd-party rsync mirrors will automatically mirror the files)
 
@@ -147,10 +141,6 @@ Once your code is branched, you can begin setting up CI/CD pipelines in concours
 => http://distrowatch.com/table.php?distribution=haiku http://distrowatch.com/table.php?distribution=haiku
  (?)
 
-* Update the freshmeat/freecode page: 
-=> http://freecode.com/projects/haiku http://freecode.com/projects/haiku
- (mmu_man)
-
 * Update website references.* Double check listed mirrors have release
 
 * Comment out any mirrors which don’t have it (a few missing is fine)
@@ -158,6 +148,40 @@ Once your code is branched, you can begin setting up CI/CD pipelines in concours
 * Put release notes on proper place on website
 
 * Release!
+
+Website Pages to update:
+
+* 
+=> https://www.haiku-os.org/ https://www.haiku-os.org/
+ “Download” button
+
+* 
+=> https://www.haiku-os.org/get-haiku https://www.haiku-os.org/get-haiku
+
+
+* 
+=> https://www.haiku-os.org/get-haiku/release-notes https://www.haiku-os.org/get-haiku/release-notes
+
+
+* 
+=> https://www.haiku-os.org/get-haiku/installation-guide https://www.haiku-os.org/get-haiku/installation-guide
+
+
+* 
+=> https://www.haiku-os.org/get-haiku/burn-cd https://www.haiku-os.org/get-haiku/burn-cd
+
+
+* 
+=> https://www.haiku-os.org/guides/making_haiku_usb_stick https://www.haiku-os.org/guides/making_haiku_usb_stick
+
+
+* 
+=> https://www.haiku-os.org/slideshows/haiku-tour https://www.haiku-os.org/slideshows/haiku-tour
+
+
+* 
+=> https://www.haiku-os.org/docs/userguide/en/contents.html https://www.haiku-os.org/docs/userguide/en/contents.html
+ – sync with branch or tag.
 
 ## After the release
 * Close the current milestone on Trac, move tickets to the next milestone
@@ -169,46 +193,4 @@ Once your code is branched, you can begin setting up CI/CD pipelines in concours
 * Update the Roadmap wiki page again with the final release date
 
 * Prepare graphics for the download page: stamp, ladybugs, cd/dvd graphics
-
-Website Pages to update:
-
-* Official Article
-
-* 
-=> http://www.haiku-os.org/get-haiku http://www.haiku-os.org/get-haiku
-
-
-* 
-=> http://www.haiku-os.org/get-haiku/release-notes http://www.haiku-os.org/get-haiku/release-notes
-
-
-* 
-=> http://www.haiku-os.org/get-haiku/installation-guide http://www.haiku-os.org/get-haiku/installation-guide
-
-
-* 
-=> http://www.haiku-os.org/get-haiku/burn-cd http://www.haiku-os.org/get-haiku/burn-cd
-
-
-* 
-=> http://www.haiku-os.org/guides/making_haiku_usb_stick http://www.haiku-os.org/guides/making_haiku_usb_stick
-
-
-* 
-=> http://www.haiku-os.org/slideshows/haiku-tour http://www.haiku-os.org/slideshows/haiku-tour
-
-
-* 
-=> http://www.haiku-os.org/docs/userguide/en/contents.html http://www.haiku-os.org/docs/userguide/en/contents.html
- – sync with branch or tag.
-
-Updating download logo for website front page:
-
-
-```
-sudo bash
-cd /srv/www/drupal/haiku-os.org/themes/shijin/haiku-images
-mv bg-download-box.png GET-HAIKU-download-box-r1a1.png
-cp GET-HAIKU-download-box-r1a2.png bg-download-box.png
-```
 

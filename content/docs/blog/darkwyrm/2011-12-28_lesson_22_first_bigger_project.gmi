@@ -1,4 +1,4 @@
-# Lesson 22: A First (Bigger) Project
++++ type = "blog" author = "darkwyrm" title = "Lesson 22: A First (Bigger) Project" date = "2011-12-28T16:58:26.000Z" tags = ["development", "tutorials", "programming-with-haiku"] +++
 
 After a long hiatus, here is the next lesson in the series. Lesson 22 begins a project which will delve deeper into what is involved in developing larger projects in Haiku. In this case, we begin working on a text editor, QuickEdit.
 

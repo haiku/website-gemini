@@ -2,8 +2,8 @@
 This page provides information regarding the package building process. The first section documents building a package with the low level command "package". The second section refers to building packages with the "haikuporter" tool.
 
 ## Building a Package with the “package” Command
-The package file format is specified in detail in a 
-=> FileFormat.rst separate document
+The package file format is specified in detail in 
+=> FileFormat.gmi#hpkg-file-format Haiku Package File Format
 . This section presents information from the perspective of how to build a package file with the "package" command.
 
 An hpkg file is an archive file (just like tar or zip files) that additionally contains package meta information in a separate section of the file. When building an hpkg file via the "package" command the meta information must be provided via a ".PackageInfo" file. For convenience, the file itself is added to the archive as well and can be extracted later, but it will be ignored by packagefs.

@@ -1,4 +1,4 @@
-# Streaming Support And MediaKit Development - Weekly Report #3
++++ type = "blog" author = "Barrett" title = "Streaming Support And MediaKit Development - Weekly Report #3" date = "2016-03-25T22:27:23.000Z" tags = ["media server", "media_kit", "streaming contract"] +++
 
 Hello, here a short report about how things are coming along.
 

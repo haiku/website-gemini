@@ -1,4 +1,4 @@
-# A Report From BeGeistert 023
++++ type = "blog" author = "luroh" title = "A Report From BeGeistert 023" date = "2010-10-24T22:14:54.000Z" tags = ["begeistert"] +++
 
 Probably forgetting half of what took place and getting the other half backwards, below are my recollections of BeGeistert 023.
 

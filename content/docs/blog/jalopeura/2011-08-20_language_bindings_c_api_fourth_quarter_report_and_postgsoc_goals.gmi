@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "jalopeura" title = "Language Bindings for the C++ API: Fourth Quarter Report and Post-GSoC Goals" date = "2011-08-20T15:56:50.000Z" tags = ["api", "gsoc2011", "perl", "python"] +++
 
 The following classes have been implemented; some methods and functions have not been implemented due to dependencies on unimplemented classes, but the classes below are otherwise complete:
 

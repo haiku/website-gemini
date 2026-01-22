@@ -1,4 +1,4 @@
-# How to Help with the OpenJDK Port
++++ type = "blog" author = "bryanv" title = "How to Help with the OpenJDK Port" date = "2008-03-11T19:42:31.000Z" tags = ["OpenJDK"] +++
 
 I've gotten several (at least five or six) emails from people contacting me through this website. It seems to be a common question.
 

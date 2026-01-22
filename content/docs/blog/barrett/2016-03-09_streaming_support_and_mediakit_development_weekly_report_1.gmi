@@ -1,4 +1,4 @@
-# Streaming Support And MediaKit Development - Weekly Report #1
++++ type = "blog" author = "Barrett" title = "Streaming Support And MediaKit Development - Weekly Report #1" date = "2016-03-09T23:26:54.000Z" tags = ["media_kit", "streaming contract", "media server"] +++
 
 Hello, as you may have seen from the news on the front page of the website, the contract I proposed has been accepted. This contract relates to development in the media_kit area. While there is more than one goal, the first part will be dealing with streaming support. I would like to thank all the donors that made this contract possible.
 

@@ -1,4 +1,4 @@
-# Google Summer of Code project: Sub-pixel anti-aliasing
++++ type = "blog" author = "andrej_spielmann" title = "Google Summer of Code project: Sub-pixel anti-aliasing" date = "2008-05-14T23:22:41.000Z" tags = ["google", "gsoc", "sub-pixel anti-aliasing"] +++
 
 Hello Everybody!
 

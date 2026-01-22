@@ -1,4 +1,4 @@
-# WPA encryption progress
++++ type = "blog" author = "axeld" title = "WPA encryption progress" date = "2010-10-13T21:03:41.000Z" tags = ["wpa", "network", "WLAN", "haikuware bounty"] +++
 
 <p> I've been working on getting WPA encryption to work on Haiku. While I haven't been able to invest as much time as I hoped for before, I made a bit of progress that at least justifies a small status update.
 

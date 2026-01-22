@@ -1,4 +1,4 @@
-# New Website Goes Live
++++ type = "blog" author = "koki" title = "New Website Goes Live" date = "2007-01-23T15:04:36.000Z" tags = ["website", "marcom"] +++
 
 We finally deployed the new website. Waldemar fixed at the last minute a bug that we discovered in one of Drupal's module, and we then asked Takidau to change the DNS settings. It was a long road. How long did it take? A bit more than 6 months? Much longer than I would have expected, I have to admit. But I think it is a good start. As some have already pointed out on the Haiku mailing list, there are still a few areas that need to be tweaked.
 

@@ -1,4 +1,4 @@
-# Reality Bytes
++++ type = "blog" author = "bryanv" title = "Reality Bytes" date = "2008-10-01T03:53:59.000Z" tags = [] +++
 
 After nearly three years, I'm finally winding down all the home-improvement projects that have been bogging me down and consuming the time I haven't devoted to my family, friends, job, and immediate community. I also have Haiku running on my iMac, virtualized in VirtualBox. I am working on getting the data from my old UW SCSI development disc to an image on this machine as I type this.
 

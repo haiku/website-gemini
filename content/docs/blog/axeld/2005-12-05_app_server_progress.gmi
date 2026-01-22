@@ -1,4 +1,4 @@
-# app_server progress 
++++ type = "blog" author = "axeld" title = "app_server progress " date = "2005-12-05T18:12:00.000Z" tags = ["app_server", "clipping"] +++
 
 In the last couple of days, I reworked the workspace and modal/floating window code of the app_server. But that work got interrupted for the weekend: you know, I don't work on the weekend. Nah, that's not it. Actually, Stephan Aßmus finished prototyping the new clipping code for the app_server.
 

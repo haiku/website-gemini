@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "mmu_man" title = "RMLL 2008, days 1 and 2" date = "2008-07-03T16:43:39.000Z" tags = ["event", "report", "rmll"] +++
 
 Hi there.
 

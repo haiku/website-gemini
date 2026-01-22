@@ -1,4 +1,4 @@
-# WebKit weekly report #30
++++ type = "blog" author = "PulkoMandy" title = "WebKit weekly report #30" date = "2014-05-02T06:51:19.000Z" tags = ["webpositive", "WebKit", "contract work"] +++
 
 Hello everyone,
 

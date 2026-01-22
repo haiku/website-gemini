@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "mmu_man" title = "GCI 2015 meeting; D -3" date = "2016-06-11T23:51:43.000Z" tags = ["GCI", "hackerspace", "Code-In"] +++
 
 <img align="right" width="25%" height="25%" src="/files/DSCN4554.JPG" />So, it's Thursday and I'm getting a plane to San Francisco for the GCI meeting. Well, hopefully, as the French railway is on strike… Ok, my train was canceled, but another was 1.5 hours late so I managed to jump on it and arrive… at the Paris Lyon station, which meant taking the RER (oh no, it's on strike as well), ok, the Metro to another station and then the RER to the airport.
 

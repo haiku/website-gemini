@@ -1,4 +1,4 @@
-# GSoC 2022 Final Report: Improving the Calendar Application
++++ type = "blog" title = "GSoC 2022 Final Report: Improving the Calendar Application" author = "HarshitSharma" date = "2022-09-12 15:04:11+05:30" tags = ["haiku", "software"] +++
 
 # Project Description
 

@@ -1,4 +1,4 @@
-#  
++++ type = "blog" title = "[GSoC 2023] .NET Developer Platform - Final Report" author = "Trung Nguyen" date = "2023-08-20" tags = ["haiku", "software", "gsoc", "gsoc2023", "dotnet"] +++
 
 # Project overview
 

@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "mmu_man" title = "GCI 2015 meeting; D day" date = "2016-06-13T03:37:07.000Z" tags = ["GCI", "Code-In"] +++
 
 So this is the day.
 

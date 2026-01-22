@@ -1,4 +1,4 @@
-# CIFS client update
++++ type = "blog" author = "obaro_ogbo" title = "CIFS client update" date = "2009-07-04T16:03:53.000Z" tags = ["cifs client", "gsoc2009"] +++
 
 The journey so far.
 

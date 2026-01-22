@@ -1,4 +1,4 @@
-# Haiku Depot Server Technology Modernisation
++++ type = "blog" title = "Haiku Depot Server Technology Modernisation" author = "apl" date = "2023-04-02 12:00:00+12:00" tags = ["haiku", "haikudepot", "haikudepotserver", "hds", "java"] +++
 
 _This article is cross-posted from Andrew Lindesay's blog here[1]._
 

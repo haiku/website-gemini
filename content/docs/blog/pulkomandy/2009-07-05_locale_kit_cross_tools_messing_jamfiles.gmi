@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "PulkoMandy" title = "Locale kit: cross tools, messing with jamfiles" date = "2009-07-05T21:29:39.000Z" tags = ["gsoc", "localekit", "gsoc2009", "jam"] +++
 
 This week i've been working on a big red post-it that was on last week's picture. It was about wo things : make the catalog handling tools work as build tools, and test them in some special cases.
 

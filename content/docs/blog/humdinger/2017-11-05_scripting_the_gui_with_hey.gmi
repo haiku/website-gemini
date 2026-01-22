@@ -1,4 +1,4 @@
-# Scripting the GUI with 'hey'
++++ type = "blog" title = "Scripting the GUI with 'hey'" author = "humdinger" date = "2017-11-05 08:16:58+01:00" tags = ["haiku", "script", "hey"] +++
 
 Haiku's GUI is in principle entirely scriptable. You can change a window's position and size and manipulate pretty much every widget in it.
 

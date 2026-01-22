@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "mmlr" title = "API Design is Hard, Finding Bugs (Can be Made) Easy!" date = "2011-12-23T19:34:31.000Z" tags = ["contract work", "guarded heap", "debugging", "keystore"] +++
 
 Puh, time has passed again and the signals from my side might have been a bit confusing with only the last blog post in mind. Therefore I'm going to explain what provoked that flurry of seemingly unrelated commits and how the KeyStore API is coming along.
 

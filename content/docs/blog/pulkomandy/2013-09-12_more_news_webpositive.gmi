@@ -1,4 +1,4 @@
-# More news from WebPositive
++++ type = "blog" author = "PulkoMandy" title = "More news from WebPositive" date = "2013-09-12T17:03:15.000Z" tags = ["webpositive", "WebKit", "contract", "contract work"] +++
 
 Hi everyone, It's been two weeks since the previous blog post, so here goes an update.
 

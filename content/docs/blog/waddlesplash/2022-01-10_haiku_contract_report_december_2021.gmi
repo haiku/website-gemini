@@ -1,4 +1,4 @@
-# Haiku Contract Report: December 2021
++++ type = "blog" title = "Haiku Contract Report: December 2021" author = "waddlesplash" date = "2022-01-10 18:00:00-04:00" tags = ["contractor"] +++
 
 For the first time, most of the work I did as part of this contract was not in the month's activity report[1] aside from a passing reference, as nearly all of it took place outside the main Haiku source tree. So, here I detail it; and thanks once again to the generous donations[2] of readers like you (thank you!).
 

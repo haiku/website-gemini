@@ -1,4 +1,4 @@
-# UHCI Driver
++++ type = "blog" author = "emitrax" title = "UHCI Driver" date = "2007-04-29T22:10:05.000Z" tags = ["usb", "gsoc", "uhci"] +++
 
 After reading the main part of the USB specs, I moved on to the UHCI driver specs this week-end. I can now say, that implementing the isochronous part to the UHCI driver is a lot easier than I thought, and I guess Micheal can confirm. While reading the UHCI specs I followed Micheal's code, and I have some questions about it, but I'll write him an email for that. By the way, is R1 intended only for x86?
 

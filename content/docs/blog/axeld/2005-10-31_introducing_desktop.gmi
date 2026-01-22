@@ -1,4 +1,4 @@
-# Introducing The Desktop
++++ type = "blog" author = "axeld" title = "Introducing The Desktop" date = "2005-10-31T23:38:00.000Z" tags = ["desktop", "app_server"] +++
 
 <p>Since it would probably be boring if I just wrote which bugs I fixed in the app_server today, or which function I renamed to make it easier on the eyes, I think I can better use this forum to introduce some app_server concepts, in varying detail, and in small steps.</p>
 

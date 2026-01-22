@@ -1,7 +1,7 @@
 # Node Monitoring
 Creation Date: January 16, 2003 Author(s): Axel Dörfler
 
-This document describes the feature of the BeOS kernel to monitor nodes. First, there is an explanation of what kind of functionality we have to reproduce (along with the higher level API), then we will present the implementation in OpenBeOS.
+This document describes the feature of the BeOS kernel to monitor nodes. First, there is an explanation of what kind of functionality we have to reproduce (along with the higher level API), then we will present the implementation in Haiku.
 
 ## Requirements - Exported Functionality in BeOS
 From user-level, BeOS exports the following API as found in the storage/NodeMonitor.h header file:
@@ -73,7 +73,7 @@ The kernel is able to send the BMessages directly to the specified BLooper and B
 ```
 
 ```
-## Meeting the Requirements in an Optimal Way - Implementation in OpenBeOS
+## Meeting the Requirements in an Optimal Way - Implementation in Haiku
 If you assume that every file operation could trigger a notification message to be send, it’s clear that the node monitoring system must be optimized for sending messages. For every call to "notify_listener()", the kernel must check if there are any monitors for the node that was updated.
 
 Those monitors are put into a hash table which has the device number and the vnode ID as keys. Each of the monitors maintains a list of listeners which specify which port/token pair should be notified for what change. Since the vnodes are created/deleted as needed from the kernel, the node monitor is maintained independently from them; a simple pointer from a vnode to its monitor is not possible.
@@ -131,11 +131,11 @@ If a node is deleted from the disk, the corresponding "node_monitor" and its lis
 ## Differences Between Both Implementations
 Although the aim was to create a completely compatible monitoring implementation, there are some notable differences between the two.
 
-BeOS reserves a certain number of slots for calls to "watch_node()" - each call to that function will use one slot, even if you call it twice for the same node. OpenBeOS, however, will always use one slot per node - you could call "watch_node()" several times, but you would waste only one slot.
+BeOS reserves a certain number of slots for calls to "watch_node()" - each call to that function will use one slot, even if you call it twice for the same node. Haiku, however, will always use one slot per node - you could call "watch_node()" several times, but you would waste only one slot.
 
-While this is an implementational detail, it also causes a change in behaviour for applications; in BeOS, applications will get one message for every "watch_node()" call, in OpenBeOS, you’ll get only one message per node. If an application relies on this strange behaviour of the BeOS kernel, it will no longer work correctly.
+While this is an implementational detail, it also causes a change in behaviour for applications; in BeOS, applications will get one message for every "watch_node()" call, in Haiku, you’ll get only one message per node. If an application relies on this strange behaviour of the BeOS kernel, it will no longer work correctly.
 
-The other difference is that OpenBeOS exports its node monitoring functionality to kernel modules as well, and provides an extra plain C API for them to use.
+The other difference is that Haiku exports its node monitoring functionality to kernel modules as well, and provides an extra plain C API for them to use.
 
 ## And Beyond?
 The current implementation directly iterates over all listeners and sends out notifications as required synchronously in the context of the thread that triggered the notification to be sent.
@@ -152,5 +152,5 @@ While 1.) might be a real show stopper, 2.) is almost invalidated because of Tra
 
 Even 1.) could be solved if the kernel could query a file system if it can support this particular feature; it could then automatically monitor all files in that directory without adding complexity to the application using this feature. Of course, the effort to provide this functionality is much larger then - but for applications like Tracker, the complexity would be removed from the application without extra cost.
 
-However, none of the discussed feature extensions have been implemented for the currently developed version R1 of OpenBeOS.
+However, none of the discussed feature extensions have been implemented for the currently developed version R1 of Haiku.
 

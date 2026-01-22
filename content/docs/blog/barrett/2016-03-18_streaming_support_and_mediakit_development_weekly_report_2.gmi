@@ -1,4 +1,4 @@
-# Streaming Support And MediaKit Development - Weekly Report #2
++++ type = "blog" author = "Barrett" title = "Streaming Support And MediaKit Development - Weekly Report #2" date = "2016-03-18T12:43:21.000Z" tags = ["media server", "media_kit", "streaming contract"] +++
 
 Hello, there are not a lot of news. This is mostly due to myself being occupied in the lastest two weeks with other commitments that I can't really avoid. The situation is going to change, and I plan to restore a normal working day since monday.
 

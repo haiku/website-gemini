@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "PulkoMandy" title = "Locale Kit : status update n.2" date = "2009-05-27T11:51:14.000Z" tags = ["gsoc", "localekit", "gsoc2009"] +++
 
 These two weeks I've been quite busy with other things, so the project didn't move as much as I wanted. However, I managed to get the catalog engine to internationalize an app for the first time. It's not a big application, just a very simple Hello World test program. And the lack of a tool for translating catalogs means I had to edit them by hand to get the translation done.
 

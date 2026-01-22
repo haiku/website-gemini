@@ -1,4 +1,4 @@
-# Haiku Contract Report: November 2021
++++ type = "blog" title = "Haiku Contract Report: November 2021" author = "waddlesplash" date = "2021-12-09 21:00:00-04:00" tags = ["contractor"] +++
 
 PulkoMandy has already written the activity report[1] for this month, so now I am once again left to detail the work I have been doing thanks to the generous donations[2] of readers like you (thank you!).
 

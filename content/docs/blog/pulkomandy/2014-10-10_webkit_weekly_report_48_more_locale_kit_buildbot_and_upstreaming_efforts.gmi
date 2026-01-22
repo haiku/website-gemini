@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "PulkoMandy" title = "WebKit weekly report #48 - More Locale Kit, buildbot and upstreaming efforts" date = "2014-10-10T06:44:52.000Z" tags = ["WebKit", "locale kit", "buildbot", "contract work"] +++
 
 Hello world!
 

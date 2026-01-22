@@ -1,4 +1,4 @@
-# WebKit weekly report #47 - Trapped in Locale Kit!
++++ type = "blog" author = "PulkoMandy" title = "WebKit weekly report #47 - Trapped in Locale Kit!" date = "2014-10-03T07:31:54.000Z" tags = ["WebKit", "locale kit", "mozilla", "contract work"] +++
 
 Hello world!
 

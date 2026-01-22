@@ -1,4 +1,4 @@
-# Coding Style
++++ type = "blog" author = "emitrax" title = "Coding Style" date = "2007-05-30T11:13:00.000Z" tags = ["usb", "soc"] +++
 
 As many of you know, I've started working even before the SoC started officially. I've already sent two patches to both my mentor (Oliver R. Dorantes) and Michael Lotz for review. One of them has already been commited by mmu_man (thanks). The second one is under review. With this latest one, the usb stack manager should be complete, as the QueueIsochronous method has been implemented, along with the CalculateBandwidth. My next move is to implement the UHCI isochronous method. Once I've done that, testing can be made. As for now, there seem to be a lack of drivers with which I can test the code. Oliver has offered himself to write some simple bluetooth driver just to test the code. Isochronous UHCI Tester are obviously welcome.
 

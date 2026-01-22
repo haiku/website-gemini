@@ -1,4 +1,4 @@
-# Haiku Repository Files and Identifiers
++++ type = "blog" title = "Haiku Repository Files and Identifiers" author = "apl" date = "2020-07-11 11:42:49+12:00" tags = ["haiku", "software", "repository"] +++
 
 Software on a computing platform such as Haiku is typically distributed as a package.  Without a packaging system it would be hard for users to install software and because software often depends on other software, the chain of dependencies would be  difficult for a user to resolve themselves.  To orchestrate the distribution and management of the packages, Haiku has a packaging system which consists of applications, online tools, on-host tools and software libraries.  One aspect of the packaging system is the coordination and identification of repositories.
 

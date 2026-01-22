@@ -1,4 +1,4 @@
-# [GSoC 2018: SDHCI MMC Driver]: Week #10
++++ type = "blog" title = "[GSoC 2018: SDHCI MMC Driver]: Week #10" author = "krish_iyer" date = "2018-07-31 23:58:43+05:30" tags = ["haiku", "software", "GSoC 2018", "SDHCI", "MMC", "Drivers"] +++
 
 Hello everyone, this week we have tried to get the response from the command but unfortunately, it didn't work out. In the meantime, I have submitted the code for review and PulkoMandy had already reviewed once. I have been going through Linux  patches1[1] 2[2] which are related to  the issue we are currently facing.
 

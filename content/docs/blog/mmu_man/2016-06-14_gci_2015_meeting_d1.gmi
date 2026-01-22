@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "mmu_man" title = "GCI 2015 meeting; D+1" date = "2016-06-14T06:56:12.000Z" tags = ["Code-In", "GCI"] +++
 
 <img src="/files/IMG_20160613_084622.jpg" width="25%" height="25%" align="right" alt="Morning light in the bus" title="Morning light in the bus" />[Looks like I'm still jet-lagged a week later... I'll try to publish my notes anyway, and put photos later on]
 

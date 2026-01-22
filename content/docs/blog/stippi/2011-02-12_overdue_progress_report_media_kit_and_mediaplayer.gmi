@@ -1,4 +1,4 @@
-# Overdue progress report on Media Kit and MediaPlayer
++++ type = "blog" author = "stippi" title = "Overdue progress report on Media Kit and MediaPlayer" date = "2011-02-12T16:15:08.000Z" tags = ["media", "ffmpeg", "contract work"] +++
 
 <p> Going through some backup files on my hard drive, I discovered a blog entry about my work on the Media Kit and MediaPlayer, which I for some reason never published. Even though it's about work which happened some time ago, I am going ahead and publish it anyway, perhaps it's still an interesting read for some. Here it goes:
 

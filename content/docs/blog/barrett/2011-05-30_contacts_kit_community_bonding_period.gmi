@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "Barrett" title = "Contacts Kit, Community Bonding Period" date = "2011-05-30T11:17:14.000Z" tags = ["gsoc", "gsoc2011", "contacts kit", "Services Kit"] +++
 
 During the community bonding period, i have researched around the project to prepare my work for the coding days that will follow.  I also promised to talk with the other devs in the ml, it was not necessary in these days...i'm working with the help of Alex to a document describing the entire API in order to discuss it in the ml.
 

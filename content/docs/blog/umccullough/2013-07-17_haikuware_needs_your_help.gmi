@@ -1,4 +1,4 @@
-# Haikuware Needs Your Help
++++ type = "blog" author = "umccullough" title = "Haikuware Needs Your Help" date = "2013-07-18T04:51:54.000Z" tags = ["Haikuware", "donations"] +++
 
 <img src="http://haikuware.com/images/stories/logo6.png" border="8" align="right"/> <b>UPDATE: Goal reached - thanks for stepping up and helping out everyone!</b> Feel free to donate toward next year's costs though :)
 

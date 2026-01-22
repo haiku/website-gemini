@@ -1,4 +1,4 @@
-# Report on the API Documentation Team Meeting of May 19th 2007
++++ type = "blog" author = "nielx" title = "Report on the API Documentation Team Meeting of May 19th 2007" date = "2007-05-19T10:12:12.000Z" tags = ["documentation", "meeting"] +++
 
 <p>This is a report of the meeting of the API documentation team that was held on May 18th 2007 at 19:00 GMT on freenode.org in the #haiku-doc channel. The full IRC log is hosted by <a href="http://johndrinkwater.name/files/haiku/irclogs/20070518-%23haiku-doc.log">John Drinkwater</a>.<p>
 

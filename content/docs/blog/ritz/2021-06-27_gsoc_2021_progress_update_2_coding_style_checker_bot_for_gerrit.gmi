@@ -1,4 +1,4 @@
-# GSoC 2021 Progress Update 2: Coding style checker bot for Gerrit
++++ type = "blog" title = "GSoC 2021 Progress Update 2: Coding style checker bot for Gerrit" author = "ritz" date = "2021-06-27 14:50:01+05:30" tags = ["haiku", "software", "gsoc", "gsoc2021"] +++
 
 Link to Introductory blog[1]   Link to Progress 1[2]
 

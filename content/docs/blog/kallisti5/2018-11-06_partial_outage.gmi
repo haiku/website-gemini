@@ -1,4 +1,4 @@
-# Partial Outage
++++ type = "blog" title = "Partial Outage" author = "kallisti5" date = "2018-11-06 00:25:52-06:00" tags = ["haiku", "software"] +++
 
 This evening a standard operating system upgrade has once again turned fatal.
 

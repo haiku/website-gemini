@@ -1,4 +1,4 @@
-# Radeon HD driver status update
++++ type = "blog" author = "kallisti5" title = "Radeon HD driver status update" date = "2011-10-18T17:11:39.000Z" tags = ["radeon_hd", "accelerant", "development"] +++
 
 <strong>UPDATE 10/19/2011!</strong> Older Radeon HD cards seem fully working minus HDMI. See below.
 

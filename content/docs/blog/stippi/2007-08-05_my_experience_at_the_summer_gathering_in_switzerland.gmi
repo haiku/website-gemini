@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "stippi" title = "My experience at the Summer Gathering in Lucerne, Switzerland" date = "2007-08-05T12:39:19.000Z" tags = ["meeting", "gathering", "coding", "fun", "event"] +++
 
 <p align="justify"> My backpack turned out really heavy, because at the moment, I have no mobile computer. Luckily I have one of those "industry embedded" machines, as big as an external CD-ROM drive. But I still had to pack my 17" flat screen. The travelling by train was nice, although I almost got off at the wrong station in Basel. I mean, I did get off, but I got back in in time... turned out Ingo did it exactly as I before me. He, François and Michael Lotz were already there, and they waited at the train station to pick me up. They held up a paper with the Haiku logo, as if I wasn't going to recognize them... :-) One hour later, we picked up Axel, again with the help of the Haiku sign.
 

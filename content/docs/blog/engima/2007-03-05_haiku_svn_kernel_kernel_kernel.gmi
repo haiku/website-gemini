@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "engima" title = "Haiku SVN: Kernel, Kernel, Kernel." date = "2007-03-05T20:50:27.000Z" tags = ["kernel", "vm", "usb", "resedit", "scheduler"] +++
 
 <h3>Quick Updates</h3> <em>r19700-r19800</em> <ul>     <li>Addition of fortunes, including Haiku specific texts.</li>     <li>Tweaked thread scheduler.</li>     <li>Many VM enhancements and fixes</li>     <li>Addition of resource editing tool, resedit.</li>     <li>Addition of VMware graphics driver.</li> </ul>
 

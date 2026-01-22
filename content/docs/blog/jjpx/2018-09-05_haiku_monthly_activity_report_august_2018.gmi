@@ -1,4 +1,4 @@
-#  
++++ type = "blog" title = "Haiku monthly activity report - 08/2018" author = "jjpx" date = "2018-09-05 16:37:40-03:00" tags = [] +++
 
 Time has come and a new monthly activity report arrived with it. It is the first time I write something this long in english. Enjoy!
 

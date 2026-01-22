@@ -1,4 +1,4 @@
-# The Icon Sets Proposed in the Icon Contest
++++ type = "blog" title = "The Icon Sets Proposed in the Icon Contest" author = "Zardshard" date = "2023-05-11 10:01:02-04:00" tags = ["contest", "icons", "user interface"] +++
 
 In 2006, an contest was held to create an original icon set for Haiku to replace the BeOS R5 icons. With the passage of time, much of the content surrounding the event has rotted away, including images of the proposed icon sets. Luckily, the Internet Archive has backups! The Stipi icon set won, with Honey, zuMi and Mc Clintock trailing close behind.
 

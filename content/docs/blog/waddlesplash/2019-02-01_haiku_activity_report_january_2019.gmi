@@ -1,4 +1,4 @@
-#  
++++ type = "blog" title = "Haiku monthly activity report, January 2019" author = "waddlesplash" date = "2019-02-01 19:00:00-04:00" tags = [] +++
 
 Welcome to the second monthly report for 2019! PulkoMandy and a few others are representing Haiku at FOSDEM, so, I'm covering for him yet again. (Hooray, more writing about myself in the third person!)
 

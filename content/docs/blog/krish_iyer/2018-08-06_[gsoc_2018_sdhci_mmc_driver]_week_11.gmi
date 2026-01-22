@@ -1,4 +1,4 @@
-# [GSoC 2018: SDHCI MMC Driver]: Week #11
++++ type = "blog" title = "[GSoC 2018: SDHCI MMC Driver]: Week #11" author = "krish_iyer" date = "2018-08-06 21:24:03+05:30" tags = ["haiku", "software", "GSoC 2018", "SDHCI", "MMC", "Drivers"] +++
 
 Hello everyone, We are in the final week of GSoC'18 program and yesterday our code[1] has successfully merged[2]. It got crashed in the first build because we thought we would add the code but disable the build currently but we didn't test the case when device manager will try to find the driver in a certain directory which we hardcoded[3] at the time of loading the module. So we just changed it to an OR condition where it won't be able to find the driver binary but still be able to boot the OS in any case.
 

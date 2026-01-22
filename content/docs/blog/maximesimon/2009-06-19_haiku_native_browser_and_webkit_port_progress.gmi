@@ -1,4 +1,4 @@
-# Haiku Native Browser and WebKit port progress
++++ type = "blog" author = "maximesimon" title = "Haiku Native Browser and WebKit port progress" date = "2009-06-19T20:34:15.000Z" tags = ["WebKit", "browser", "gsoc 2009"] +++
 
 After a month of work, it's time to take a break and a step back to check on our progress.
 

@@ -1,4 +1,4 @@
-# HTTP Network Services Preview in R1 Beta 4
++++ type = "blog" title = "HTTP Network Services Preview in R1 Beta 4" author = "nielx" date = "2022-12-30 00:00:01+00:00" tags = ["haiku", "software", "development", "netservices"] +++
 
 The newest beta of Haiku includes a preview of a redesigned, modern HTTP library as the initial part of an renewed Network Services Kit. The primary goal of including the library is to get developers to experiment with it and give feedback on how it works within their software. The secondary goal is to gather some feedback on the use of modern C++ and some additional experimental features. This article provides a background to the new kit, some pointers on how to get started, and some notes on experimental designs that utilize modern C++ features.
 

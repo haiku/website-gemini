@@ -1,4 +1,4 @@
-# Usability goodness
++++ type = "blog" author = "sil2100" title = "Usability goodness" date = "2007-04-22T18:13:49.000Z" tags = ["soc", "usability"] +++
 
 Who would have thought that something like me being chosen as a student for GSoC would actually happen. But it did. Blissfully indeed.
 

@@ -1,4 +1,4 @@
-# Contract weekly report #56 - Media fixes and more!
++++ type = "blog" author = "PulkoMandy" title = "Contract weekly report #56 - Media fixes and more!" date = "2014-12-12T09:18:28.000Z" tags = ["contract work", "R1", "media", "interpolator"] +++
 
 Hello world!
 

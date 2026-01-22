@@ -1,4 +1,4 @@
-# [GSoC 2017] 3D Hardware Acceleration - Weekly Report 4
++++ type = "blog" title = "[GSoC 2017] 3D Hardware Acceleration - Weekly Report 4" author = "vivek" date = "2017-07-14 15:42:36+05:30" tags = ["driver", "gsoc2017", "gsoc"] +++
 
 ### Greetings
 

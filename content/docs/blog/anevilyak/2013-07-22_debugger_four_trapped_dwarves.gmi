@@ -1,4 +1,4 @@
-# Debugger: Four Trapped Dwarves
++++ type = "blog" author = "anevilyak" title = "Debugger: Four Trapped Dwarves" date = "2013-07-22T13:14:02.000Z" tags = ["output capture", "images", "dwarf", "debugger"] +++
 
 This time around, we only have one or two new features to cover as such, since most of my time recently has been spent under the hood.
 

@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "mmu_man" title = "GCI 2015 meeting; D+2" date = "2016-06-21T03:00:29.000Z" tags = ["GCI", "Code-In"] +++
 
 Tuesday is going to be adventure-packed. Let's hope everyone slept well. I made a quick survey but I'm not sure everyone answered honestly. Although someone admitted lying on the bed and waking up with the clothes still on. No, I won't give names :D
 

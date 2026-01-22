@@ -1,4 +1,4 @@
-# Haiku at HUMBUG
++++ type = "blog" author = "sikosis" title = "Haiku at HUMBUG" date = "2007-09-12T10:06:38.000Z" tags = ["gathering", "user", "humbug"] +++
 
 On the 8th September, I attended a local Unix user group called <a href="http://www.humbug.org.au/" target="_new">HUMBUG</a>, at the University of Queensland, Brisbane, Australia.
 

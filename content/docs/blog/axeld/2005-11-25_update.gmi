@@ -1,4 +1,4 @@
-# Update
++++ type = "blog" author = "axeld" title = "Update" date = "2005-11-25T18:32:00.000Z" tags = ["app_server"] +++
 
 You may have noticed that the posts got rare in the last weeks - it's not that I don't want to write updates, but while I'm working on the app_server, it's hard to report the actual progress.
 

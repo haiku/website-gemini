@@ -1,4 +1,4 @@
-# Helping on m68k
++++ type = "blog" author = "mmu_man" title = "Helping on m68k" date = "2008-08-03T22:17:04.000Z" tags = ["port", "m68k"] +++
 
 As the m68k port is getting shape, maybe some of you want to give a hand, so here is how to set up the environment. After explaining the choice of the target platform we'll start with the build system, then the emulator to debug on the chosen platform.
 

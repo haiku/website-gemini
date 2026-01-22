@@ -1,4 +1,4 @@
-# GSoC 2020 Project Update: XFS
++++ type = "blog" title = "GSoC 2020 Project Update: XFS" author = "CruxBox" date = "2020-08-11 17:58:00+05:30" tags = ["haiku", "software", "gsoc", "gsoc2020", "file system"] +++
 
 Hello there! There is quite a lot to share about the work done this month.
 

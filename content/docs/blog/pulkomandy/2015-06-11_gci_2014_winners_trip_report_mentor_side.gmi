@@ -1,4 +1,4 @@
-# GCI 2014 winners trip report (mentor side)
++++ type = "blog" author = "PulkoMandy" title = "GCI 2014 winners trip report (mentor side)" date = "2015-06-11T00:32:53.000Z" tags = ["GCI", "report", "event"] +++
 
 GCI winners trip 2014 report
 

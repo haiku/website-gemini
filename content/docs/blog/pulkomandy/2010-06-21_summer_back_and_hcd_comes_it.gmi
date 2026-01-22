@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "PulkoMandy" title = "The summer is back, and HCD comes with it" date = "2010-06-21T09:20:10.000Z" tags = ["localekit", "locale", "hcd2010", "hcd", "hcd hcd2010 locale localekit", "contract work"] +++
 
 Hello Haikuers, As you know, I worked last year as a GSoC student on the Locale Kit. Unfortunately, I had to get back to school in september and had not much free time to spend on Haiku. I attended the coding sprint at BeGeistert, but my laptop fan died while I was there and forced me to run my cpu at 800MHz, which was quite painful for coding.
 

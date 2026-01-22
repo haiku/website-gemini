@@ -1,4 +1,4 @@
-# GSoC project : Internationalization for Haiku
++++ type = "blog" author = "PulkoMandy" title = "GSoC project : Internationalization for Haiku" date = "2009-04-21T08:02:29.000Z" tags = ["gsoc", "localekit", "gsoc2009"] +++
 
 Hello world ! As you know, I am one of the selected students for this year summer of code. In this post I will introduce myself and give some details about my project.
 

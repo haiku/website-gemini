@@ -1,4 +1,4 @@
-# GNOME 3 and the focus on usability
++++ type = "blog" author = "stippi" title = "GNOME 3 and the focus on usability" date = "2011-04-07T09:16:24.000Z" tags = ["usability"] +++
 
 <p> GNOME 3 is out and of course I was very curious to give it a spin. As the GNOME developers claim they care a lot about usability and have given the new desktop design a lot of thought, I was pretty excited, since I care about these things as well. Haiku still has a lot of usability issues that we need to sort out. Maybe we can learn a few things. So what are my impressions? To be honest, I have pretty mixed feelings.
 

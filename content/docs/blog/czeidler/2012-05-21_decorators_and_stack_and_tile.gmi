@@ -1,4 +1,4 @@
-# Decorators and Stack and Tile
++++ type = "blog" author = "czeidler" title = "Decorators and Stack and Tile" date = "2012-05-21T21:40:47.000Z" tags = [] +++
 
 Just saw on Haikuware that there is another GUI for setting a decorator. First, I'm happy that people are actually using this "hidden" functionality to write custom applications. However, after Alpha 3 I changed the decorator API which broke all other decorators.
 

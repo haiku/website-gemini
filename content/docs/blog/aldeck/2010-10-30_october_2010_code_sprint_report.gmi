@@ -1,4 +1,4 @@
-# October 2010 Code Sprint Report
++++ type = "blog" author = "aldeck" title = "October 2010 Code Sprint Report" date = "2010-10-30T01:08:56.000Z" tags = ["code sprint", "coding sprint", "begeistert", "october", "2010"] +++
 
 <span class="inline inline-right"><img src="/files/screenshots/66585_163601566992429_100000277599018_458760_6787768_n_0.jpg" alt="Fernsehturm Düsseldorf" title="Haiku coders bending the gravity field." class="image image-thumbnail" width="300" height="400"></a> <span class="caption" style="width: 198px;"><strong>Düsseldorf</strong></span></span>
 

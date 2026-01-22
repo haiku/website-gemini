@@ -1,4 +1,4 @@
-# A USB Video Driver for High-end Webcams (GSoC Proposal)
++++ type = "blog" author = "gabrielhartmann" title = "A USB Video Driver for High-end Webcams (GSoC Proposal)" date = "2011-05-02T03:04:18.000Z" tags = ["gsoc", "usb", "UVC", "driver", "gsoc2011"] +++
 
 As part of the Google Summer of Code I'll be working on developing a driver for Haiku that allows for the use of high-end webcams.  By high-end webcams I mean in this case those which adhere to the USB video device class (UVC) specification.  Preliminary work will involve bringing Haiku's support for the Enhanced Host Controller Interface (EHCI) to a point where UVC driver development proper can begin.  Understanding the state of EHCI support and what work needs to be done in order to begin UVC development is my major goal for the community bonding period.
 

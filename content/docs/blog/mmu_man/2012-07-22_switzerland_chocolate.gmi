@@ -1,4 +1,4 @@
-# From Switzerland with chocolate
++++ type = "blog" author = "mmu_man" title = "From Switzerland with chocolate" date = "2012-07-22T01:51:20.000Z" tags = ["rmll"] +++
 
 Last week <a href="/user/oco">Olivier</a> and I had the difficult task of handling the booth at <a href="http://2012.rmll.info/">RMLL</a> and showing off Haiku in the land of gruyère, chocolate and banks.
 

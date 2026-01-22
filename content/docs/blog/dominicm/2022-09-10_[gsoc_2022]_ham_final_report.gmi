@@ -1,4 +1,4 @@
-# [GSoC 2022] Ham: Final Report
++++ type = "blog" title = "[GSoC 2022] Ham: Final Report" author = "dominicm" date = "2022-09-10 10:42:14-04:00" tags = ["haiku", "software", "gsoc2022", "ham"] +++
 
 Hello everyone. Thank you for having me the past few months; it's been a busy, fun ride. This is the final report for Ham, a replacement to the Jam build system.
 

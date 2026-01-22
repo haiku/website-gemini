@@ -1,4 +1,4 @@
-#  
++++ type = "blog" title = "[GSoC 2023] .NET Developer Platform - Progress Report #1" author = "Trung Nguyen" date = "2023-05-14" tags = ["haiku", "software", "gsoc", "gsoc2023", "dotnet"] +++
 
 It is barely a week since the start of GSoC, but there has been so much progress on this port.
 

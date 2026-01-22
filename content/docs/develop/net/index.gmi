@@ -3,5 +3,3 @@
 => NetworkStackOverview.gmi Haiku Network Stack Architecture
 * 
 => NetworkStackOverview.gmi#the-structures-and-classes The Structures and Classes
-* 
-=> HowTo-Synchronize_with_NetBSD.gmi How to Merge Patches from NetBSD Trunk

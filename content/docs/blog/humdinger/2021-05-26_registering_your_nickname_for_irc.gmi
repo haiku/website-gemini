@@ -1,4 +1,4 @@
-# Registering your nickname for IRC
++++ type = "blog" title = "Registering your nickname for IRC" author = "humdinger" date = "2021-05-26 19:55:20+02:00" tags = ["IRC", "Nickserv"] +++
 
 We recently moved our IRC channels from Freenode to OFTC. I almost forgot to register my IRC nickname at the new service, and having just done that, I take the opportunity to describe how that's done for my fellow - maybe newbie - IRC user.
 

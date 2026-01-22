@@ -1,4 +1,4 @@
-# Haiku Activity Update #2: 21-27 August 2007
++++ type = "blog" author = "tangobravo" title = "Haiku Activity Update #2: 21-27 August 2007" date = "2007-08-30T18:48:09.000Z" tags = ["activity update", "progress"] +++
 
 Hot on the heels of yesterday's post, here's the summary for last week's activity in Haiku-land.
 

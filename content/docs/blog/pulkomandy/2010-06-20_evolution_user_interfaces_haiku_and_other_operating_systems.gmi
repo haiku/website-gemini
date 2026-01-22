@@ -1,4 +1,4 @@
-# Evolution of user interfaces in Haiku and other Operating systems
++++ type = "blog" author = "PulkoMandy" title = "Evolution of user interfaces in Haiku and other Operating systems" date = "2010-06-20T16:11:14.000Z" tags = ["ui", "intergace", "gui", "R2"] +++
 
 This blog post talks about the changes that have been hapenning in recent versions of others Operating Systems, and wether Haiku should copy them or not.
 

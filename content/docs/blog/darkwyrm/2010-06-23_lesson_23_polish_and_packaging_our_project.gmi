@@ -1,4 +1,4 @@
-# Lesson 23: Polish and Packaging Our Project
++++ type = "blog" author = "darkwyrm" title = "Lesson 23: Polish and Packaging Our Project" date = "2010-06-23T00:41:27.000Z" tags = ["development", "tutorials", "learning-to-program-with-haiku"] +++
 
 This lesson finishes up the project that the last two have been about: HaikuFortune, a program which randomly chooses and displays a fortune in a window. It's not a very complicated one, but it exemplifies a reasonably well-coded real-world project. Although it was code complete as of the end of Lesson 22, it was not finished, missing icons and other resources. This concludes the project with adding resources, a basic discussion on source code licensing, and packaging a program for Haiku.
 

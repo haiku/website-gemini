@@ -2,7 +2,7 @@
 This pages gives an overview of what components belong to Haiku’s package management infrastructure and how they work and interact.
 
 * **package** and **package_repo** are command line tools for building package and package repository files. They are discussed in 
-=> BuildingPackages.rst Building Packages
+=> BuildingPackages.gmi#building-packages Building Packages
 .
 
 * **packagefs** is the file system that virtually extracts activated packages.
@@ -68,7 +68,7 @@ Another problem the package links can solve are incompatible versions of the sam
 
 ## Software Repositories
 A software repository is a collection of packages, usually accessible via the internet. Haiku’s package management solution allows to refer to any number of software repositories from which packages can be downloaded and installed. The structure of the respository is very simple. It’s just a set of files which can be downloaded via a common protocol (HTTP or FTP). One file is the repository index file in 
-=> FileFormat.rst#haiku-package-repository-format HPKR format
+=> FileFormat.gmi#hpkr-file-format Haiku Package Repository Format
 . It lists all packages that are available in the repository together with their descriptions and dependency information. It is downloaded and cached, allowing user interfaces to show the information and the dependency solver to do the computation locally. The other files are the individual package files.
 
 ### Standard Repositories

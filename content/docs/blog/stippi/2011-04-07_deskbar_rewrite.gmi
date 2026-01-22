@@ -1,4 +1,4 @@
-# Deskbar rewrite 
++++ type = "blog" author = "stippi" title = "Deskbar rewrite " date = "2011-04-07T10:24:29.000Z" tags = ["deskbar", "usability", "window", "application"] +++
 
 <p> In recent times I have become much less of a BeOS/Haiku full time user and regularily use other systems such as Ubuntu, Windows 7, and sometimes even Mac OS X Leopard. After my very recent blog post on my impressions of the GNOME 3 Shell, I've narrowed down some ideas floating in my head about how Deskbar could be changed to improve it's usability. Let me list some things I like or hate in other desktops.
 

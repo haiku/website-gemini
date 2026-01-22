@@ -1,4 +1,4 @@
-# Lesson 12: OOPs I Did It Again!
++++ type = "blog" author = "darkwyrm" title = "Lesson 12: OOPs I Did It Again!" date = "2010-03-28T11:37:09.000Z" tags = ["development", "tutorials", "learning-to-program-with-haiku"] +++
 
 This would be the only time I will capitalize on a really bad Britney Spears reference. I promise. ;-) This lesson introduces us to the wonderful world of C++ and Object Oriented Programming. It's not terribly code-heavy, so this might be a good time to look over past lessons to make sure you understand concepts pretty well -- it only gets bigger from here. :-)
 

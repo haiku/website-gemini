@@ -1,4 +1,4 @@
-# HCD : Locale Kit progress report
++++ type = "blog" author = "PulkoMandy" title = "HCD : Locale Kit progress report" date = "2010-07-14T08:30:43.000Z" tags = ["hcd2010", "hcd", "locale", "localekit", "contract work"] +++
 
 Hello readers !
 

@@ -1,4 +1,4 @@
-# Live from Alchimie X
++++ type = "blog" author = "mmu_man" title = "Live from Alchimie X" date = "2013-11-09T17:48:29.000Z" tags = ["event", "Alchimie"] +++
 
 A quick hello from the Alchimie X demoparty where I gave a short talk this morning about Haiku news (PM merge, Sam460 port...) ;-)
 

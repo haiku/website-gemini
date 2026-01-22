@@ -1,4 +1,4 @@
-# What A Long Strange Trip It's Been
++++ type = "blog" author = "mphipps" title = "What A Long Strange Trip It's Been" date = "2007-09-19T00:41:03.000Z" tags = ["farewell"] +++
 
 <p align="justify"> I love Haiku. That probably doesn't surprise anyone. I am phenomenally proud of the progress, both past and present that the project has made. I have lead the project since its creation, including running each of the WalterCon events, doing a great deal of public speaking, starting the non-profit, writing around 100 articles and editorials for the newsletter, fielding hundreds of emails, random phone calls and occasionally even writing some code. I have received a job offer because of Haiku and gotten back in touch with a number of old friends as a result of the publicity that Haiku (and, indirectly, I) has received. I have had the honor of meeting a bunch of the former Be crew and seeing the doubt and question fade as they saw what we had created. I had the distinct honor of being introduced by JLG.
 

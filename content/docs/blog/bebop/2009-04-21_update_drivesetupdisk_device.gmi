@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "bebop" title = "Update DriveSetup/Disk_Device" date = "2009-04-22T04:21:48.000Z" tags = ["gsoc2009", "gsoc", "DriveSetup", "disk_device"] +++
 
 I live in Honolulu Hawaii, I enjoy Surfing, Swimming, Sun and Code. I am working on my BS in Computer Science at the University of Hawaii at Manoa and minoring in Geography. Next year will be my senior year. I have taken courses in concurrent programming as well as networking. Next year I will be taking an operating systems course. I also have some experience in machine architecture and optimization. My current side project is writing an application for the Geography Department, that is a complete suite of tools for stereogrammetry. My professional work has been work on an electronic medical health records system based on the United States Veterans Affairs VistA system. I have more recently worked for Nanopoint Imaging Inc. working on live cell imaging and microfluidics software.
 

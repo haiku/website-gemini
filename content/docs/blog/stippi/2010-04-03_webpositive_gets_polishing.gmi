@@ -1,4 +1,4 @@
-# WebPositive gets polishing
++++ type = "blog" author = "stippi" title = "WebPositive gets polishing" date = "2010-04-03T19:55:20.000Z" tags = ["webpositive", "native browser", "WebKit", "contract work"] +++
 
 Hah, you wish! These blog titles are getting way ahead of the progress I make with WebPositive. Or let's say the title is truthful in some ways, but on the other hand perhaps suggesting more substantial progress than what was made. I did turn my attention to fixing a lot of little annoyances and bugs that were reported via various channels, the comments section of this series of blog entries being among the important sources of feedback. So keep the good feedback comming, it's very useful for me!
 

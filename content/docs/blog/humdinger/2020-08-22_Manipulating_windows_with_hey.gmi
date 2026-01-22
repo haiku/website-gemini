@@ -1,4 +1,4 @@
-# Manipulating window look & behaviour with 'hey'
++++ type = "blog" title = "Manipulating window look & behaviour with 'hey'" author = "humdinger" date = "2020-08-22 10:01:02+02:00" tags = ["haiku", "scripting", "hey", "look"] +++
 
 I have an ActivityMonitor replicant showing network receive/send info on the Desktop. I'd also like to have something showing cpu usage. However, a combined cpu usage ActivityMonitor doesn't show individual core usage, and having a graph of all cpus often isn't that informative either, because the 8 doodling lines of my cores are easily confusing. ProcessController's bars are too narrow.    Here are both, showing their inadequacy:
 

@@ -1,4 +1,4 @@
-# BFS Partition Resizer: Quarter Term Report
++++ type = "blog" author = "ahenriksson" title = "BFS Partition Resizer: Quarter Term Report" date = "2012-06-25T10:58:26.000Z" tags = ["gsoc", "gsoc2012"] +++
 
 For the 1/4 term milestone, my goal was to have inode-moving working. This is mostly completed, you can view the code at http://web.student.chalmers.se/~andrhen/move_inode_v2.patch
 

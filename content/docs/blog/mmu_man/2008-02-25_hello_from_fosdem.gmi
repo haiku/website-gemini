@@ -1,4 +1,4 @@
-# Hello from FOSDEM
++++ type = "blog" author = "mmu_man" title = "Hello from FOSDEM" date = "2008-02-25T10:03:53.000Z" tags = ["FOSDEM", "booth", "advocacy"] +++
 
 Hi there from our FOSDEM booth in the corridor!
 

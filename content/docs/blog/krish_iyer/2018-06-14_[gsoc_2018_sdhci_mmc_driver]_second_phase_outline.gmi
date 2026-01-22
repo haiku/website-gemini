@@ -1,4 +1,4 @@
-# [GSoC 2018: SDHCI MMC Driver]: Second Phase Outline
++++ type = "blog" title = "[GSoC 2018: SDHCI MMC Driver]: Second Phase Outline" author = "krish_iyer" date = "2018-06-14 11:51:57+05:30" tags = ["haiku", "software", "GSoC 2018", "SDHCI", "MMC", "Drivers"] +++
 
 Hey, folks! So we are at the end of first phase of the project and I had expected that I would be able to implement PIO but it  seems that I have lagged a bit. Till now we have got our controller driver setting up the mmc bus and mmc disk driver to  publish a slot. To implement PIO before DMA, also requires register mapping which we are currently working on. We tried it  though but didn’t turn out well.
 

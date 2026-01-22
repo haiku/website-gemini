@@ -1,4 +1,4 @@
-# Back from FOSDEM 2016
++++ type = "blog" author = "mmu_man" title = "Back from FOSDEM 2016" date = "2016-02-01T23:18:13.000Z" tags = ["FOSDEM", "event"] +++
 
 <img src="/files/FOSDEM2016_DSCN_3845.jpg" width="25%" height="25%" align="right" />It's been some years since I last attended <a href="https://fosdem.org/2016/">FOSDEM</a>, and I kinda missed it. I was eager to participate again, yet a bit frightened at the perspective of having to run or miss so many interesting talks happening in parallel as always. Nevertheless it was comforting to know Olivier was here as well, and we attended different sessions.
 

@@ -1,4 +1,4 @@
-# July 2020 Activity Report
++++ type = "blog" title = "July 2020 Activity Report" author = "dogcow" date = "2020-08-01 15:53:09-06:00" tags = [] +++
 
 Welcome to the July, 2020 Activity Report for the Haiku project!
 

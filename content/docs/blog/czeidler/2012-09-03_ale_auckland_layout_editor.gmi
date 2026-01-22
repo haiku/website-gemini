@@ -1,4 +1,4 @@
-# ALE (Auckland Layout Editor)
++++ type = "blog" author = "czeidler" title = "ALE (Auckland Layout Editor)" date = "2012-09-03T09:49:26.000Z" tags = ["Auckland", "BALMLayout", "GUI Builder"] +++
 
 Recently I spend some time to develop ALE the Auckland Layout Editor and now it's getting time to release a first testing version! ALE is a tool for developers to create GUIs. These GUIs can then be loaded from an application. This first version is still very basic and I hope I can get some feedback what can be improved and which features are most needed. It mainly focus on layout creation and less on editing view properties.
 

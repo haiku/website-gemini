@@ -1,4 +1,4 @@
-# Haiku activity report - January 2021
++++ type = "blog" title = "Haiku activity report - January 2021" author = "PulkoMandy" date = "2021-02-06 10:53:07+02:00" tags = [] +++
 
 Hello everyone, apparently we made it to 2021! This year we will see the 20th anniversary of Haiku.
 

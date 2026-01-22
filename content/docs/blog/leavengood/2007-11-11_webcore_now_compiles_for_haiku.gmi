@@ -1,4 +1,4 @@
-# WebCore Now Compiles for Haiku
++++ type = "blog" author = "leavengood" title = "WebCore Now Compiles for Haiku" date = "2007-11-12T05:40:29.000Z" tags = ["development", "porting", "WebKit", "haikuware bounty"] +++
 
 I know I have been very quiet for a while in regards to my Haiku WebKit port, but that is because I've been in a long session of coding. I am happy to report that this weekend I finally got WebCore compiling for Haiku:
 

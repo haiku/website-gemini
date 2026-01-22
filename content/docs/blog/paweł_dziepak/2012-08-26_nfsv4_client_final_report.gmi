@@ -1,4 +1,4 @@
-# NFSv4 client: final report
++++ type = "blog" author = "paweł_dziepak" title = "NFSv4 client: final report" date = "2012-08-26T18:46:23.000Z" tags = ["gsoc", "gsoc2012", "NFS"] +++
 
 <p>Since three quarter term I've added NFS-level support for named attributes what means that virtually all important NFS version 4 feature are now implemented, as I described them in my blog posts during the coding period. What still needs to be done is to improve support of Haiku's extended attributes and a lot of bugfixing. There is also a room for performance improvement and several possibilities to organize code in a better way.</p>
 

@@ -1,4 +1,4 @@
-# GSoC: Initial IPv6 code now in trunk
++++ type = "blog" author = "kallisti5" title = "GSoC: Initial IPv6 code now in trunk" date = "2010-07-20T13:10:12.000Z" tags = ["gsoc 2010", "ipv6"] +++
 
 There is great news from the 2010 GSoC midterms... Atis' GSoC work thus far on IPv6 has been merged into the main-line Haiku trunk by Axel due to its quality.
 

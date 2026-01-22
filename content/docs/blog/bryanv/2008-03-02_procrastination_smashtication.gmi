@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "bryanv" title = "Procrastination, smashtication!" date = "2008-03-03T03:35:24.000Z" tags = ["OpenJDK"] +++
 
 After procrastinating for far too long on getting a project proposal in to the OpenJDK Community Innovators' Challenge, I finally drafted and <a href="http://mail.openjdk.java.net/pipermail/challenge-discuss/2008-March/000096.html">submitted a proposal to port HotSpot to Haiku, x86</a> just a few hours before the deadline.
 

@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "umccullough" title = "Haiku Admin Meeting Summaries - July 2, 2007 and July 9, 2007" date = "2007-07-26T07:25:18.000Z" tags = ["admin meeting"] +++
 
 <p><b>Haiku Admin Meeting 2007-07-02:</b> <ul> <li>Discussion about WalterCon planning. Things are moving along.</li> <li>The existence of a project called RadiantOS which claims to eventaully be a "distro" based on Haiku was mentioned.</li> <li>There was some discussion about the status of running GCC in Haiku:</li> Haiku might be close to self-hosting capability (able to build itself).
 

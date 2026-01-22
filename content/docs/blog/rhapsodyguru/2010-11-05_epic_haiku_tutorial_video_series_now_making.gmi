@@ -1,4 +1,4 @@
-# An Epic Haiku Tutorial Video Series Is Now In The Making!
++++ type = "blog" author = "rhapsodyguru" title = "An Epic Haiku Tutorial Video Series Is Now In The Making!" date = "2010-11-05T02:32:27.000Z" tags = ["tutorial", "video", "haiku", "Haiku OS"] +++
 
 Hello Haiku fans!
 

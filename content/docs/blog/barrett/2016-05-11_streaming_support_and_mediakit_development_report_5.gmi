@@ -1,4 +1,4 @@
-# Streaming Support And MediaKit Development - Report #5
++++ type = "blog" author = "Barrett" title = "Streaming Support And MediaKit Development - Report #5" date = "2016-05-11T22:41:31.000Z" tags = ["media server", "media_kit", "streaming contract"] +++
 
 It's really a long time since the latest report, starting with this one I'm going to restore the usual article frequency.
 

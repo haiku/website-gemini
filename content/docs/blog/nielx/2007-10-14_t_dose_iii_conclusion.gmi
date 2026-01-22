@@ -1,4 +1,4 @@
-# T-DOSE (III): Conclusion
++++ type = "blog" author = "nielx" title = "T-DOSE (III): Conclusion" date = "2007-10-14T12:23:09.000Z" tags = ["event", "community"] +++
 
 A few hours ago I had my Haiku talk on the Dutch Open Source event <a href="http://www.t-dose.org">T-DOSE</a>, and I'm still glowing all over. The attendence was above all my expectations, around 25 people were in the room. And despite of the last minute all night changes I had to make, the speech went fluently. Someone made a few pictures, which I hope to be able to post soon, and more importantly, I'm on <a href="http://www.citytv.nl">tv!</a> I'm on Sunday around 11 AM, so have a look!
 

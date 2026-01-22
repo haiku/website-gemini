@@ -1,4 +1,4 @@
-# All is well
++++ type = "blog" author = "sil2100" title = "All is well" date = "2007-07-19T12:15:53.000Z" tags = ["gsoc", "usability", "pkg", "package"] +++
 
 Even though I had some private issues this week, all is going well with the PackageInstall. In its current form it is able to properly install all 3 test BeOS packages I tried on it, creating files and directories along with their data and attributes without flaw. So, what's left to do right now?
 

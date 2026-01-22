@@ -1,4 +1,4 @@
-# OpenJDK port: three quarter term report
++++ type = "blog" author = "hamish" title = "OpenJDK port: three quarter term report" date = "2012-08-05T22:03:19.000Z" tags = ["OpenJDK", "gsoc2012", "gsoc"] +++
 
 Since midterm I have been working on the jsound port, which provides audio, MIDI input/output and the ability to control mixer volume and other parameters.
 

@@ -42,11 +42,15 @@ The work on this book has just started, many sections are incomplete or missing.
 * 
 => build/index.gmi The build system
 * 
+=> build/configure.gmi The configure script
+* 
 => build/jam.gmi The build tool: Jam
 * 
 => build/sourcecode.gmi Haiku Git Repositories
 * 
 => build/compilers.gmi Haiku compilers
+* 
+=> build/rc/index.gmi The rc resource compiler
 * 
 => build/ide.gmi Using an IDE
 * 
@@ -54,7 +58,7 @@ The work on this book has just started, many sections are incomplete or missing.
 * 
 => release/index.gmi Release engineering
 * 
-=> release/milestones.gmi Critical Milestones
+=> release/cookbook.gmi Release Cookbook
 * 
 => release/index.gmi#important-first-steps Important first steps
 * 
@@ -95,8 +99,6 @@ The work on this book has just started, many sections are incomplete or missing.
 => net/index.gmi The Network Stack
 * 
 => net/NetworkStackOverview.gmi Haiku Network Stack Architecture
-* 
-=> net/HowTo-Synchronize_with_NetBSD.gmi How to Merge Patches from NetBSD Trunk
 * 
 => packages/README.gmi Package Management
 * 
@@ -160,6 +162,8 @@ The work on this book has just started, many sections are incomplete or missing.
 * 
 => kernel/index.gmi Kernel
 * 
+=> kernel/system_calls.gmi System calls
+* 
 => kernel/device_manager_introduction.gmi Device Driver Architecture
 * 
 => kernel/obsolete_pnp_manager.gmi Plug and Play Manager
@@ -169,10 +173,6 @@ The work on this book has just started, many sections are incomplete or missing.
 => kernel/arch/index.gmi CPU architectures
 * 
 => kernel/boot/boot_process_specs.gmi Haiku boot process specification
-* 
-=> kernel/boot/Debugging_Bootloaders_GEF.gmi Bootloader debugging with GEF
-* 
-=> kernel/pci_serial_debug.gmi Using PCI serial ports for debugging
 * 
 => file_systems/index.gmi Filesystem drivers
 * 
@@ -187,6 +187,8 @@ The work on this book has just started, many sections are incomplete or missing.
 => file_systems/ufs2.gmi The UFS2 filesystem
 * 
 => file_systems/xfs.gmi The XFS File System
+* 
+=> file_systems/fat.gmi The FAT File System
 * 
 => file_systems/befs/resources.gmi The Be File System
 * 
@@ -221,3 +223,11 @@ The work on this book has just started, many sections are incomplete or missing.
 => apps/haikudepot/server.gmi#failure Failure
 * 
 => apps/haikudepot/server.gmi#concurrency Concurrency
+* 
+=> debugging/index.gmi Debugging
+* 
+=> debugging/Debugging_Bootloaders_GEF.gmi Bootloader debugging with GEF
+* 
+=> debugging/pci_serial_debug.gmi Using PCI serial ports for debugging
+* 
+=> debugging/optimizing_applications.gmi Profiling and optimizing applications

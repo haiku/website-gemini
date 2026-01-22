@@ -1,4 +1,4 @@
-# JavaScriptCore Runs on Haiku! (mostly)
++++ type = "blog" author = "leavengood" title = "JavaScriptCore Runs on Haiku! (mostly)" date = "2007-09-05T04:27:09.000Z" tags = ["development", "porting", "WebKit"] +++
 
 So after a few frustrating weeks of very little progress on my WebKit port, I have finally gotten JavaScriptCore running on Haiku!
 

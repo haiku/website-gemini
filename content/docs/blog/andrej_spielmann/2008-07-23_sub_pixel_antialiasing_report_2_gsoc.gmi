@@ -1,4 +1,4 @@
-# Sub-pixel antialiasing report #2 [GSoC]
++++ type = "blog" author = "andrej_spielmann" title = "Sub-pixel antialiasing report #2 [GSoC]" date = "2008-07-23T19:00:30.000Z" tags = ["gsoc", "sub-pixel", "antialiasing"] +++
 
 Another few weeks have passed since my last update, so here is another short report on the status of my project.
 

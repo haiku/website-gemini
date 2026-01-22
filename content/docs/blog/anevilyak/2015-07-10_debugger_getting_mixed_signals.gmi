@@ -1,4 +1,4 @@
-# Debugger: Getting mixed signals
++++ type = "blog" author = "anevilyak" title = "Debugger: Getting mixed signals" date = "2015-07-11T03:37:20.000Z" tags = ["debugger signals manual"] +++
 
 As an operating system that implements the POSIX specification, Haiku includes support for signals, and the requisite API calls for an application to decide how it will handle them. While these aren't really used by the Be API in any meaningful way, they do frequently come into play for ported applications and libraries. Up until now, however, our debugger has lacked support for them, which could make debugging situations involving signals a less than convenient affair if one didn't already know what to look for. As of hrev49356, this has been rectified.
 

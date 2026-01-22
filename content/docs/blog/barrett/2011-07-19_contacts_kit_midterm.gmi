@@ -1,4 +1,4 @@
-#  
++++ type = "blog" author = "Barrett" title = "Contacts Kit, Mid-term" date = "2011-07-19T17:16:40.000Z" tags = ["gsoc2011", "gsoc", "Services Kit", "contacts kit"] +++
 
 From my latest post, i had to do more work on the base classes, i realized that my implementation of BContactField was too inflexible for the use so my progresses were not fast as i hoped.
 

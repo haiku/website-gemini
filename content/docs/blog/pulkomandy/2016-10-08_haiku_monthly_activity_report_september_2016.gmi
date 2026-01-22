@@ -1,4 +1,4 @@
-# Haiku monthly activity report - September 2016
++++ type = "blog" author = "PulkoMandy" title = "Haiku monthly activity report - September 2016" date = "2016-10-08T18:16:37.000Z" tags = [] +++
 
 Hey there, time for a report! (I'm really out of ideas for taglines. Any suggestions?) This report covers hrev50529-hrev50576
 

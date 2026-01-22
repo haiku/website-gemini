@@ -1,4 +1,4 @@
-# [GSoC 2023] Plans for improving Icon-O-Matic
++++ type = "blog" title = "[GSoC 2023] Plans for improving Icon-O-Matic" author = "Zardshard" date = "2023-05-05 14:07:09-04:00" tags = ["haiku", "software", "icon-o-matic", "gsoc", "gsoc2023"] +++
 
 Icon-O-Matic is the editor for HVIF files, the format that Haiku's icons are in. It's a relatively simple but impressive aplication. It does have room for improvement, however.
 

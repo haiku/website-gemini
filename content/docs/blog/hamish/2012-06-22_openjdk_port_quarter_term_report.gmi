@@ -1,4 +1,4 @@
-# OpenJDK port: quarter term report
++++ type = "blog" author = "hamish" title = "OpenJDK port: quarter term report" date = "2012-06-22T01:32:54.000Z" tags = ["gsoc", "gsoc2012", "OpenJDK"] +++
 
 Since my last blog entry I have mostly completed the implementation of the AWT/Java2D port. It is still in need of a lot of testing, but it is stable enough to run a lot of Swing apps out of the box. For example, here's jEdit and SwingSet:
 

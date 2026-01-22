@@ -1,4 +1,4 @@
-# [GSoC 2018: SDHCI MMC Driver]: Week #6
++++ type = "blog" title = "[GSoC 2018: SDHCI MMC Driver]: Week #6" author = "krish_iyer" date = "2018-06-26 15:04:41+05:30" tags = ["haiku", "driver", "SDHCI", "MMC", "GSoC 2018"] +++
 
 Hello everyone! Here's the update of week #6, in the last update we were not able to access the registers. When we tried  mapping it, there were all zeros. so we knew there's something wrong in  the way we were accessing the register and in between  this we got to know that qemu emulation for sdhc hardware[1] only supports spec version 2[2] and 3 and the spec which we  intended to implement was 4.2[3].
 
