@@ -8,7 +8,7 @@ RUN apk --no-cache add libc-dev && \
     cargo install --target x86_64-unknown-linux-musl --path .
 
 # Final container
-FROM docker.io/alpine:3.18
+FROM docker.io/alpine:3.21
 RUN apk --update add openssl
 COPY --from=builder /usr/local/cargo/bin/agate /usr/bin/agate
 ADD content/. /gmi/
